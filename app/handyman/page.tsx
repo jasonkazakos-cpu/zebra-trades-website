@@ -42,12 +42,12 @@ const packages: Package[] = [
     ],
   },
   {
-    name: "Half Day Handyman Service",
-    price: "£250",
+    name: "Half Day Home Maintenance Visit",
+    price: "£225",
     duration: "Around Half A Day",
     bestFor: "Best for working through several smaller jobs",
     description:
-      "Great for working through several smaller jobs in one visit — flat-pack assembly, shelving, blind fitting or a few repairs around the house.",
+      "Book a Half Day Home Maintenance Visit and complete multiple jobs in one appointment — flat-pack assembly, shelving, blind fitting or a few repairs around the house.",
     features: [
       "Make a list — we'll work through as much as we can",
       "Great for a backlog of odd jobs around the house",
@@ -55,12 +55,12 @@ const packages: Package[] = [
     ],
   },
   {
-    name: "Full Day Handyman Service",
-    price: "£450",
+    name: "Full Day Home Maintenance Visit",
+    price: "£395",
     duration: "A Full Working Day",
     bestFor: "Best for bigger projects or a long task list",
     description:
-      "Best suited to bigger projects or a long list — multiple door fittings, a loft ladder installation, or a full run of garden and maintenance jobs.",
+      "Book a Full Day Home Maintenance Visit for larger job lists and property maintenance projects — multiple door fittings, a loft ladder installation, or a full run of garden and maintenance jobs.",
     features: [
       "A full day on site, start to finish",
       "Ideal for larger or more involved jobs",
@@ -257,7 +257,7 @@ export default function HandymanPage() {
 
       <CtaBand
         title="Ready To Book Your Visit?"
-        subtitle="Need several jobs completed? Book a Half Day or Full Day Handyman Visit and get everything done in one appointment."
+        subtitle="Need several jobs completed? Book a Half Day or Full Day Home Maintenance Visit and get everything done in one appointment."
         buttonLabel="Book Your Visit"
       />
     </>
