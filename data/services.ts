@@ -38,6 +38,7 @@ export const services: Service[] = [
     teaser: "Planning and sourcing a new kitchen that fits your space and budget.",
     description:
       "Not sure where to start? We design your new kitchen layout, recommend units and worktops, and supply everything needed, ready for our own installation team to fit.",
+    href: "/kitchen-design",
   },
   {
     slug: "pergolas-gazebos",

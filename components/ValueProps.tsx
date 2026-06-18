@@ -1,7 +1,14 @@
-import { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+import { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck } from "lucide-react";
 import { siteConfig } from "@/data/site";
 
-const items = [
+export type ValueItem = {
+  icon: LucideIcon;
+  title: string;
+  body: string;
+};
+
+const defaultItems: ValueItem[] = [
   {
     icon: Wrench,
     title: `${siteConfig.yearsTrading} Years Trade Experience`,
@@ -34,7 +41,9 @@ const items = [
   },
 ];
 
-export default function ValueProps() {
+export { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck };
+
+export default function ValueProps({ items = defaultItems }: { items?: ValueItem[] }) {
   return (
     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {items.map((item) => (
