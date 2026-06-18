@@ -44,7 +44,7 @@ const packages: Package[] = [
   },
   {
     name: "Half Day Plumbing",
-    price: "£250",
+    price: "£225",
     duration: "Around Half A Day",
     bestFor: "Best for several plumbing jobs in one visit",
     description:
@@ -58,7 +58,7 @@ const packages: Package[] = [
   },
   {
     name: "Full Day Plumbing",
-    price: "£450",
+    price: "£395",
     duration: "A Full Working Day",
     bestFor: "Best for larger plumbing projects",
     description:
