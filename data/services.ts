@@ -58,6 +58,7 @@ export const services: Service[] = [
     teaser: "Leaks, taps, pipework and bathroom plumbing, fixed properly.",
     description:
       "From a dripping tap to a full bathroom re-pipe, our plumbing service covers repairs, replacements and installations across the home, fully insured and tidy.",
+    href: "/plumbing",
   },
   {
     slug: "man-and-van",
