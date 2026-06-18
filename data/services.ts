@@ -72,7 +72,7 @@ export const services: Service[] = [
   },
   {
     slug: "appliance-fitting",
-    title: "Appliance Fitting",
+    title: "Appliance Installation",
     icon: "PlugZap",
     swatch: "#8456A8",
     teaser: "Ovens, washing machines, dishwashers and more, fitted safely.",
