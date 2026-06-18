@@ -48,6 +48,7 @@ export const services: Service[] = [
     teaser: "Built outdoor structures that make more of your garden, year-round.",
     description:
       "We design and build pergolas and gazebos to suit your garden, giving you a shaded, sheltered space to enjoy outside, built to last through British weather.",
+    href: "/pergolas",
   },
   {
     slug: "plumbing",
