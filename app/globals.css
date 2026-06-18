@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand neutrals */
+  --color-ink: #14141a;
+  --color-ink-soft: #2a2a31;
+  --color-paper: #ffffff;
+  --color-chalk: #f5f4f1;
+  --color-line: #e1ddd4;
+  --color-slate: #6b6a66;
+
+  /* Single brand accent, per the brief: black, white and an accent colour */
+  --color-accent: #f2660b;
+  --color-accent-dark: #c94e04;
+  --color-accent-soft: #fde7d6;
+
+  /* Fonts */
+  --font-display: var(--font-display-raw), "Arial Narrow", Arial, sans-serif;
+  --font-body: var(--font-body-raw), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono-raw), ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: "ss01" 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-paper);
+  }
+}
+
+@layer utilities {
+  .text-stroke-thin {
+    -webkit-text-stroke: 1px currentColor;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "zebra-trades-website",
+  "compatibility_date": "2026-06-18",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
