@@ -68,6 +68,7 @@ export const services: Service[] = [
     teaser: "An extra pair of hands and a van for moves, collections and clearances.",
     description:
       "Need something moved, collected or cleared? Our man and van service helps with house moves, single-item collections and small clearances around Hertfordshire.",
+    href: "/man-and-van",
   },
   {
     slug: "appliance-fitting",
