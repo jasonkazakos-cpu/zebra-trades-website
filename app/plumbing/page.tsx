@@ -85,6 +85,7 @@ const categories: PricingCategory[] = [
       { name: "Outside Tap Installation", price: "From £120" },
       { name: "Sink Installation", price: "From £150" },
       { name: "Waste Trap Replacement", price: "From £55" },
+      { name: "Boiling Water Tap Installation", price: "From £195" },
     ],
   },
   {
@@ -139,17 +140,6 @@ const categories: PricingCategory[] = [
       { name: "Pipe Lagging / Insulation", price: "From £75" },
       { name: "Water Supply Pipe Repair", price: "From £120" },
       { name: "Pipe Re-Route (minor)", price: "From £150" },
-    ],
-  },
-  {
-    title: "Appliance Connections",
-    icon: "Wrench",
-    items: [
-      { name: "Washing Machine Installation", price: "From £75" },
-      { name: "Dishwasher Installation", price: "From £75" },
-      { name: "Tumble Dryer Installation", price: "From £65" },
-      { name: "Fridge / Water Dispenser Connection", price: "From £85" },
-      { name: "Boiling Water Tap Installation", price: "From £195" },
       { name: "Water Softener Connection", price: "From £120" },
     ],
   },
