@@ -4,7 +4,10 @@ import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
+import { useForm, ValidationError } from "@formspree/react";
 import { services } from "@/data/services";
+
+const FORMSPREE_FORM_ID = "xdavanak";
 
 type FormState = {
   name: string;
@@ -30,8 +33,8 @@ export default function ContactForm() {
     ...initialState,
     service: searchParams.get("service") ?? "",
   }));
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState("");
+  const [validationError, setValidationError] = useState("");
+  const [formspreeState, formspreeSubmit] = useForm(FORMSPREE_FORM_ID);
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
@@ -40,19 +43,17 @@ export default function ContactForm() {
     setForm((f) => ({ ...f, [name]: value }));
   }
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     if (!form.name || !form.email || !form.message) {
-      setError("Please fill in your name, email and a short message.");
+      e.preventDefault();
+      setValidationError("Please fill in your name, email and a short message.");
       return;
     }
-    setError("");
-    // Note: this form does not yet send data anywhere — connect it to an
-    // API route or a form service (e.g. an email API) before going live.
-    setSubmitted(true);
+    setValidationError("");
+    formspreeSubmit(e);
   }
 
-  if (submitted) {
+  if (formspreeState.succeeded) {
     return (
       <div className="rounded-sm border border-line bg-chalk p-8 text-center">
         <CheckCircle2 className="mx-auto size-10 text-accent" strokeWidth={1.5} aria-hidden="true" />
@@ -89,6 +90,7 @@ export default function ContactForm() {
             required
             className={inputClasses}
           />
+          <ValidationError prefix="Email" field="email" errors={formspreeState.errors} className="mt-1.5 text-xs font-medium text-accent-dark" />
         </Field>
       </div>
 
@@ -138,15 +140,20 @@ export default function ContactForm() {
           rows={5}
           className={inputClasses}
         />
+        <ValidationError prefix="Message" field="message" errors={formspreeState.errors} className="mt-1.5 text-xs font-medium text-accent-dark" />
       </Field>
 
-      {error && <p className="text-sm font-medium text-accent-dark">{error}</p>}
+      {validationError && (
+        <p className="text-sm font-medium text-accent-dark">{validationError}</p>
+      )}
+      <ValidationError errors={formspreeState.errors} className="text-sm font-medium text-accent-dark" />
 
       <button
         type="submit"
-        className="w-full rounded-sm bg-accent px-6 py-3.5 font-semibold text-paper transition-colors hover:bg-accent-dark sm:w-auto"
+        disabled={formspreeState.submitting}
+        className="w-full rounded-sm bg-accent px-6 py-3.5 font-semibold text-paper transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
-        Send Enquiry
+        {formspreeState.submitting ? "Sending..." : "Send Enquiry"}
       </button>
 
       <p className="text-xs text-slate">
