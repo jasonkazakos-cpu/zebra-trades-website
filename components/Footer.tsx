@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import Container from "@/components/Container";
 import Logo from "@/components/Logo";
 import SwatchStrip from "@/components/SwatchStrip";
+import FacebookIcon from "@/components/icons/FacebookIcon";
 import { navLinks, siteConfig } from "@/data/site";
 import { services } from "@/data/services";
 
@@ -22,6 +23,17 @@ export default function Footer() {
             {siteConfig.county}, backed by {siteConfig.yearsTrading} years on
             the tools.
           </p>
+          <a
+            href={siteConfig.facebookUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+            title="Zebra Trades on Facebook"
+            className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+          >
+            <FacebookIcon className="size-4" />
+            Follow Zebra Trades on Facebook
+          </a>
         </div>
 
         <div>

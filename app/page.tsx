@@ -13,6 +13,7 @@ import CtaBand from "@/components/CtaBand";
 import { services } from "@/data/services";
 import { siteConfig } from "@/data/site";
 import { ArrowRight, Wrench, Award } from "lucide-react";
+import FacebookIcon from "@/components/icons/FacebookIcon";
 
 export const metadata: Metadata = {
   title: "Home Improvements in Cheshunt & Hertfordshire",
@@ -150,6 +151,32 @@ export default function Home() {
         title="Ready To Get Started?"
         subtitle="Tell us what needs doing and we'll come back to you with a free, fixed-price quote."
       />
+
+      <section className="bg-chalk">
+        <Container className="flex flex-col items-center gap-5 py-16 text-center sm:py-20">
+          <span className="flex size-12 items-center justify-center rounded-full bg-accent-soft text-accent-dark">
+            <FacebookIcon className="size-6" />
+          </span>
+          <h2 className="max-w-xl font-display text-3xl font-bold uppercase leading-[0.95] tracking-tight text-ink sm:text-4xl">
+            See Our Latest Projects
+          </h2>
+          <p className="max-w-xl text-base leading-relaxed text-slate sm:text-lg">
+            Follow Zebra Trades on Facebook to see our latest installations,
+            customer projects, before and after photos and company updates.
+          </p>
+          <a
+            href={siteConfig.facebookUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+            title="Zebra Trades on Facebook"
+            className="mt-2 inline-flex items-center gap-2 rounded-sm bg-ink px-6 py-3 text-sm font-semibold text-paper hover:bg-ink-soft transition-colors"
+          >
+            <FacebookIcon className="size-4" />
+            Follow Us On Facebook
+          </a>
+        </Container>
+      </section>
     </>
   );
 }

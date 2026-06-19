@@ -5,6 +5,7 @@ import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import ContactForm from "@/components/ContactForm";
 import CoverageArea from "@/components/CoverageArea";
+import FacebookIcon from "@/components/icons/FacebookIcon";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -75,6 +76,23 @@ export default function ContactPage() {
               <p className="mt-3 text-sm text-paper/80">
                 {siteConfig.areas.join(", ")}.
               </p>
+            </div>
+
+            <div className="mt-8 border-t border-paper/15 pt-6">
+              <h4 className="font-mono text-xs uppercase tracking-[0.2em] text-paper/55">
+                Follow Zebra Trades
+              </h4>
+              <a
+                href={siteConfig.facebookUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+                title="Zebra Trades on Facebook"
+                className="mt-4 inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+              >
+                <FacebookIcon className="size-4" />
+                Facebook
+              </a>
             </div>
           </div>
         </Container>

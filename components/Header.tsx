@@ -7,6 +7,7 @@ import { Menu, X, Phone } from "lucide-react";
 import Logo from "@/components/Logo";
 import Container from "@/components/Container";
 import SwatchStrip from "@/components/SwatchStrip";
+import FacebookIcon from "@/components/icons/FacebookIcon";
 import { navLinks, siteConfig } from "@/data/site";
 
 export default function Header() {
@@ -37,6 +38,16 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-5">
+          <a
+            href={siteConfig.facebookUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+            title="Zebra Trades on Facebook"
+            className="text-paper/70 hover:text-accent transition-colors"
+          >
+            <FacebookIcon className="size-5" />
+          </a>
           <a
             href={siteConfig.phoneHref}
             className="flex items-center gap-2 text-sm font-semibold text-paper hover:text-accent transition-colors"
@@ -96,6 +107,17 @@ export default function Header() {
             >
               <Phone className="size-4" strokeWidth={1.75} aria-hidden="true" />
               {siteConfig.phoneDisplay}
+            </a>
+            <a
+              href={siteConfig.facebookUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+              title="Zebra Trades on Facebook"
+              className="flex items-center gap-2 mt-4 text-paper/80 text-sm font-medium hover:text-accent transition-colors"
+            >
+              <FacebookIcon className="size-4" />
+              Follow us on Facebook
             </a>
             <Link
               href="/contact"
