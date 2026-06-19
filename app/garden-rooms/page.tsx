@@ -6,6 +6,7 @@ import ValueProps, {
   Wrench, Award, ShieldCheck, FileSignature, MapPin, type ValueItem,
 } from "@/components/ValueProps";
 import PackageCard, { type Package } from "@/components/PackageCard";
+import GardenRoomCalculator from "@/components/GardenRoomCalculator";
 import ProcessSteps, { type Step } from "@/components/ProcessSteps";
 import Gallery, { type GalleryImage } from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
@@ -290,6 +291,19 @@ export default function GardenRoomsPage() {
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
+            eyebrow="Instant Estimate"
+            title="Garden Room Cost Calculator"
+            subtitle="Build your own guide price by selecting a size, specification and any extras you'd like."
+          />
+          <div className="mt-10">
+            <GardenRoomCalculator />
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
             eyebrow="Specification"
             title="What's Included"
             subtitle="Every garden room comes complete and ready to use."
@@ -305,7 +319,7 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <section className="bg-chalk">
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Customise Your Room"
@@ -325,7 +339,7 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <section className="bg-paper">
+      <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="How It Works"
@@ -338,7 +352,7 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <section className="bg-chalk">
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Project Gallery"
@@ -351,7 +365,7 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <section className="bg-paper">
+      <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="What Customers Say"
@@ -364,9 +378,9 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <CoverageArea background="chalk" />
+      <CoverageArea background="paper" />
 
-      <section className="bg-paper">
+      <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading eyebrow="Good To Know" title="Garden Room FAQs" />
           <div className="mt-10">
