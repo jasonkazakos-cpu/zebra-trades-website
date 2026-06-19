@@ -148,11 +148,13 @@ const serviceOptions = [
 
 const galleryImages: GalleryImage[] = [
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge Indigo kitchen design", caption: "Cambridge Indigo Kitchen" },
-  { src: "", alt: "Shaker style kitchen in Hoddesdon", caption: "Shaker style kitchen — Hoddesdon" },
-  { src: "", alt: "Open plan family kitchen", caption: "Open plan family kitchen — Waltham Cross" },
-  { src: "", alt: "Traditional kitchen with island", caption: "Traditional kitchen with island — Broxbourne" },
-  { src: "", alt: "Contemporary dark kitchen", caption: "Contemporary dark kitchen — Enfield" },
-  { src: "", alt: "Compact kitchen refit", caption: "Compact kitchen refit — Cuffley" },
+  { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white and oak kitchen design", caption: "Windsor White & Oak Kitchen" },
+  { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen design", caption: "Windsor Sage Green Kitchen" },
+  { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto Vero white kitchen design", caption: "Stratto Vero White Kitchen" },
+  { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.jpg", alt: "Vivo gloss dust grey kitchen design", caption: "Vivo Gloss Dust Grey Kitchen" },
+  { src: "/images/kitchen-design/vivo-vero-smoke-blue-kitchen.jpg", alt: "Vivo smoke blue kitchen design", caption: "Vivo Smoke Blue Kitchen" },
+  { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.jpg", alt: "Vivo gloss ivory kitchen design", caption: "Vivo Gloss Ivory Kitchen" },
+  { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto Vero white kitchen with rose gold accents", caption: "Stratto Vero White Kitchen — Rose Gold Accents" },
 ];
 
 const kitchenFaqs: FaqItem[] = [
