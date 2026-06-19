@@ -88,6 +88,7 @@ export const services: Service[] = [
     teaser: "A fully built garden room, ready to use as an office, gym or studio.",
     description:
       "We build insulated garden rooms that give you extra living space without the cost or disruption of an extension, fitted out and ready for power and lighting.",
+    href: "/garden-rooms",
   },
   {
     slug: "air-conditioning",
