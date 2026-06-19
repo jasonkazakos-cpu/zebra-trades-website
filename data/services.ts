@@ -98,6 +98,7 @@ export const services: Service[] = [
     teaser: "Domestic air conditioning, supplied and installed for hot summers.",
     description:
       "We supply and install domestic air conditioning units, keeping bedrooms, living rooms and home offices comfortable through the warmer months.",
+    href: "/air-conditioning",
   },
 ];
 
