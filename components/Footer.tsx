@@ -105,9 +105,14 @@ export default function Footer() {
         <p>
           &copy; {year} {siteConfig.name}. All rights reserved.
         </p>
-        <Link href="/privacy-policy" className="hover:text-paper transition-colors">
-          Privacy Policy
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href="/privacy-policy" className="hover:text-paper transition-colors">
+            Privacy Policy
+          </Link>
+          <Link href="/terms-and-conditions" className="hover:text-paper transition-colors">
+            Terms &amp; Conditions
+          </Link>
+        </div>
         <p>{siteConfig.motto}</p>
       </Container>
     </footer>

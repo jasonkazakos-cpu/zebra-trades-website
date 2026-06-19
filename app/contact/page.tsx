@@ -96,12 +96,18 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div className="mt-8 border-t border-paper/15 pt-6">
+            <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 border-t border-paper/15 pt-6">
               <Link
                 href="/privacy-policy"
                 className="text-xs font-medium text-paper/55 underline-offset-4 hover:text-paper hover:underline"
               >
                 Read our Privacy Policy
+              </Link>
+              <Link
+                href="/terms-and-conditions"
+                className="text-xs font-medium text-paper/55 underline-offset-4 hover:text-paper hover:underline"
+              >
+                Read our Terms &amp; Conditions
               </Link>
             </div>
           </div>

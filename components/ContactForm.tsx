@@ -153,6 +153,10 @@ export default function ContactForm() {
         By submitting this form, you agree to our{" "}
         <Link href="/privacy-policy" className="font-medium text-accent underline-offset-4 hover:underline">
           Privacy Policy
+        </Link>{" "}
+        and{" "}
+        <Link href="/terms-and-conditions" className="font-medium text-accent underline-offset-4 hover:underline">
+          Terms &amp; Conditions
         </Link>
         .
       </p>
