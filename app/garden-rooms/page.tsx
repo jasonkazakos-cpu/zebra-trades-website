@@ -26,12 +26,13 @@ export const metadata: Metadata = {
     "Garden Offices Hertfordshire",
     "Garden Room Installation Hertfordshire",
     "Garden Gyms Cheshunt",
+    "Luxury Garden Rooms Hertfordshire",
     "Garden Studios Hertfordshire",
   ],
   openGraph: {
     title: "Garden Rooms in Hertfordshire | Zebra Trades",
     description:
-      "Create extra living space without extending your home. Zebra Trades designs and installs high-quality garden rooms for home offices, gyms, studios, entertainment spaces and more.",
+      "Create beautiful extra living space without extending your home. Zebra Trades designs and installs premium garden rooms for home offices, gyms, studios, entertainment spaces and more.",
     url: "https://www.zebratrades.co.uk/garden-rooms",
     type: "website",
   },
@@ -45,6 +46,7 @@ const trustItems: ValueItem[] = [
   { icon: Award, title: `Established ${siteConfig.yearsAsZebra} Years`, body: "A trusted local name across Cheshunt and Hertfordshire since day one." },
   { icon: ShieldCheck, title: "Professional Installation", body: "Built to a high standard from groundworks through to final handover." },
   { icon: Sparkles, title: "High Quality Materials", body: "Durable, well-insulated structures designed to perform all year round." },
+  { icon: Snowflake, title: "Fully Insulated Construction", body: "Built to stay comfortable in every season, whatever the British weather." },
   { icon: FileSignature, title: "Transparent Pricing", body: "A clear, written quotation agreed before any work begins — no surprises." },
   { icon: MapPin, title: "Local Hertfordshire Business", body: "Based in Cheshunt, working across Hertfordshire every week." },
 ];
@@ -57,9 +59,9 @@ const garderRoomUses = [
   { icon: Palette, title: "Art Studio" },
   { icon: Music, title: "Music Studio" },
   { icon: Bed, title: "Teenage Den" },
-  { icon: Bed, title: "Guest Accommodation" },
   { icon: HeartHandshake, title: "Therapy Room" },
   { icon: Sparkles, title: "Beauty Room" },
+  { icon: Bed, title: "Guest Accommodation" },
 ];
 
 const packages: Package[] = [
@@ -84,7 +86,7 @@ const packages: Package[] = [
     price: "From £39,995",
     size: "6m x 3m to 7m x 4m",
     featuresLabel: "Ideal for:",
-    features: ["Family room", "Multi-purpose room", "Business use"],
+    features: ["Family room", "Business use", "Multi-purpose space"],
     serviceLabel: SERVICE,
   },
   {
@@ -93,10 +95,10 @@ const packages: Package[] = [
     featuresLabel: "Ideal for:",
     features: [
       "Bespoke projects",
-      "High-specification finishes",
-      "Luxury entertainment rooms",
-      "Therapy rooms",
+      "Luxury finishes",
+      "High-specification builds",
       "Commercial use",
+      "Entertainment spaces",
     ],
     serviceLabel: SERVICE,
   },
@@ -104,11 +106,11 @@ const packages: Package[] = [
 
 const included = [
   "Structural Framework",
-  "Insulation",
+  "Premium Insulation",
   "Internal Wall Finishes",
-  "Doors & Windows",
+  "Double Glazed Doors & Windows",
   "Electrical Installation",
-  "Lighting",
+  "Internal Lighting",
   "Flooring",
   "Decoration Options",
 ];
@@ -122,6 +124,7 @@ const extras = [
   { icon: Wrench, title: "Internet/Data Cabling" },
   { icon: Sparkles, title: "Built-In Storage" },
   { icon: Sparkles, title: "Outdoor Lighting" },
+  { icon: Wrench, title: "Smart Home Controls" },
 ];
 
 const processSteps: Step[] = [
@@ -138,10 +141,10 @@ const processSteps: Step[] = [
 const galleryImages: GalleryImage[] = [
   { src: "", alt: "Modern Garden Office", caption: "Modern garden office — Cheshunt" },
   { src: "", alt: "Garden Gym", caption: "Garden gym — Waltham Cross" },
-  { src: "", alt: "Entertainment Room", caption: "Entertainment room — Hoddesdon" },
+  { src: "", alt: "Luxury Garden Studio", caption: "Luxury garden studio — Hoddesdon" },
   { src: "", alt: "Contemporary Garden Room", caption: "Contemporary garden room — Broxbourne" },
-  { src: "", alt: "Luxury Garden Room", caption: "Luxury garden room — Enfield" },
-  { src: "", alt: "Multi-Purpose Garden Studio", caption: "Multi-purpose garden studio — Cuffley" },
+  { src: "", alt: "Entertainment Space", caption: "Entertainment space — Enfield" },
+  { src: "", alt: "Multi-Purpose Garden Building", caption: "Multi-purpose garden building — Cuffley" },
 ];
 
 const faqs: FaqItem[] = [
@@ -171,6 +174,11 @@ const faqs: FaqItem[] = [
       "Yes. Electrical installation is included as standard, and internet/data cabling can be added as an optional extra.",
   },
   {
+    question: "Can air conditioning be added?",
+    answer:
+      "Yes. Air conditioning is available as an optional extra, ideal for keeping your garden room comfortable during warmer months.",
+  },
+  {
     question: "Do you provide free quotations?",
     answer:
       "Yes. We offer a free site survey and quotation with no obligation to go ahead.",
@@ -192,8 +200,8 @@ export default function GardenRoomsPage() {
             Garden Rooms in Hertfordshire
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-paper/75 sm:text-lg">
-            Create extra living space without extending your home. Zebra
-            Trades designs and installs high-quality garden rooms for home
+            Create beautiful extra living space without extending your home.
+            Zebra Trades designs and installs premium garden rooms for home
             offices, gyms, studios, entertainment spaces and more.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -223,7 +231,7 @@ export default function GardenRoomsPage() {
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Endless Possibilities"
-            title="Garden Room Uses"
+            title="Popular Garden Room Uses"
             subtitle="A garden room can become almost any space you need."
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -253,7 +261,8 @@ export default function GardenRoomsPage() {
           </div>
           <div className="mt-8 rounded-sm border border-line bg-paper px-5 py-5">
             <p className="text-sm font-medium text-ink">
-              Garden Rooms are individually quoted. Prices vary depending on:
+              Prices shown are guide prices only and every garden room is
+              individually quoted. Final pricing depends on:
             </p>
             <ul className="mt-3 grid gap-x-8 gap-y-1.5 text-sm text-slate sm:grid-cols-2 lg:grid-cols-3">
               {[
@@ -266,6 +275,7 @@ export default function GardenRoomsPage() {
                 "Insulation specification",
                 "Internal finishes",
                 "Doors and glazing",
+                "Access to site",
               ].map((factor) => (
                 <li key={factor} className="flex items-center gap-2">
                   <span className="size-1 shrink-0 rounded-full bg-accent" aria-hidden="true" />
@@ -367,7 +377,7 @@ export default function GardenRoomsPage() {
 
       <CtaBand
         title="Ready To Create Extra Space?"
-        subtitle="Contact Zebra Trades today to arrange a free site survey and discover how a garden room could transform your home."
+        subtitle="Contact Zebra Trades today to arrange a free site survey and discover how a premium garden room could transform your home."
         buttonLabel="Request a Site Survey"
         quoteHref={quoteHref}
       />
