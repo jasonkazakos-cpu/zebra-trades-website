@@ -147,14 +147,14 @@ const serviceOptions = [
 ];
 
 const galleryImages: GalleryImage[] = [
-  { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge Indigo kitchen design", caption: "Cambridge Indigo Kitchen" },
-  { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white and oak kitchen design", caption: "Windsor White & Oak Kitchen" },
-  { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen design", caption: "Windsor Sage Green Kitchen" },
-  { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto Vero white kitchen design", caption: "Stratto Vero White Kitchen" },
-  { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.jpg", alt: "Vivo gloss dust grey kitchen design", caption: "Vivo Gloss Dust Grey Kitchen" },
-  { src: "/images/kitchen-design/vivo-vero-smoke-blue-kitchen.jpg", alt: "Vivo smoke blue kitchen design", caption: "Vivo Smoke Blue Kitchen" },
-  { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.jpg", alt: "Vivo gloss ivory kitchen design", caption: "Vivo Gloss Ivory Kitchen" },
-  { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto Vero white kitchen with rose gold accents", caption: "Stratto Vero White Kitchen — Rose Gold Accents" },
+  { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge Indigo kitchen style", caption: "Cambridge Indigo Kitchen Style" },
+  { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white and oak kitchen style", caption: "Windsor White & Oak Kitchen Style" },
+  { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen style", caption: "Windsor Sage Green Kitchen Style" },
+  { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto Vero white kitchen style", caption: "Stratto Vero White Kitchen Style" },
+  { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.jpg", alt: "Vivo gloss dust grey kitchen style", caption: "Vivo Gloss Dust Grey Kitchen Style" },
+  { src: "/images/kitchen-design/vivo-vero-smoke-blue-kitchen.jpg", alt: "Vivo smoke blue kitchen style", caption: "Vivo Smoke Blue Kitchen Style" },
+  { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.jpg", alt: "Vivo gloss ivory kitchen style", caption: "Vivo Gloss Ivory Kitchen Style" },
+  { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto Vero white kitchen style with rose gold accents", caption: "Stratto Vero White Kitchen Style — Rose Gold Accents" },
 ];
 
 const kitchenFaqs: FaqItem[] = [
@@ -351,9 +351,9 @@ export default function KitchenDesignPage() {
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            eyebrow="Project Gallery"
-            title="Our Kitchen Projects"
-            subtitle="A selection of kitchen projects across Cheshunt and Hertfordshire — real images coming soon."
+            eyebrow="Kitchen Styles"
+            title="Kitchen Styles We Offer"
+            subtitle="A flavour of the ranges and finishes available — completed project photos coming soon."
           />
           <div className="mt-10">
             <Gallery images={galleryImages} />
