@@ -78,6 +78,7 @@ export const services: Service[] = [
     teaser: "Ovens, washing machines, dishwashers and more, fitted safely.",
     description:
       "We fit and connect domestic appliances, including ovens, hobs, washing machines, dishwashers and fridge-freezers, and take the old packaging away with us.",
+    href: "/appliance-installation",
   },
   {
     slug: "garden-rooms",
