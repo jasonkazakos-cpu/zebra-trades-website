@@ -101,10 +101,13 @@ export default function Footer() {
 
       <SwatchStrip />
 
-      <Container className="flex flex-col sm:flex-row items-center justify-between gap-3 py-5 text-xs text-paper/55">
+      <Container className="flex flex-col items-center gap-3 py-5 text-xs text-paper/55 sm:flex-row sm:justify-between">
         <p>
           &copy; {year} {siteConfig.name}. All rights reserved.
         </p>
+        <Link href="/privacy-policy" className="hover:text-paper transition-colors">
+          Privacy Policy
+        </Link>
         <p>{siteConfig.motto}</p>
       </Container>
     </footer>

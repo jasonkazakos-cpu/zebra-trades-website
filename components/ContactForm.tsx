@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 import { services } from "@/data/services";
 
@@ -147,6 +148,14 @@ export default function ContactForm() {
       >
         Send Enquiry
       </button>
+
+      <p className="text-xs text-slate">
+        By submitting this form, you agree to our{" "}
+        <Link href="/privacy-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+          Privacy Policy
+        </Link>
+        .
+      </p>
     </form>
   );
 }

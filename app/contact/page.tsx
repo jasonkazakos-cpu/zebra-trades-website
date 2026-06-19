@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import Link from "next/link";
 import { Phone, Mail, Clock } from "lucide-react";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -93,6 +94,15 @@ export default function ContactPage() {
                 <FacebookIcon className="size-4" />
                 Facebook
               </a>
+            </div>
+
+            <div className="mt-8 border-t border-paper/15 pt-6">
+              <Link
+                href="/privacy-policy"
+                className="text-xs font-medium text-paper/55 underline-offset-4 hover:text-paper hover:underline"
+              >
+                Read our Privacy Policy
+              </Link>
             </div>
           </div>
         </Container>
