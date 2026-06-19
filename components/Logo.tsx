@@ -1,12 +1,25 @@
 import Link from "next/link";
 
-// Once a final brand logo file is supplied, place it in /public and set its
-// path here (e.g. "/logo.svg") — it will replace the placeholder mark below
-// without affecting layout, since both render inside the same fixed area.
-const LOGO_IMAGE_SRC: string | null = null;
+// Official Zebra Trades logo. Natural size 874x330 (≈2.65:1) — width/height
+// below preserve this aspect ratio so the mark is never stretched or cropped.
+const LOGO_IMAGE_SRC = "/zebra-logo.png";
+const LOGO_WIDTH = 874;
+const LOGO_HEIGHT = 330;
 
 export default function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
   const textColor = tone === "light" ? "text-paper" : "text-ink";
+
+  const logoImage = (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={LOGO_IMAGE_SRC}
+      alt=""
+      width={LOGO_WIDTH}
+      height={LOGO_HEIGHT}
+      className="h-7 w-auto object-contain sm:h-9"
+      aria-hidden="true"
+    />
+  );
 
   return (
     <Link
@@ -14,67 +27,18 @@ export default function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
       className="group flex items-center gap-3 shrink-0"
       aria-label="Zebra Trades home"
     >
-      {LOGO_IMAGE_SRC ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={LOGO_IMAGE_SRC}
-          alt=""
-          width={38}
-          height={38}
-          className="size-[38px] shrink-0 rounded-[8px] object-contain"
-          aria-hidden="true"
-        />
+      {tone === "light" ? (
+        // Dark backgrounds (header, footer): give the mark a light backing
+        // plate so it stays clearly visible against bg-ink.
+        <span className="flex shrink-0 items-center rounded-md bg-paper px-2.5 py-1.5 sm:px-3 sm:py-2">
+          {logoImage}
+        </span>
       ) : (
-        <svg
-          width="38"
-          height="38"
-          viewBox="0 0 40 40"
-          fill="none"
-          aria-hidden="true"
-          className="shrink-0"
-        >
-          <rect width="40" height="40" rx="8" fill="#ffffff" />
-          <clipPath id="logoClip">
-            <rect width="40" height="40" rx="8" />
-          </clipPath>
-          <g clipPath="url(#logoClip)">
-            <rect
-              x="-6"
-              y="2"
-              width="52"
-              height="6"
-              fill="#14141A"
-              transform="rotate(-14 20 20)"
-            />
-            <rect
-              x="-6"
-              y="14"
-              width="52"
-              height="6"
-              fill="#14141A"
-              transform="rotate(-14 20 20)"
-            />
-            <rect
-              x="-6"
-              y="26"
-              width="52"
-              height="6"
-              fill="#F2660B"
-              transform="rotate(-14 20 20)"
-            />
-            <rect
-              x="-6"
-              y="38"
-              width="52"
-              height="6"
-              fill="#14141A"
-              transform="rotate(-14 20 20)"
-            />
-          </g>
-        </svg>
+        // Light backgrounds: the mark already has strong contrast on its own.
+        <span className="flex shrink-0 items-center">{logoImage}</span>
       )}
       <span
-        className={`font-display font-bold uppercase tracking-tight text-xl leading-none ${textColor}`}
+        className={`font-display font-bold uppercase tracking-tight leading-none text-base sm:text-lg ${textColor}`}
       >
         Zebra Trades
       </span>
