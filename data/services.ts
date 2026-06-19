@@ -100,6 +100,16 @@ export const services: Service[] = [
       "We supply and install domestic air conditioning units, keeping bedrooms, living rooms and home offices comfortable through the warmer months.",
     href: "/air-conditioning",
   },
+  {
+    slug: "media-walls",
+    title: "Media Walls",
+    icon: "Flame",
+    swatch: "#C2452E",
+    teaser: "Bespoke media walls with electric fireplaces, storage and lighting.",
+    description:
+      "We design and build bespoke media walls featuring TV recesses, electric fireplaces, integrated storage and LED lighting, finished ready for decoration.",
+    href: "/media-walls",
+  },
 ];
 
 export function getServiceBySlug(slug: string) {
