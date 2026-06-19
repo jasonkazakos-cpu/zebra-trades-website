@@ -147,7 +147,7 @@ const serviceOptions = [
 ];
 
 const galleryImages: GalleryImage[] = [
-  { src: "", alt: "Modern white handleless kitchen", caption: "Modern handleless kitchen — Cheshunt" },
+  { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge Indigo kitchen design", caption: "Cambridge Indigo Kitchen" },
   { src: "", alt: "Shaker style kitchen in Hoddesdon", caption: "Shaker style kitchen — Hoddesdon" },
   { src: "", alt: "Open plan family kitchen", caption: "Open plan family kitchen — Waltham Cross" },
   { src: "", alt: "Traditional kitchen with island", caption: "Traditional kitchen with island — Broxbourne" },
