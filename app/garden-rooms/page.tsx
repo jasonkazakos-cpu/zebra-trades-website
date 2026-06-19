@@ -64,31 +64,40 @@ const garderRoomUses = [
 
 const packages: Package[] = [
   {
-    name: "Small Garden Room",
-    price: "From £9,995",
-    bestFor: "Ideal for a home office, hobby room or small studio",
-    description: "A compact, fully insulated garden room — perfect for a focused work or hobby space.",
+    name: "Home Office Pod",
+    price: "From £19,995",
+    size: "3m x 3m",
+    featuresLabel: "Ideal for:",
+    features: ["Home office", "Study", "Hobby room"],
     serviceLabel: SERVICE,
   },
   {
-    name: "Medium Garden Room",
-    price: "From £14,995",
-    bestFor: "Ideal for a home office, gym or entertainment room",
-    description: "More room to work with — suited to a home gym, larger office or relaxed entertainment space.",
+    name: "Garden Studio",
+    price: "From £29,995",
+    size: "4m x 3m to 5m x 3m",
+    featuresLabel: "Ideal for:",
+    features: ["Home office", "Gym", "Entertainment room"],
     serviceLabel: SERVICE,
   },
   {
     name: "Large Garden Room",
-    price: "From £19,995",
-    bestFor: "Ideal for a multi-purpose room or family entertainment space",
-    description: "A generously sized room for multi-purpose use, family entertainment or a substantial home office.",
+    price: "From £39,995",
+    size: "6m x 3m to 7m x 4m",
+    featuresLabel: "Ideal for:",
+    features: ["Family room", "Multi-purpose room", "Business use"],
     serviceLabel: SERVICE,
   },
   {
     name: "Premium Garden Room",
-    price: "From £29,995",
-    bestFor: "Ideal for a luxury garden room or fully customised project",
-    description: "Our top specification — fully customised to your requirements, with premium finishes throughout.",
+    price: "From £49,995",
+    featuresLabel: "Ideal for:",
+    features: [
+      "Bespoke projects",
+      "High-specification finishes",
+      "Luxury entertainment rooms",
+      "Therapy rooms",
+      "Commercial use",
+    ],
     serviceLabel: SERVICE,
   },
 ];
@@ -242,11 +251,29 @@ export default function GardenRoomsPage() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {packages.map((pkg) => <PackageCard key={pkg.name} pkg={pkg} />)}
           </div>
-          <p className="mt-8 rounded-sm border border-line bg-paper px-5 py-4 text-sm text-slate">
-            Prices shown are guide prices only. Final quotations depend on
-            size, specification, foundations, electrical requirements,
-            insulation, glazing and site conditions.
-          </p>
+          <div className="mt-8 rounded-sm border border-line bg-paper px-5 py-5">
+            <p className="text-sm font-medium text-ink">
+              Garden Rooms are individually quoted. Prices vary depending on:
+            </p>
+            <ul className="mt-3 grid gap-x-8 gap-y-1.5 text-sm text-slate sm:grid-cols-2 lg:grid-cols-3">
+              {[
+                "Size",
+                "Foundations",
+                "Ground conditions",
+                "Electrical requirements",
+                "Heating and cooling",
+                "Air conditioning",
+                "Insulation specification",
+                "Internal finishes",
+                "Doors and glazing",
+              ].map((factor) => (
+                <li key={factor} className="flex items-center gap-2">
+                  <span className="size-1 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+                  {factor}
+                </li>
+              ))}
+            </ul>
+          </div>
         </Container>
       </section>
 
