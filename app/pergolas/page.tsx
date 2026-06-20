@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
 import PergolaCalculator from "@/components/PergolaCalculator";
+import Gallery, { type GalleryImage } from "@/components/Gallery";
 import ValueProps from "@/components/ValueProps";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
@@ -27,6 +28,20 @@ export const metadata: Metadata = {
 
 const SERVICE = "Pergolas & Gazebos";
 const quoteHref = `/contact?service=${encodeURIComponent(SERVICE)}`;
+
+const projectImages: GalleryImage[] = [
+  { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-02.jpg", alt: "Aluminium pergola installation in Hertford", caption: "Aluminium Pergola Installation — Hertford" },
+  { src: "/images/pergolas/aluminium-pergola-03.jpg", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-04.jpg", alt: "Bespoke aluminium pergola installation in Waltham Abbey", caption: "Bespoke Aluminium Pergola — Waltham Abbey" },
+  { src: "/images/pergolas/aluminium-pergola-05.jpg", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
+  { src: "/images/pergolas/aluminium-pergola-06.jpg", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-07.jpg", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-08.jpg", alt: "Aluminium pergola installation in Cuffley", caption: "Aluminium Pergola Installation — Cuffley" },
+  { src: "/images/pergolas/aluminium-pergola-09.jpg", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
+  { src: "/images/pergolas/aluminium-pergola-10.jpg", alt: "Aluminium pergola installation in Waltham Abbey", caption: "Aluminium Pergola Installation — Waltham Abbey" },
+  { src: "/images/pergolas/aluminium-pergola-11.jpg", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
+];
 
 export default function PergolasPage() {
   return (
@@ -142,8 +157,22 @@ export default function PergolasPage() {
         </Container>
       </section>
 
-      {/* Why Zebra Trades */}
+      {/* Real Project Gallery */}
       <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Recent Installations"
+            title="Pergola Project Gallery"
+            subtitle="A selection of aluminium pergola installations completed across Hertfordshire."
+          />
+          <div className="mt-10">
+            <Gallery images={projectImages} />
+          </div>
+        </Container>
+      </section>
+
+      {/* Why Zebra Trades */}
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Why Zebra Trades"
@@ -156,7 +185,7 @@ export default function PergolasPage() {
         </Container>
       </section>
 
-      <CoverageArea background="paper" />
+      <CoverageArea background="chalk" />
 
       <CtaBand
         title="Ready To Transform Your Garden?"
