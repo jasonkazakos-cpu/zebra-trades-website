@@ -228,7 +228,7 @@ export default function PergolasPage() {
             subtitle="Create an outdoor room that can be enjoyed throughout the year."
           />
           <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent-soft px-5 py-2.5 font-display text-lg font-bold uppercase tracking-tight text-accent-dark sm:text-xl">
-            £13,995–£17,995 Installed
+            £11,995–£17,995 Installed
           </p>
           <div className="mt-10 overflow-hidden rounded-sm border border-line">
             {/* eslint-disable-next-line @next/next/no-img-element */}
