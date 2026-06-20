@@ -122,7 +122,7 @@ export default function PergolasPage() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {GALLERY_ITEMS.map((item) => {
               const small = BASE_PRICES[item.typeKey].small;
-              const price = small !== null ? `From £${small.toLocaleString("en-GB")}` : "Quoted";
+              const price = item.priceOverride ?? (small !== null ? `From £${small.toLocaleString("en-GB")}` : "Quoted");
               return (
                 <div key={item.label} className="group flex flex-col rounded-sm border border-line bg-paper overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_24px_-12px_rgba(20,20,26,0.25)] transition-all duration-200">
                   <div className="flex aspect-[4/3] items-center justify-center bg-chalk overflow-hidden">

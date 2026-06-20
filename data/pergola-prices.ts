@@ -43,10 +43,10 @@ export const EXTRAS: Extra[] = [
   { key: "patio-prep", label: "Patio Preparation", price: null },
 ];
 
-export const GALLERY_ITEMS: { label: string; typeKey: TypeKey; description: string; image?: string }[] = [
+export const GALLERY_ITEMS: { label: string; typeKey: TypeKey; description: string; image?: string; priceOverride?: string }[] = [
   { label: "Timber Garden Pergola", typeKey: "timber", description: "A classic timber pergola — ideal for climbing plants and natural charm.", image: "/images/pergolas/timber-pergola-small-hertfordshire.jpg" },
   { label: "Aluminium Pergola", typeKey: "aluminium", description: "Low-maintenance aluminium frames in a range of powder-coated finishes.", image: "/images/pergolas/aluminium-pergola-large-cuffley.jpg" },
-  { label: "Wall Mounted Pergola", typeKey: "wall-mounted", description: "Fixed to the house wall — perfect for extending your outdoor living space.", image: "/images/pergolas/wall-mounted-pergola-aluminium-hertfordshire.jpg" },
+  { label: "Wall Mounted Pergola — Budget Range", typeKey: "wall-mounted", description: "Fixed to the house wall — perfect for extending your outdoor living space.", image: "/images/pergolas/wall-mounted-pergola-aluminium-hertfordshire.jpg", priceOverride: "From £3,495 Installed" },
   { label: "Louvered Roof Pergola", typeKey: "louvered", description: "Adjustable louvres give you full control of shade and ventilation." },
   { label: "Freestanding Pergola", typeKey: "freestanding", description: "A completely self-supporting structure, positioned anywhere in your garden." },
   { label: "Premium Outdoor Living Package", typeKey: "louvered", description: "Louvered roof pergola with lighting, heating, side screens and electrical supply." },
