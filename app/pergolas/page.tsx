@@ -10,7 +10,7 @@ import CtaBand from "@/components/CtaBand";
 import { siteConfig } from "@/data/site";
 import { GALLERY_ITEMS, BASE_PRICES } from "@/data/pergola-prices";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Pergolas & Gazebos in Hertfordshire",
@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     "Garden Pergola",
     "Louvered Roof Pergola Hertfordshire",
     "Gazebo Installation Hertfordshire",
+    "Wall Mounted Pergola",
+    "Glass Room",
+    "Sliding Glass Doors",
+    "Outdoor Living",
+    "Aluminium Pergola",
+    "Pergola Installation Hertfordshire",
+    "Pergola Installation Cheshunt",
+    "Outdoor Room Installation",
   ],
 };
 
@@ -40,6 +48,49 @@ const projectImages: GalleryImage[] = [
   { src: "/images/pergolas/aluminium-pergola-08.jpg", alt: "Aluminium pergola installation in Cuffley", caption: "Aluminium Pergola Installation — Cuffley" },
   { src: "/images/pergolas/aluminium-pergola-09.jpg", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
   { src: "/images/pergolas/aluminium-pergola-10.jpg", alt: "Aluminium pergola installation in Waltham Abbey", caption: "Aluminium Pergola Installation — Waltham Abbey" },
+  { src: "/images/pergolas/aluminium-pergola-11.jpg", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
+];
+
+const PREMIUM_SERVICE_LABEL = "Wall Mounted Pergola With Glass Sliding Doors";
+const premiumQuoteHref = `/contact?service=${encodeURIComponent(PREMIUM_SERVICE_LABEL)}`;
+
+const glassPergolaBenefits = [
+  "Year-round outdoor living",
+  "Sliding glass doors for weather protection",
+  "Modern aluminium construction",
+  "Low maintenance and long lifespan",
+  "Increased usable living space",
+  "Custom sizes available",
+  "Optional LED lighting upgrades",
+  "Optional privacy screens",
+  "Suitable for patios, terraces and garden entertainment areas",
+];
+
+const glassPergolaFeatures = [
+  "Powder coated aluminium frame",
+  "Polycarbonate or glass roof options",
+  "Sliding glass door systems",
+  "Optional side glazing",
+  "Optional integrated lighting",
+  "Optional privacy panels",
+  "Bespoke sizing available",
+];
+
+const glassPergolaIncludes = [
+  "Supply and installation",
+  "Aluminium structure",
+  "Roof system",
+  "Sliding glass doors",
+  "Site survey",
+  "Professional installation",
+];
+
+const glassPergolaGalleryImages: GalleryImage[] = [
+  { src: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.jpg", alt: "Wall mounted aluminium pergola installation in Cuffley", caption: "Wall Mounted Aluminium Pergola — Cuffley" },
+  { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-03.jpg", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-05.jpg", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
+  { src: "/images/pergolas/aluminium-pergola-09.jpg", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
   { src: "/images/pergolas/aluminium-pergola-11.jpg", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
 ];
 
@@ -166,6 +217,127 @@ export default function PergolasPage() {
           </div>
         </Container>
       </section>
+
+      {/* Premium Wall Mounted Pergola With Glass Sliding Doors */}
+      <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Premium Product"
+            title="Wall Mounted Pergola With Glass Sliding Doors"
+            subtitle="Create an outdoor room that can be enjoyed throughout the year."
+          />
+          <div className="mt-10 overflow-hidden rounded-sm border border-line">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/pergolas/wall-mounted-pergola-aluminium-hertfordshire.jpg"
+              alt="Wall mounted pergola with glass sliding doors"
+              loading="lazy"
+              className="aspect-[16/8] w-full object-cover sm:aspect-[16/6]"
+            />
+          </div>
+          <div className="mx-auto mt-8 max-w-3xl space-y-4 text-sm leading-relaxed text-slate sm:text-base">
+            <p>
+              Our premium wall mounted pergolas combine a robust aluminium
+              structure with sliding glass doors to create a stylish and
+              sheltered outdoor living space.
+            </p>
+            <p>
+              Perfect for entertaining, outdoor dining, hot tubs, garden
+              lounges and year-round enjoyment.
+            </p>
+            <p>
+              The system is fixed directly to the property and can be
+              customised with glass walls, privacy screens, lighting and
+              heating options.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Key Benefits"
+            title="Why Choose A Glass-Doored Pergola?"
+          />
+          <ul className="mt-10 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+            {glassPergolaBenefits.map((benefit) => (
+              <li key={benefit} className="flex items-start gap-2.5 text-sm font-medium text-ink">
+                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
+                {benefit}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </section>
+
+      <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Specification"
+            title="Features"
+            subtitle="Every glass-doored pergola is built around this core specification."
+          />
+          <ul className="mt-10 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+            {glassPergolaFeatures.map((feature) => (
+              <li key={feature} className="flex items-start gap-2.5 text-sm font-medium text-ink">
+                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
+                {feature}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Premium Outdoor Living Solutions"
+            title="Wall Mounted Pergola With Glass Sliding Doors"
+          />
+          <div className="mt-10 max-w-xl rounded-sm border border-line bg-paper p-7">
+            <p className="font-display text-3xl font-bold text-accent">From £7,995 Installed</p>
+            <ul className="mt-6 space-y-3">
+              {glassPergolaIncludes.map((item) => (
+                <li key={item} className="flex items-start gap-2.5 text-sm text-ink-soft">
+                  <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <Link
+              href={premiumQuoteHref}
+              className="mt-6 inline-flex items-center justify-center gap-2 rounded-sm bg-accent px-5 py-2.5 text-sm font-semibold text-paper hover:bg-accent-dark"
+            >
+              Enquire About This
+              <ArrowRight className="size-4" aria-hidden="true" />
+            </Link>
+          </div>
+          <p className="mt-6 text-xs text-slate">
+            Final pricing depends on size, specification and site conditions.
+          </p>
+        </Container>
+      </section>
+
+      <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Gallery"
+            title="Glass-Doored Pergola Installations"
+            subtitle="A selection of our aluminium pergola installations — dedicated glass sliding door photography coming soon."
+          />
+          <div className="mt-10">
+            <Gallery images={glassPergolaGalleryImages} />
+          </div>
+        </Container>
+      </section>
+
+      <CtaBand
+        title="Ready To Transform Your Outdoor Space?"
+        subtitle="Contact Zebra Trades today for a free quotation and design consultation."
+        buttonLabel="Request a Free Quote"
+        quoteHref={premiumQuoteHref}
+      />
 
       {/* Real Project Gallery */}
       <section className="bg-chalk">
