@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
 import PergolaCalculator from "@/components/PergolaCalculator";
+import VideoGallery, { type VideoItem } from "@/components/VideoGallery";
 import Gallery, { type GalleryImage } from "@/components/Gallery";
 import ValueProps from "@/components/ValueProps";
 import CoverageArea from "@/components/CoverageArea";
@@ -36,6 +37,17 @@ export const metadata: Metadata = {
 
 const SERVICE = "Pergolas & Gazebos";
 const quoteHref = `/contact?service=${encodeURIComponent(SERVICE)}`;
+
+// Add a YouTube video ID to each "id" field below to bring these online —
+// leave blank to keep showing a placeholder card.
+const showcaseVideos: VideoItem[] = [
+  { id: "", title: "Pergola Showcase Reel 1" },
+  { id: "", title: "Pergola Showcase Reel 2" },
+  { id: "", title: "Pergola Showcase Reel 3" },
+  { id: "", title: "Pergola Showcase Reel 4" },
+  { id: "", title: "Pergola Showcase Reel 5" },
+  { id: "", title: "Pergola Showcase Reel 6" },
+];
 
 const projectImages: GalleryImage[] = [
   { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
@@ -114,6 +126,20 @@ export default function PergolasPage() {
             <Button href={siteConfig.phoneHref} variant="ghost-light">
               Call {siteConfig.phoneDisplay}
             </Button>
+          </div>
+        </Container>
+      </section>
+
+      {/* Video Showcase */}
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Watch Our Work"
+            title="Pergola Showcase Reels"
+            subtitle="See our pergolas in action — click any video to play."
+          />
+          <div className="mt-10">
+            <VideoGallery videos={showcaseVideos} />
           </div>
         </Container>
       </section>
