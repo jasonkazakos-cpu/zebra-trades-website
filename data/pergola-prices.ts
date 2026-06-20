@@ -45,7 +45,7 @@ export const EXTRAS: Extra[] = [
 
 export const GALLERY_ITEMS: { label: string; typeKey: TypeKey; description: string; image?: string; priceOverride?: string }[] = [
   { label: "Timber Garden Pergola", typeKey: "timber", description: "A classic timber pergola — ideal for climbing plants and natural charm.", image: "/images/pergolas/timber-pergola-small-hertfordshire.jpg" },
-  { label: "Aluminium Pergola", typeKey: "aluminium", description: "Low-maintenance aluminium frames in a range of powder-coated finishes. Large size with flexible additions.", image: "/images/pergolas/aluminium-pergola-large-cuffley.jpg", priceOverride: "From £4,495 Installed" },
+  { label: "Aluminium Pergola", typeKey: "aluminium", description: "Low-maintenance aluminium frames in a range of powder-coated finishes. Large size with flexible additions.", image: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.jpg", priceOverride: "From £4,495 Installed" },
   { label: "Wall Mounted Pergola — Budget Range", typeKey: "wall-mounted", description: "Fixed to the house wall — perfect for extending your outdoor living space.", image: "/images/pergolas/wall-mounted-pergola-aluminium-hertfordshire.jpg", priceOverride: "From £3,495 Installed" },
   { label: "Louvered Roof Pergola", typeKey: "louvered", description: "Adjustable louvres give you full control of shade and ventilation." },
   { label: "Freestanding Pergola", typeKey: "freestanding", description: "A completely self-supporting structure, positioned anywhere in your garden." },
