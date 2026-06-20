@@ -125,12 +125,22 @@ export default function PergolasPage() {
               const price = small !== null ? `From £${small.toLocaleString("en-GB")}` : "Quoted";
               return (
                 <div key={item.label} className="group flex flex-col rounded-sm border border-line bg-paper overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_24px_-12px_rgba(20,20,26,0.25)] transition-all duration-200">
-                  <div className="flex aspect-[4/3] items-center justify-center bg-chalk">
-                    <svg width="48" height="48" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-                      <rect width="40" height="40" rx="6" fill="#e1ddd4" />
-                      <path d="M8 28l8-8 5 5 5-7 6 10H8z" fill="#4C9A56" opacity="0.5" />
-                      <circle cx="27" cy="14" r="4" fill="#4C9A56" opacity="0.4" />
-                    </svg>
+                  <div className="flex aspect-[4/3] items-center justify-center bg-chalk overflow-hidden">
+                    {item.image ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={item.image}
+                        alt={item.label}
+                        loading="lazy"
+                        className="h-full w-full object-cover"
+                      />
+                    ) : (
+                      <svg width="48" height="48" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                        <rect width="40" height="40" rx="6" fill="#e1ddd4" />
+                        <path d="M8 28l8-8 5 5 5-7 6 10H8z" fill="#4C9A56" opacity="0.5" />
+                        <circle cx="27" cy="14" r="4" fill="#4C9A56" opacity="0.4" />
+                      </svg>
+                    )}
                   </div>
                   <div className="flex flex-1 flex-col p-5">
                     <h3 className="font-display text-lg font-bold uppercase tracking-tight text-ink">

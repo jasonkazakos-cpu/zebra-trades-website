@@ -43,8 +43,8 @@ export const EXTRAS: Extra[] = [
   { key: "patio-prep", label: "Patio Preparation", price: null },
 ];
 
-export const GALLERY_ITEMS: { label: string; typeKey: TypeKey; description: string }[] = [
-  { label: "Timber Garden Pergola", typeKey: "timber", description: "A classic timber pergola — ideal for climbing plants and natural charm." },
+export const GALLERY_ITEMS: { label: string; typeKey: TypeKey; description: string; image?: string }[] = [
+  { label: "Timber Garden Pergola", typeKey: "timber", description: "A classic timber pergola — ideal for climbing plants and natural charm.", image: "/images/pergolas/timber-pergola-small-hertfordshire.jpg" },
   { label: "Aluminium Pergola", typeKey: "aluminium", description: "Low-maintenance aluminium frames in a range of powder-coated finishes." },
   { label: "Wall Mounted Pergola", typeKey: "wall-mounted", description: "Fixed to the house wall — perfect for extending your outdoor living space." },
   { label: "Louvered Roof Pergola", typeKey: "louvered", description: "Adjustable louvres give you full control of shade and ventilation." },
