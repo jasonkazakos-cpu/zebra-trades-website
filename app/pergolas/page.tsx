@@ -76,15 +76,6 @@ const glassPergolaFeatures = [
   "Bespoke sizing available",
 ];
 
-const glassPergolaIncludes = [
-  "Supply and installation",
-  "Aluminium structure",
-  "Roof system",
-  "Sliding glass doors",
-  "Site survey",
-  "Professional installation",
-];
-
 const glassPergolaGalleryImages: GalleryImage[] = [
   { src: "/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.jpg", alt: "Wall mounted pergola with glass sliding doors in Hertfordshire", caption: "Wall Mounted Pergola With Glass Sliding Doors — Hertfordshire" },
   { src: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.jpg", alt: "Wall mounted aluminium pergola installation in Cuffley", caption: "Wall Mounted Aluminium Pergola — Cuffley" },
@@ -294,36 +285,6 @@ export default function PergolasPage() {
       </section>
 
       <section className="bg-paper">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
-            eyebrow="Premium Outdoor Living Solutions"
-            title="Wall Mounted Pergola With Glass Sliding Doors"
-          />
-          <div className="mt-10 max-w-xl rounded-sm border border-line bg-paper p-7">
-            <p className="font-display text-3xl font-bold text-accent">From £7,995 Installed</p>
-            <ul className="mt-6 space-y-3">
-              {glassPergolaIncludes.map((item) => (
-                <li key={item} className="flex items-start gap-2.5 text-sm text-ink-soft">
-                  <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <Link
-              href={premiumQuoteHref}
-              className="mt-6 inline-flex items-center justify-center gap-2 rounded-sm bg-accent px-5 py-2.5 text-sm font-semibold text-paper hover:bg-accent-dark"
-            >
-              Enquire About This
-              <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
-          </div>
-          <p className="mt-6 text-xs text-slate">
-            Final pricing depends on size, specification and site conditions.
-          </p>
-        </Container>
-      </section>
-
-      <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Gallery"
