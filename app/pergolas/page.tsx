@@ -41,12 +41,13 @@ const quoteHref = `/contact?service=${encodeURIComponent(SERVICE)}`;
 // Add a YouTube video ID to each "id" field below to bring these online —
 // leave blank to keep showing a placeholder card.
 const showcaseVideos: VideoItem[] = [
-  { id: "", title: "Pergola Showcase Reel 1" },
-  { id: "", title: "Pergola Showcase Reel 2" },
-  { id: "", title: "Pergola Showcase Reel 3" },
-  { id: "", title: "Pergola Showcase Reel 4" },
-  { id: "", title: "Pergola Showcase Reel 5" },
-  { id: "", title: "Pergola Showcase Reel 6" },
+  { id: "QMhN6MNVpk8", title: "Pergola Showcase Reel 1" },
+  { id: "sV_4PPBP2z0", title: "Pergola Showcase Reel 2" },
+  { id: "ovUn458YvX8", title: "Pergola Showcase Reel 3" },
+  { id: "2nRqZhW7LAg", title: "Pergola Showcase Reel 4" },
+  { id: "UPO0gwE6GTA", title: "Pergola Showcase Reel 5" },
+  { id: "jZ9gmZKRIt4", title: "Pergola Showcase Reel 6" },
+  { id: "8TeOr_Od2z0", title: "Pergola Showcase Reel 7" },
 ];
 
 const projectImages: GalleryImage[] = [
