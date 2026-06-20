@@ -86,6 +86,7 @@ const glassPergolaIncludes = [
 ];
 
 const glassPergolaGalleryImages: GalleryImage[] = [
+  { src: "/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.jpg", alt: "Wall mounted pergola with glass sliding doors in Hertfordshire", caption: "Wall Mounted Pergola With Glass Sliding Doors — Hertfordshire" },
   { src: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.jpg", alt: "Wall mounted aluminium pergola installation in Cuffley", caption: "Wall Mounted Aluminium Pergola — Cuffley" },
   { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
   { src: "/images/pergolas/aluminium-pergola-03.jpg", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
@@ -229,7 +230,7 @@ export default function PergolasPage() {
           <div className="mt-10 overflow-hidden rounded-sm border border-line">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/pergolas/wall-mounted-pergola-aluminium-hertfordshire.jpg"
+              src="/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.jpg"
               alt="Wall mounted pergola with glass sliding doors"
               loading="lazy"
               className="aspect-[16/8] w-full object-cover sm:aspect-[16/6]"
@@ -324,7 +325,7 @@ export default function PergolasPage() {
           <SectionHeading
             eyebrow="Gallery"
             title="Glass-Doored Pergola Installations"
-            subtitle="A selection of our aluminium pergola installations — dedicated glass sliding door photography coming soon."
+            subtitle="A selection of our aluminium pergola installations, including this glass sliding door system."
           />
           <div className="mt-10">
             <Gallery images={glassPergolaGalleryImages} />
