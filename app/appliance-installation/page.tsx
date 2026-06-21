@@ -86,7 +86,7 @@ const categories: PricingCategory[] = [
     items: [
       { name: "Integrated Dishwasher Installation", price: "From £125" },
       { name: "Integrated Washing Machine Installation", price: "From £125" },
-      { name: "Integrated Fridge Freezer Installation", price: "From £125" },
+      { name: "Integrated Fridge Freezer Installation", price: "From £165" },
     ],
   },
   {
