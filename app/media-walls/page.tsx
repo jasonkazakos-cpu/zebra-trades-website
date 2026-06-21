@@ -126,7 +126,7 @@ const processSteps: Step[] = [
 const galleryImages: GalleryImage[] = [
   { src: "/images/media-walls/modern-media-wall-cheshunt.jpg", alt: "Modern Media Wall Installation", caption: "Modern media wall installation — Cheshunt" },
   { src: "/images/media-walls/electric-fireplace-feature-wall-waltham-abbey.jpg", alt: "Electric Fireplace Feature Wall", caption: "Electric fireplace feature wall — Waltham Abbey" },
-  { src: "", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hoddesdon" },
+  { src: "/images/media-walls/luxury-lounge-media-wall-hertfordshire.jpg", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hertfordshire" },
   { src: "", alt: "Built-In Shelving Media Wall", caption: "Built-in shelving media wall — Broxbourne" },
   { src: "", alt: "Floating Media Wall", caption: "Floating media wall — Enfield" },
   { src: "", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
