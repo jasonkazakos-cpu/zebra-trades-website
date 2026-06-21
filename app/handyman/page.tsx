@@ -43,7 +43,7 @@ const packages: Package[] = [
   },
   {
     name: "Half Day Home Maintenance Visit",
-    price: "£225",
+    price: "£195",
     duration: "Around Half A Day",
     bestFor: "Best for working through several smaller jobs",
     description:
@@ -56,7 +56,7 @@ const packages: Package[] = [
   },
   {
     name: "Full Day Home Maintenance Visit",
-    price: "£395",
+    price: "£345",
     duration: "A Full Working Day",
     bestFor: "Best for bigger projects or a long task list",
     description:
