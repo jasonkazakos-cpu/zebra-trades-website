@@ -35,7 +35,7 @@ const packages: Package[] = [
     price: "From £1,795",
     bestFor: "Best for giving an existing kitchen a new lease of life",
     description:
-      "A cost-effective refresh for kitchens that don't need a full strip-out — refitting and updating what's already there.",
+      "A cost-effective door and panel replacement for kitchens that don't need a full strip-out — labour cost to replace doors, panels and plinth.",
     serviceLabel: SERVICE_LABEL,
   },
   {
