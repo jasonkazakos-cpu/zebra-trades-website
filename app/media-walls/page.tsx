@@ -129,7 +129,7 @@ const galleryImages: GalleryImage[] = [
   { src: "/images/media-walls/luxury-lounge-media-wall-hertfordshire.jpg", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hertfordshire" },
   { src: "/images/media-walls/built-in-shelving-media-wall-goffs-oak.jpg", alt: "Built-In Shelving Media Wall", caption: "Built-in shelving media wall — Goffs Oak" },
   { src: "", alt: "Floating Media Wall", caption: "Floating media wall — Enfield" },
-  { src: "", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
+  { src: "/images/media-walls/tv-fireplace-installation-cuffley.jpg", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
 ];
 
 const faqs: FaqItem[] = [
