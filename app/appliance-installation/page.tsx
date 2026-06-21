@@ -75,7 +75,7 @@ const categories: PricingCategory[] = [
     icon: "PlugZap",
     items: [
       { name: "Built-In Electric Oven Installation", price: "From £85" },
-      { name: "Electric Cooker Installation (existing circuit)", price: "From £95" },
+      { name: "Electric Cooker Installation (existing circuit)", price: "From £120" },
       { name: "Electric Hob Connection (existing circuit)", price: "From £95" },
       { name: "Cooker Hood Installation", price: "From £95" },
     ],
