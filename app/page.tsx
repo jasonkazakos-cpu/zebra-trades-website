@@ -134,6 +134,96 @@ export default function Home() {
 
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+            {/* Photo */}
+            <div className="flex justify-center lg:justify-start">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/jason-kazakos-profile.jpg"
+                alt="Jason Kazakos, owner of Zebra Trades in Cheshunt Hertfordshire"
+                loading="lazy"
+                className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)] sm:max-w-xs lg:max-w-sm"
+              />
+            </div>
+
+            {/* Content */}
+            <div>
+              <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+                <span className="h-px w-8 bg-accent" aria-hidden="true" />
+                Meet The Owner
+              </p>
+              <h2 className="mt-3 font-display text-3xl font-bold uppercase leading-[0.95] tracking-tight text-ink sm:text-4xl">
+                Meet Jason
+              </h2>
+              <p className="mt-1 font-display text-lg font-bold uppercase tracking-tight text-slate">
+                Local. Reliable. Experienced.
+              </p>
+
+              <div className="mt-6 space-y-4 text-sm leading-relaxed text-slate sm:text-base">
+                <p>
+                  With over {siteConfig.yearsTrading} years of hands-on trade
+                  experience, I take pride in delivering reliable workmanship,
+                  honest pricing and excellent customer service.
+                </p>
+                <p>
+                  Whether you need a handyman, kitchen installation, pergola,
+                  plumbing work or a media wall installation, every project
+                  receives the same attention to detail and commitment to
+                  quality.
+                </p>
+                <p>
+                  As a local business serving {siteConfig.baseTown},{" "}
+                  {siteConfig.county} and the surrounding areas, my goal is
+                  simple: to provide dependable home improvement services with
+                  clear communication and fair pricing from start to finish.
+                </p>
+              </div>
+
+              <p className="mt-5 font-display text-lg font-bold uppercase tracking-tight text-accent">
+                &ldquo;{siteConfig.motto}&rdquo;
+              </p>
+
+              {/* Trust badges */}
+              <ul className="mt-6 grid grid-cols-2 gap-2">
+                {[
+                  "28+ Years Experience",
+                  "Local Hertfordshire Business",
+                  "Free Quotations",
+                  "Honest Pricing",
+                  "Fully Insured",
+                  "Friendly & Reliable Service",
+                ].map((badge) => (
+                  <li
+                    key={badge}
+                    className="flex items-center gap-2 rounded-sm border border-line bg-paper px-3 py-2 text-xs font-medium text-ink"
+                  >
+                    <span className="size-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+                    {badge}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-8">
+                <p className="font-display text-xl font-bold uppercase tracking-tight text-ink">
+                  Let&apos;s Discuss Your Project
+                </p>
+                <p className="mt-1 text-sm text-slate">
+                  Contact Jason today for a free quotation and friendly advice.
+                </p>
+                <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+                  <Button href="/contact" variant="primary">Request a Free Quote</Button>
+                  <Button href={siteConfig.phoneHref} variant="ghost-dark">
+                    Call Now &middot; {siteConfig.phoneDisplay}
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="What Customers Say"
             title="Trusted By Homeowners Locally"
