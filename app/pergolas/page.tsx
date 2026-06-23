@@ -308,15 +308,15 @@ export default function PergolasPage() {
               </thead>
               <tbody className="divide-y divide-line bg-paper">
                 {[
-                  { row: "Wall Mounted", values: ["✓","-","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"] },
+                  { row: "Wall Mounted", values: ["✓","✓","-","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"] },
                   { row: "Freestanding", values: ["-","-","✓","-","-","-","-","-","✓","-","✓","✓","✓"] },
-                  { row: "Roofing: Polycarbonate", values: ["✓","✓","✓","-","-","-","-","-","-","-","-","-","-"] },
-                  { row: "Roofing: Other", values: ["-","-","-","Glass","Glass","Glass","Glass","Glass","Glass","PVC Cloth","Louvred","Louvred","Louvred"] },
+                  { row: "Roofing: Polycarbonate", values: ["✓","✓","✓","✓","✓","✓","✓","✓","-","-","-","-","-"] },
+                  { row: "Roofing: Other", values: ["-","-","-","Glass","Glass","Glass","Glass","Glass","Glass","PVC Cloth","Slats","Slats","Slats"] },
                   { row: "Motorized SOMFY", values: ["-","-","-","-","-","-","-","-","-","✓","✓","✓","✓"] },
-                  { row: "Maximum Width Mm", values: ["6045mm","7060mm+*","6060mm","7060mm+*","7060mm+*","7060mm+*","7060mm+*","6806mm","6980mm+*","6000mm","3500mm+*","4000mm+*","6980mm+*"] },
-                  { row: "Maximum Projection Mm", values: ["3500mm","6000mm","4000mm","6000mm","4000mm","6000mm","4000mm","4482mm","4500mm+*","4000mm","4947mm+*","6078mm+*","4500mm+*"] },
-                  { row: "Maximum Span On Two Posts Mm", values: ["4000mm","4000mm","4000mm","4000mm","7000mm","6000mm","7000mm","6806mm","6980mm","4000mm","4947mm","6078mm","6980mm"] },
-                  { row: "Available RAL Colours", values: ["RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9005","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024","RAL7024","RAL7024","RAL7024/9016/9005"] },
+                  { row: "Maximum Width Mm", values: ["6045","7060+*","6060","7060+*","7060+*","7060+*","7060+*","6806","6980+*","6000","3500+*","4000+*","6980+*"] },
+                  { row: "Maximum Projection Mm", values: ["3500","6000","4000","6000","4000","6000","4000","4482","4500+*","4000","4947+*","6078+*","4500+*"] },
+                  { row: "Maximum Span On Two Posts Mm", values: ["4000","4000","4000","4000","7000","6000","7000","6806","6980","4000","4947","6078","6980"] },
+                  { row: "Available RAL Colours", values: ["RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024","RAL7024","RAL7024","RAL7024/9016/9005"] },
                   { row: "Design Gutter", values: ["Half-round","Round/Classic","Round/Classic","Round/Classic","Round/Classic Plus","Square","Square Plus","Square","Square","Square","Square","Square","Square"] },
                   { row: "Design Posts", values: ["Square","Square/Half-round","Square","Square/Half-round","Square/Half-round","Rectangular","Rectangular/Square","Square","Square","Rectangular","Square","Square","Square"] },
                   { row: "Compatible With Sliding Glass Walls", values: Array(13).fill("✓") },
