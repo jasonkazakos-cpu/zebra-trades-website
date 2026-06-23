@@ -7,6 +7,7 @@ import VideoGallery, { type VideoItem } from "@/components/VideoGallery";
 import PrintButton from "@/components/PrintButton";
 import Gallery, { type GalleryImage } from "@/components/Gallery";
 import ValueProps from "@/components/ValueProps";
+import SectionNavPrompt from "@/components/SectionNavPrompt";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
 import { siteConfig } from "@/data/site";
@@ -238,6 +239,13 @@ export default function PergolasPage() {
         </Container>
       </section>
 
+      <SectionNavPrompt
+        heading="13 Pergola Models Available"
+        description="Compare sizes, roof types, colours and features before requesting a quotation."
+        buttonLabel="View Comparison Guide ↓"
+        targetId="pergola-comparison-guide"
+      />
+
       {/* Premium Wall Mounted Pergola With Glass Sliding Doors */}
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
@@ -363,7 +371,7 @@ export default function PergolasPage() {
       <CoverageArea background="paper" />
 
       {/* Product Comparison Guide */}
-      <section className="bg-chalk">
+      <section id="pergola-comparison-guide" className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Pergola Comparison Guide"

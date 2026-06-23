@@ -6,6 +6,7 @@ import Gallery, { type GalleryImage } from "@/components/Gallery";
 import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import SectionNavPrompt from "@/components/SectionNavPrompt";
 import { siteConfig } from "@/data/site";
 import { ShieldCheck, Wind, Sun, Home, ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -131,6 +132,13 @@ export default function ScreensAndPrivacyPanelsPage() {
         </Container>
       </section>
 
+      <SectionNavPrompt
+        heading="Compare Screens & Privacy Solutions"
+        description="Explore privacy screens, decorative panels and garden screening systems."
+        buttonLabel="View Product Range ↓"
+        targetId="product-range"
+      />
+
       {/* Introduction */}
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
@@ -167,7 +175,7 @@ export default function ScreensAndPrivacyPanelsPage() {
       </section>
 
       {/* Product Range — ready for future content */}
-      <section className="bg-paper">
+      <section id="product-range" className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Product Range"

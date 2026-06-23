@@ -12,6 +12,7 @@ import PricingCategoryCard, {
 import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import SectionNavPrompt from "@/components/SectionNavPrompt";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -204,6 +205,13 @@ export default function KitchenInstallationPage() {
         </Container>
       </section>
 
+      <SectionNavPrompt
+        heading="Kitchen Packages Starting From £1,795"
+        description="Compare package options, installation services and upgrades."
+        buttonLabel="View Kitchen Packages ↓"
+        targetId="kitchen-packages"
+      />
+
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
@@ -217,7 +225,7 @@ export default function KitchenInstallationPage() {
         </Container>
       </section>
 
-      <section className="bg-paper">
+      <section id="kitchen-packages" className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Guide Prices"
