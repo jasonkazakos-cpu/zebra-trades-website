@@ -4,6 +4,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
 import PergolaCalculator from "@/components/PergolaCalculator";
 import VideoGallery, { type VideoItem } from "@/components/VideoGallery";
+import PrintButton from "@/components/PrintButton";
 import Gallery, { type GalleryImage } from "@/components/Gallery";
 import ValueProps from "@/components/ValueProps";
 import CoverageArea from "@/components/CoverageArea";
@@ -359,7 +360,91 @@ export default function PergolasPage() {
         </Container>
       </section>
 
-      <CoverageArea background="chalk" />
+      <CoverageArea background="paper" />
+
+      {/* Product Comparison Guide */}
+      <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Pergola Comparison Guide"
+            title="Pergola Product Comparison Guide"
+            subtitle="Compare popular pergola and veranda options including wall mounted systems, freestanding systems, roof types, maximum sizes, colour options and compatibility with sliding glass walls."
+          />
+          <p className="mt-4 max-w-3xl text-sm text-slate">
+            This guide is designed to help customers compare the main pergola
+            options before requesting a quotation. Final recommendations and
+            pricing will depend on size, specification and site conditions.
+          </p>
+
+          {/* Print / Download buttons */}
+          <div className="mt-6 flex flex-wrap gap-3">
+            <PrintButton />
+            {/* Replace /pergola-product-guide.pdf with the real file path once uploaded to /public */}
+            <a
+              href="/pergola-product-guide.pdf"
+              className="inline-flex items-center gap-2 rounded-sm border border-line bg-paper px-4 py-2.5 text-sm font-semibold text-ink hover:border-ink transition-colors"
+            >
+              Download Product Guide
+            </a>
+          </div>
+
+          {/* Horizontally scrollable table */}
+          <div className="mt-8 overflow-x-auto rounded-sm border border-line">
+            <table className="min-w-full text-xs">
+              <thead>
+                <tr className="bg-ink text-paper">
+                  <th className="sticky left-0 z-10 bg-ink px-4 py-3 text-left font-mono text-[10px] uppercase tracking-wide whitespace-nowrap min-w-[160px]">
+                    Feature
+                  </th>
+                  {[
+                    "Nebbiolo","Bosco","Ribolla","Pigato","Pigato Plus",
+                    "Giallo","Giallo Plus","Trebbiano","Pinela Glass",
+                    "Verdeca","Pinela","Pinela Deluxe","Pinela Deluxe Plus",
+                  ].map((p) => (
+                    <th key={p} className="px-3 py-3 text-center font-mono text-[10px] uppercase tracking-wide whitespace-nowrap">
+                      {p}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-line bg-paper">
+                {[
+                  { row: "Wall Mounted", values: ["✓","-","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"] },
+                  { row: "Freestanding", values: ["-","-","✓","-","-","-","-","-","✓","-","✓","✓","✓"] },
+                  { row: "Roofing: Polycarbonate", values: ["✓","✓","✓","✓","✓","✓","✓","✓","-","-","-","-","-"] },
+                  { row: "Roofing: Other", values: ["-","-","-","Glass","Glass","Glass","Glass","Glass","Glass","PVC cloth","Slats","Slats","Slats"] },
+                  { row: "Motorised SOMFY", values: ["-","-","-","-","-","-","-","-","-","✓","✓","✓","✓"] },
+                  { row: "Max Width", values: ["6045mm","7060mm+*","6060mm","7060mm+*","7060mm+*","7060mm+*","7060mm+*","6806mm","6980mm+*","6000mm","3500mm+*","4000mm+*","6980mm+*"] },
+                  { row: "Max Projection", values: ["3500mm","6000mm","4000mm","6000mm","4000mm","6000mm","4000mm","4482mm","4500mm+*","4000mm","4947mm+*","6078mm+*","4500mm+*"] },
+                  { row: "Max Span (2 posts)", values: ["4000mm","4000mm","4000mm","4000mm","7000mm","6000mm","7000mm","6806mm","6980mm","4000mm","4947mm","6078mm","6980mm"] },
+                  { row: "Main RAL Colour", values: Array(13).fill("RAL7024") },
+                  { row: "Additional RAL Colours", values: ["RAL9001","RAL9001/9016/9005","RAL9005","RAL9001/9016/9005","RAL9016/9005","RAL9001/9016/9005","RAL9016/9005","RAL9016/9005","RAL9016/9005","-","-","-","RAL9016/9005"] },
+                  { row: "Gutter Design", values: ["Half-round","Round/Classic","Round/Classic","Round/Classic","Round/Classic Plus","Square","Square Plus","Square","Square","Square","Square","Square","Square"] },
+                  { row: "Post Design", values: ["Square","Square/Half-round","Square","Square/Half-round","Square/Half-round","Rectangular","Rectangular/Square","Square","Square","Rectangular","Square","Square","Square"] },
+                  { row: "Glass Walls Compatible", values: Array(13).fill("✓") },
+                ].map(({ row, values }, ri) => (
+                  <tr key={row} className={ri % 2 === 0 ? "bg-paper" : "bg-chalk/50"}>
+                    <td className="sticky left-0 z-10 bg-inherit px-4 py-2.5 font-medium text-ink whitespace-nowrap border-r border-line">
+                      {row}
+                    </td>
+                    {values.map((v, ci) => (
+                      <td key={ci} className={`px-3 py-2.5 text-center whitespace-nowrap ${v === "✓" ? "text-accent font-bold" : "text-ink-soft"}`}>
+                        {v}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-4 text-xs text-slate">
+            * Multiple systems can be linked together for wider installations.
+            Final suitability depends on product specification, site conditions
+            and survey.
+          </p>
+        </Container>
+      </section>
 
       <CtaBand
         title="Ready To Transform Your Garden?"
