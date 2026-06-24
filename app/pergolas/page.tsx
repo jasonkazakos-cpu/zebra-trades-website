@@ -287,54 +287,70 @@ export default function PergolasPage() {
             ))}
           </ul>
 
-          {/* Horizontally scrollable table */}
-          <div className="mt-8 overflow-x-auto rounded-sm border border-line">
-            <table className="min-w-full text-xs">
-              <thead>
-                <tr className="bg-ink text-paper">
-                  <th className="sticky left-0 z-10 bg-ink px-4 py-3 text-left font-mono text-[10px] uppercase tracking-wide whitespace-nowrap min-w-[160px]">
-                    Feature
-                  </th>
-                  {[
-                    "Nebbiolo","Bosco","Ribolla","Pigato","Pigato Plus",
-                    "Giallo","Giallo Plus","Trebbiano","Pinela Glass",
-                    "Verdeca","Pinela","Pinela Deluxe","Pinela Deluxe Plus",
-                  ].map((p) => (
-                    <th key={p} className="px-3 py-3 text-center font-mono text-[10px] uppercase tracking-wide whitespace-nowrap">
-                      {p}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-line bg-paper">
-                {[
-                  { row: "Wall Mounted", values: ["✓","✓","-","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"] },
-                  { row: "Freestanding", values: ["-","-","✓","-","-","-","-","-","✓","-","✓","✓","✓"] },
-                  { row: "Roofing: Polycarbonate", values: ["✓","✓","✓","✓","✓","✓","✓","✓","-","-","-","-","-"] },
-                  { row: "Roofing: Other", values: ["-","-","-","Glass","Glass","Glass","Glass","Glass","Glass","PVC Cloth","Slats","Slats","Slats"] },
-                  { row: "Motorized SOMFY", values: ["-","-","-","-","-","-","-","-","-","✓","✓","✓","✓"] },
-                  { row: "Maximum Width Mm", values: ["6045","7060+*","6060","7060+*","7060+*","7060+*","7060+*","6806","6980+*","6000","3500+*","4000+*","6980+*"] },
-                  { row: "Maximum Projection Mm", values: ["3500","6000","4000","6000","4000","6000","4000","4482","4500+*","4000","4947+*","6078+*","4500+*"] },
-                  { row: "Maximum Span On Two Posts Mm", values: ["4000","4000","4000","4000","7000","6000","7000","6806","6980","4000","4947","6078","6980"] },
-                  { row: "Available RAL Colours", values: ["RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024","RAL7024","RAL7024","RAL7024/9016/9005"] },
-                  { row: "Design Gutter", values: ["Half-round","Round/Classic","Round/Classic","Round/Classic","Round/Classic Plus","Square","Square Plus","Square","Square","Square","Square","Square","Square"] },
-                  { row: "Design Posts", values: ["Square","Square/Half-round","Square","Square/Half-round","Square/Half-round","Rectangular","Rectangular/Square","Square","Square","Rectangular","Square","Square","Square"] },
-                  { row: "Compatible With Sliding Glass Walls", values: Array(13).fill("✓") },
-                ].map(({ row, values }, ri) => (
-                  <tr key={row} className={ri % 2 === 0 ? "bg-paper" : "bg-chalk/50"}>
-                    <td className="sticky left-0 z-10 bg-inherit px-4 py-2.5 font-medium text-ink whitespace-nowrap border-r border-line">
-                      {row}
-                    </td>
-                    {values.map((v, ci) => (
-                      <td key={ci} className={`px-3 py-2.5 text-center whitespace-nowrap ${v === "✓" ? "text-accent font-bold" : "text-ink-soft"}`}>
-                        {v}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          {(() => {
+            const products = [
+              "Nebbiolo","Bosco","Ribolla","Pigato","Pigato Plus",
+              "Giallo","Giallo Plus","Trebbiano","Pinela Glass",
+              "Verdeca","Pinela","Pinela Deluxe","Pinela Deluxe Plus",
+            ];
+            const rows = [
+              { row: "Wall Mounted", values: ["✓","✓","-","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"] },
+              { row: "Freestanding", values: ["-","-","✓","-","-","-","-","-","✓","-","✓","✓","✓"] },
+              { row: "Roofing: Polycarbonate", values: ["✓","✓","✓","✓","✓","✓","✓","✓","-","-","-","-","-"] },
+              { row: "Roofing: Other", values: ["-","-","-","Glass","Glass","Glass","Glass","Glass","Glass","PVC Cloth","Slats","Slats","Slats"] },
+              { row: "Motorized SOMFY", values: ["-","-","-","-","-","-","-","-","-","✓","✓","✓","✓"] },
+              { row: "Maximum Width Mm", values: ["6045","7060+*","6060","7060+*","7060+*","7060+*","7060+*","6806","6980+*","6000","3500+*","4000+*","6980+*"] },
+              { row: "Maximum Projection Mm", values: ["3500","6000","4000","6000","4000","6000","4000","4482","4500+*","4000","4947+*","6078+*","4500+*"] },
+              { row: "Maximum Span On Two Posts Mm", values: ["4000","4000","4000","4000","7000","6000","7000","6806","6980","4000","4947","6078","6980"] },
+              { row: "Available RAL Colours", values: ["RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9001","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9001/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024/9016/9005","RAL7024","RAL7024","RAL7024","RAL7024/9016/9005"] },
+              { row: "Design Gutter", values: ["Half-round","Round/Classic","Round/Classic","Round/Classic","Round/Classic Plus","Square","Square Plus","Square","Square","Square","Square","Square","Square"] },
+              { row: "Design Posts", values: ["Square","Square/Half-round","Square","Square/Half-round","Square/Half-round","Rectangular","Rectangular/Square","Square","Square","Rectangular","Square","Square","Square"] },
+              { row: "Compatible With Sliding Glass Walls", values: Array(13).fill("✓") },
+            ];
+
+            const groups = [
+              { label: "Models 1–7", start: 0, end: 7 },
+              { label: "Models 8–13", start: 7, end: 13 },
+            ];
+
+            return groups.map((group) => (
+              <div key={group.label} className="mt-8">
+                <p className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+                  {group.label}
+                </p>
+                <div className="overflow-x-auto rounded-sm border border-line">
+                  <table className="min-w-full text-xs">
+                    <thead>
+                      <tr className="bg-ink text-paper">
+                        <th className="sticky left-0 z-10 bg-ink px-4 py-3 text-left font-mono text-[10px] uppercase tracking-wide whitespace-nowrap min-w-[160px]">
+                          Feature
+                        </th>
+                        {products.slice(group.start, group.end).map((p) => (
+                          <th key={p} className="px-3 py-3 text-center font-mono text-[10px] uppercase tracking-wide whitespace-nowrap">
+                            {p}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-line bg-paper">
+                      {rows.map(({ row, values }, ri) => (
+                        <tr key={row} className={ri % 2 === 0 ? "bg-paper" : "bg-chalk/50"}>
+                          <td className="sticky left-0 z-10 bg-inherit px-4 py-2.5 font-medium text-ink whitespace-nowrap border-r border-line">
+                            {row}
+                          </td>
+                          {values.slice(group.start, group.end).map((v, ci) => (
+                            <td key={ci} className={`px-3 py-2.5 text-center whitespace-nowrap ${v === "✓" ? "text-accent font-bold" : "text-ink-soft"}`}>
+                              {v}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ));
+          })()}
 
           <p className="mt-4 text-xs text-slate">
             *Multiple systems can be linked together to achieve larger
