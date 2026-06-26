@@ -13,6 +13,7 @@ import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
 import SectionNavPrompt from "@/components/SectionNavPrompt";
+import Gallery, { type GalleryImage } from "@/components/Gallery";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -130,6 +131,17 @@ const kitchenBrands = [
   "B&Q",
   "DIY Kitchens",
   "Benchmarx",
+];
+
+const kitchenGalleryImages: GalleryImage[] = [
+  { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge indigo kitchen installation", caption: "Cambridge Indigo Kitchen" },
+  { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto vero white kitchen installation", caption: "Stratto Vero White Kitchen" },
+  { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto vero white and rose gold kitchen installation", caption: "Stratto Vero White & Rose Gold Kitchen" },
+  { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.jpg", alt: "Vivo gloss ivory and vero cameo kitchen installation", caption: "Vivo Gloss Ivory & Vero Cameo Kitchen" },
+  { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.jpg", alt: "Vivo gloss vero dust grey kitchen installation", caption: "Vivo Gloss Vero Dust Grey Kitchen" },
+  { src: "/images/kitchen-design/vivo-vero-smoke-blue-kitchen.jpg", alt: "Vivo vero smoke blue kitchen installation", caption: "Vivo Vero Smoke Blue Kitchen" },
+  { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen installation", caption: "Windsor Sage Green Kitchen" },
+  { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white oak kitchen installation", caption: "Windsor White Oak Kitchen" },
 ];
 
 const kitchenFaqs: FaqItem[] = [
@@ -286,6 +298,19 @@ export default function KitchenInstallationPage() {
                 {brand}
               </span>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Gallery"
+            title="Recent Kitchen Installations"
+            subtitle="A selection of kitchens we've designed and installed across Hertfordshire."
+          />
+          <div className="mt-10">
+            <Gallery images={kitchenGalleryImages} />
           </div>
         </Container>
       </section>
