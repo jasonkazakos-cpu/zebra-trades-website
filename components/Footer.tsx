@@ -34,6 +34,15 @@ export default function Footer() {
             <FacebookIcon className="size-4" />
             Follow Zebra Trades on Facebook
           </a>
+          <a
+            href={siteConfig.googleReviewUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Leave a Google review for Zebra Trades (opens in a new tab)"
+            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+          >
+            ⭐ Leave Us a Google Review
+          </a>
         </div>
 
         <div>

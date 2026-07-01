@@ -81,19 +81,30 @@ export default function ContactPage() {
 
             <div className="mt-8 border-t border-paper/15 pt-6">
               <h4 className="font-mono text-xs uppercase tracking-[0.2em] text-paper/55">
-                Follow Zebra Trades
+                Find &amp; Review Zebra Trades
               </h4>
-              <a
-                href={siteConfig.facebookUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
-                title="Zebra Trades on Facebook"
-                className="mt-4 inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
-              >
-                <FacebookIcon className="size-4" />
-                Facebook
-              </a>
+              <div className="mt-4 flex flex-wrap gap-3">
+                <a
+                  href={siteConfig.facebookUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Zebra Trades on Facebook (opens in a new tab)"
+                  title="Zebra Trades on Facebook"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                >
+                  <FacebookIcon className="size-4" />
+                  Facebook
+                </a>
+                <a
+                  href={siteConfig.googleReviewUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Leave a Google review for Zebra Trades (opens in a new tab)"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                >
+                  ⭐ Leave a Google Review
+                </a>
+              </div>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 border-t border-paper/15 pt-6">
