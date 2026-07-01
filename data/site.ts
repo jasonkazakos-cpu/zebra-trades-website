@@ -6,6 +6,7 @@ export const siteConfig = {
   phoneHref: "tel:+447872121425",
   email: "info@zebratrades.co.uk",
   facebookUrl: "https://www.facebook.com/ZebraTradesUK/",
+  facebookReviewsUrl: "https://www.facebook.com/ZebraTradesUK/reviews",
   googleReviewUrl: "https://g.page/r/CVm_NAMmnyldEAE/review",
   // TODO: confirm real opening hours
   hours: [
