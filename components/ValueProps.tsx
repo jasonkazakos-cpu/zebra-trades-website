@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck } from "lucide-react";
+import { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck, BadgeCheck } from "lucide-react";
 import { siteConfig } from "@/data/site";
 
 export type ValueItem = {
@@ -39,9 +39,14 @@ const defaultItems: ValueItem[] = [
     title: "Local Hertfordshire Business",
     body: "A genuinely local team, based in Cheshunt and working across Hertfordshire every week.",
   },
+  {
+    icon: BadgeCheck,
+    title: "DBS Checked",
+    body: "All work carried out by DBS checked tradespeople — safe, professional and trustworthy in your home.",
+  },
 ];
 
-export { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck };
+export { Wrench, Award, FileSignature, ShieldCheck, Hammer, MapPin, UserCheck, Sparkles, PackageCheck, BadgeCheck };
 
 export default function ValueProps({ items = defaultItems }: { items?: ValueItem[] }) {
   return (

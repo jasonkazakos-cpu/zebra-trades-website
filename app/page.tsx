@@ -191,6 +191,7 @@ export default function Home() {
                   "Free Quotations",
                   "Honest Pricing",
                   "Fully Insured",
+                  "DBS Checked",
                   "Friendly & Reliable Service",
                 ].map((badge) => (
                   <li
