@@ -96,6 +96,15 @@ export default function ContactPage() {
                   Facebook
                 </a>
                 <a
+                  href={siteConfig.googleReadReviewsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Read Zebra Trades Google reviews (opens in a new tab)"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                >
+                  ⭐ Read Our Google Reviews
+                </a>
+                <a
                   href={siteConfig.googleReviewUrl}
                   target="_blank"
                   rel="noopener noreferrer"
