@@ -166,6 +166,17 @@ const kitchenGalleryImages: GalleryImage[] = [
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge indigo kitchen installation", caption: "Cambridge Indigo Kitchen" },
   { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen installation", caption: "Windsor Sage Green Kitchen" },
   { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white oak kitchen installation", caption: "Windsor White Oak Kitchen" },
+  { src: "/images/kitchen-gallery/jefferson-kitchen-broxbourne.jpg", alt: "Jefferson kitchen installation in Broxbourne", caption: "Jefferson Kitchen — Broxbourne" },
+  { src: "/images/kitchen-gallery/jefferson-kitchen-northamptonshire.jpg", alt: "Jefferson kitchen installation in Northamptonshire", caption: "Jefferson Kitchen — Northamptonshire" },
+  { src: "/images/kitchen-gallery/jefferson-kitchen-ivory-traditional-broxbourne.jpg", alt: "Jefferson ivory traditional kitchen installation in Broxbourne", caption: "Jefferson Ivory Traditional — Broxbourne" },
+  { src: "/images/kitchen-gallery/kitchen-indigo-cashmere-flitwick.jpg", alt: "Indigo and cashmere kitchen installation in Flitwick", caption: "Indigo & Cashmere Kitchen — Flitwick" },
+  { src: "/images/kitchen-gallery/kitchen-design-supply-local.jpg", alt: "Kitchen design and supply by Zebra Trades", caption: "Kitchen Design & Supply" },
+  { src: "/images/kitchen-gallery/kitchen-install-broxbourne-white-gloss.jpg", alt: "White gloss kitchen installation in Broxbourne", caption: "White Gloss Kitchen — Broxbourne" },
+  { src: "/images/kitchen-gallery/luxury-kitchen-ampthill.jpg", alt: "Luxury high quality kitchen installation in Ampthill", caption: "Luxury Kitchen — Ampthill" },
+  { src: "/images/kitchen-gallery/marine-blue-solid-wood-kitchen-stamford.jpg", alt: "Marine blue solid wood kitchen installation in Stamford", caption: "Marine Blue Solid Wood — Stamford" },
+  { src: "/images/kitchen-gallery/shaker-jefferson-luxury-kitchen-cuffley.jpg", alt: "Shaker raised panel Jefferson luxury kitchen in Cuffley", caption: "Shaker Jefferson Luxury — Cuffley" },
+  { src: "/images/kitchen-gallery/solid-oak-kitchen-broxbourne.jpg", alt: "Solid oak kitchen installation in Broxbourne", caption: "Solid Oak Kitchen — Broxbourne" },
+  { src: "/images/kitchen-gallery/solid-shaker-kitchen-broxbourne.jpg", alt: "Solid shaker kitchen installation in Broxbourne", caption: "Solid Shaker Kitchen — Broxbourne" },
 ];
 
 const kitchenFaqs: FaqItem[] = [
