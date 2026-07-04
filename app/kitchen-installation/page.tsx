@@ -158,11 +158,6 @@ const kitchenGalleryImages: GalleryImage[] = [
   { src: "/images/kitchen-gallery/before-and-after-sage-green-shaker-door.png", alt: "Before and after sage green shaker door kitchen installation", caption: "Sage Green Shaker Door" },
   { src: "/images/kitchen-gallery/before-and-after-white-gloss-kitchen-cheshunt.png", alt: "Before and after white gloss kitchen installation in Cheshunt", caption: "White Gloss Kitchen — Cheshunt" },
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge indigo kitchen installation", caption: "Cambridge Indigo Kitchen" },
-  { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto vero white kitchen installation", caption: "Stratto Vero White Kitchen" },
-  { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto vero white and rose gold kitchen installation", caption: "Stratto Vero White & Rose Gold Kitchen" },
-  { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.jpg", alt: "Vivo gloss ivory and vero cameo kitchen installation", caption: "Vivo Gloss Ivory & Vero Cameo Kitchen" },
-  { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.jpg", alt: "Vivo gloss vero dust grey kitchen installation", caption: "Vivo Gloss Vero Dust Grey Kitchen" },
-  { src: "/images/kitchen-design/vivo-vero-smoke-blue-kitchen.jpg", alt: "Vivo vero smoke blue kitchen installation", caption: "Vivo Vero Smoke Blue Kitchen" },
   { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen installation", caption: "Windsor Sage Green Kitchen" },
   { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white oak kitchen installation", caption: "Windsor White Oak Kitchen" },
 ];
