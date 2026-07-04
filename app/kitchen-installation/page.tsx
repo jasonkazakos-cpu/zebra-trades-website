@@ -134,6 +134,29 @@ const kitchenBrands = [
 ];
 
 const kitchenGalleryImages: GalleryImage[] = [
+  { src: "/images/kitchen-gallery/before-and-after-black-anthracite-matt-hertfordshire-lucente.png", alt: "Before and after black anthracite matt handleless kitchen installation in Hertfordshire", caption: "Black Anthracite Matt — Hertfordshire" },
+  { src: "/images/kitchen-gallery/before-and-after-black-and-off-white-kitchen-slab-flat-door-easy-clean-goffs-oak.png", alt: "Before and after black and off-white slab flat door easy-clean kitchen in Goffs Oak", caption: "Black & Off-White Slab Door — Goffs Oak" },
+  { src: "/images/kitchen-gallery/before-and-after-black-and-white-gloss-kitchen-slab-flat-door-easy-clean-cuffley.png", alt: "Before and after black and white gloss slab flat door easy-clean kitchen in Cuffley", caption: "Black & White Gloss Slab Door — Cuffley" },
+  { src: "/images/kitchen-gallery/before-and-after-blue-and-cashmere-wooden-kitchen-doors-hertford-.png", alt: "Before and after blue and cashmere wooden kitchen door installation in Hertford", caption: "Blue & Cashmere Wooden Doors — Hertford" },
+  { src: "/images/kitchen-gallery/before-and-after-blue-and-cashmere-wooden-kitchen-doors-hertford-town.png", alt: "Before and after blue and cashmere wooden kitchen doors in Hertford town", caption: "Blue & Cashmere Wooden Doors — Hertford Town" },
+  { src: "/images/kitchen-gallery/before-and-after-grey-waltham-abbey-lucente-handle-less-kitchen.png", alt: "Before and after grey Lucente handleless kitchen installation in Waltham Abbey", caption: "Grey Lucente Handleless — Waltham Abbey" },
+  { src: "/images/kitchen-gallery/before-and-after-indigo-shaker-door-cheshunt.png", alt: "Before and after indigo shaker door kitchen installation in Cheshunt", caption: "Indigo Shaker Door — Cheshunt" },
+  { src: "/images/kitchen-gallery/before-and-after-ivory-shaker-solid-wood-door-hertfordshire-kitchen.png", alt: "Before and after ivory shaker solid wood door kitchen in Hertfordshire", caption: "Ivory Shaker Solid Wood — Hertfordshire" },
+  { src: "/images/kitchen-gallery/before-and-after-light-grey-dove-grey-matt-kitchen-.png", alt: "Before and after light grey and dove grey matt kitchen installation", caption: "Light Grey & Dove Grey Matt Kitchen" },
+  { src: "/images/kitchen-gallery/before-and-after-light-grey-gloss-kitchen-waltham-abbey.png", alt: "Before and after light grey gloss kitchen installation in Waltham Abbey", caption: "Light Grey Gloss — Waltham Abbey" },
+  { src: "/images/kitchen-gallery/before-and-after-luxury-solid-wood-kitchen-cuffley.png", alt: "Before and after luxury solid wood kitchen installation in Cuffley", caption: "Luxury Solid Wood Kitchen — Cuffley" },
+  { src: "/images/kitchen-gallery/before-and-after-luxury-solid-wood-kitchen-indigo-and-ivory-cream-hertfordshire.png", alt: "Before and after luxury solid wood indigo and ivory cream kitchen in Hertfordshire", caption: "Luxury Solid Wood Indigo & Ivory — Hertfordshire" },
+  { src: "/images/kitchen-gallery/before-and-after-shaker-solid-wood-italian-doors-hertfordshire.png", alt: "Before and after shaker solid wood Italian door kitchen in Hertfordshire", caption: "Shaker Solid Wood Italian Doors — Hertfordshire" },
+  { src: "/images/kitchen-gallery/before-and-after-sky-blue-slab-flat-door-hoddesdon.png", alt: "Before and after sky blue slab flat door kitchen installation in Hoddesdon", caption: "Sky Blue Slab Door — Hoddesdon" },
+  { src: "/images/kitchen-gallery/before-and-after-white-gloss-goffs-oak-stamford-lucente.png", alt: "Before and after white gloss Stamford Lucente kitchen in Goffs Oak", caption: "White Gloss Lucente — Goffs Oak" },
+  { src: "/images/kitchen-gallery/before-and-after-white-gloss-kitchen-handle-less-lighting-under-worktop-waltham-cross-.png", alt: "Before and after white gloss handleless kitchen with under-worktop lighting in Waltham Cross", caption: "White Gloss Handleless & Lighting — Waltham Cross" },
+  { src: "/images/kitchen-gallery/before-and-after-wood-grain-and-indigo-waltham-cross.png", alt: "Before and after wood grain and indigo kitchen installation in Waltham Cross", caption: "Wood Grain & Indigo — Waltham Cross" },
+  { src: "/images/kitchen-gallery/before-and-after-dark-grey-gloss-slab-flat-door.png", alt: "Before and after dark grey gloss slab flat door kitchen installation", caption: "Dark Grey Gloss Slab Door" },
+  { src: "/images/kitchen-gallery/before-and-after-flat-slab-door-off-white-matt-goffs-oak.png", alt: "Before and after flat slab door off-white matt kitchen in Goffs Oak", caption: "Off-White Matt Slab Door — Goffs Oak" },
+  { src: "/images/kitchen-gallery/before-and-after-flat-slab-door-off-white-matt-hertfordshire.png", alt: "Before and after flat slab door off-white matt kitchen in Hertfordshire", caption: "Off-White Matt Slab Door — Hertfordshire" },
+  { src: "/images/kitchen-gallery/before-and-after-handless-kitchen-j-pull-cheshunt.png", alt: "Before and after handleless J-pull kitchen installation in Cheshunt", caption: "Handleless J-Pull Kitchen — Cheshunt" },
+  { src: "/images/kitchen-gallery/before-and-after-sage-green-shaker-door.png", alt: "Before and after sage green shaker door kitchen installation", caption: "Sage Green Shaker Door" },
+  { src: "/images/kitchen-gallery/before-and-after-white-gloss-kitchen-cheshunt.png", alt: "Before and after white gloss kitchen installation in Cheshunt", caption: "White Gloss Kitchen — Cheshunt" },
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge indigo kitchen installation", caption: "Cambridge Indigo Kitchen" },
   { src: "/images/kitchen-design/stratto-vero-white-kitchen.jpg", alt: "Stratto vero white kitchen installation", caption: "Stratto Vero White Kitchen" },
   { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.jpg", alt: "Stratto vero white and rose gold kitchen installation", caption: "Stratto Vero White & Rose Gold Kitchen" },
@@ -214,6 +237,19 @@ export default function KitchenInstallationPage() {
           </div>
 
           <Docket />
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Gallery"
+            title="Kitchen Installation Gallery"
+            subtitle="Real kitchen transformations completed by Zebra Trades."
+          />
+          <div className="mt-10">
+            <Gallery images={kitchenGalleryImages} />
+          </div>
         </Container>
       </section>
 
@@ -298,19 +334,6 @@ export default function KitchenInstallationPage() {
                 {brand}
               </span>
             ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-paper">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
-            eyebrow="Gallery"
-            title="Recent Kitchen Installations"
-            subtitle="A selection of kitchens we've designed and installed across Hertfordshire."
-          />
-          <div className="mt-10">
-            <Gallery images={kitchenGalleryImages} />
           </div>
         </Container>
       </section>
