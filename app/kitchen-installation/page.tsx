@@ -162,6 +162,7 @@ const kitchenGalleryImages: GalleryImage[] = [
   { src: "/images/kitchen-gallery/white-gloss-j-pull-handleless-kitchen-goffs-oak.jpg", alt: "White gloss J-pull handleless kitchen installation in Goffs Oak", caption: "White Gloss J-Pull Handleless — Goffs Oak" },
   { src: "/images/kitchen-gallery/white-gloss-kitchen-cheshunt-2.jpg", alt: "White gloss kitchen installation in Cheshunt", caption: "White Gloss Kitchen — Cheshunt" },
   { src: "/images/kitchen-gallery/white-gloss-kitchen-rear-extension-cheshunt.jpg", alt: "White gloss kitchen in rear extension in Cheshunt", caption: "White Gloss Kitchen Rear Extension — Cheshunt" },
+  { src: "/images/kitchen-gallery/luxury-kitchen-solid-wood-doors-hertfordshire.jpg", alt: "Luxury solid wood door kitchen installation in Hertfordshire", caption: "Luxury Solid Wood Doors — Hertfordshire" },
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.jpg", alt: "Cambridge indigo kitchen installation", caption: "Cambridge Indigo Kitchen" },
   { src: "/images/kitchen-design/windsor-sage-green-kitchen.jpg", alt: "Windsor sage green kitchen installation", caption: "Windsor Sage Green Kitchen" },
   { src: "/images/kitchen-design/windsor-white-oak-kitchen.jpg", alt: "Windsor white oak kitchen installation", caption: "Windsor White Oak Kitchen" },
