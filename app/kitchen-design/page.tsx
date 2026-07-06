@@ -245,14 +245,14 @@ export default function KitchenDesignPage() {
       {/* Promotional banners */}
       <section className="bg-paper">
         <Container className="py-12">
-          <div className="grid gap-6 sm:grid-cols-3">
+          <div className="flex flex-col gap-8 mx-auto" style={{ maxWidth: "860px" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/kitchen-design/promo-cabinet-construction.png"
               alt="Premium cabinet construction — built to last, designed to impress"
               width={1448}
               height={1086}
-              style={{ width: "100%", height: "auto", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
+              style={{ width: "100%", height: "auto", maxHeight: "600px", objectFit: "contain", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
               loading="lazy"
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -261,7 +261,7 @@ export default function KitchenDesignPage() {
               alt="Bespoke colours and fast delivery — kitchen designs designed around you"
               width={1402}
               height={1122}
-              style={{ width: "100%", height: "auto", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
+              style={{ width: "100%", height: "auto", maxHeight: "600px", objectFit: "contain", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
               loading="lazy"
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -270,7 +270,7 @@ export default function KitchenDesignPage() {
               alt="Why choose Zebra Trades — why pay more for a premium kitchen"
               width={1672}
               height={941}
-              style={{ width: "100%", height: "auto", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
+              style={{ width: "100%", height: "auto", maxHeight: "600px", objectFit: "contain", borderRadius: "12px", boxShadow: "0 4px 16px 0 rgba(0,0,0,0.10)" }}
               loading="lazy"
             />
           </div>
