@@ -113,7 +113,7 @@ const categories: PricingCategory[] = [
       { name: "Shower Tray Installation", price: "From £350" },
       { name: "Shower Screen Installation", price: "From £120" },
       { name: "Bath Installation", price: "From £350" },
-      { name: "Bath Tap & Waste Replacement", price: "From £110" },
+      { name: "Bath Tap & Waste Replacement", price: "From £140" },
     ],
   },
   {
