@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
@@ -240,6 +241,39 @@ export default function KitchenDesignPage() {
             </Button>
           </div>
         </Container>
+      </section>
+
+      {/* Promotional banners */}
+      <section className="bg-paper">
+        <div className="mx-auto max-w-[1400px] w-full px-4 py-12 sm:px-6 lg:px-8 flex flex-col gap-10">
+          <Image
+            src="/images/kitchen-design/promo-cabinet-construction.png"
+            alt="Premium cabinet construction — built to last, designed to impress"
+            width={1400}
+            height={0}
+            sizes="(max-width: 768px) 100vw, (max-width: 1400px) 100vw, 1400px"
+            style={{ width: "100%", height: "auto", borderRadius: "16px", boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)" }}
+            loading="lazy"
+          />
+          <Image
+            src="/images/kitchen-design/promo-bespoke-colours-delivery.png"
+            alt="Bespoke colours and fast delivery — kitchen designs designed around you"
+            width={1400}
+            height={0}
+            sizes="(max-width: 768px) 100vw, (max-width: 1400px) 100vw, 1400px"
+            style={{ width: "100%", height: "auto", borderRadius: "16px", boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)" }}
+            loading="lazy"
+          />
+          <Image
+            src="/images/kitchen-design/promo-why-choose-zebra-trades.png"
+            alt="Why choose Zebra Trades — why pay more for a premium kitchen"
+            width={1400}
+            height={0}
+            sizes="(max-width: 768px) 100vw, (max-width: 1400px) 100vw, 1400px"
+            style={{ width: "100%", height: "auto", borderRadius: "16px", boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)" }}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Why Choose */}
