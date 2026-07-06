@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
 import ValueProps, {
-  Wrench, Award, FileSignature, UserCheck, MapPin, PackageCheck,
+  Wrench, Award, FileSignature, ShieldCheck, MapPin, PackageCheck, UserCheck, Sparkles, Hammer, BadgeCheck,
   type ValueItem,
 } from "@/components/ValueProps";
 import ProcessSteps, { type Step } from "@/components/ProcessSteps";
@@ -40,34 +40,44 @@ const SERVICE_LABEL = "Kitchen Design & Supply";
 
 const trustItems: ValueItem[] = [
   {
-    icon: Wrench,
-    title: `${siteConfig.yearsTrading} Years Trade Experience`,
-    body: "Deep trade knowledge behind every kitchen project — from the first sketch to the final fixture.",
-  },
-  {
     icon: Award,
-    title: `Established ${siteConfig.yearsAsZebra} Years`,
-    body: "A trusted local name across Cheshunt and Hertfordshire for the past seven years.",
-  },
-  {
-    icon: UserCheck,
-    title: "Personal Service",
-    body: "One point of contact throughout your project — no handoffs, no confusion.",
+    title: "Premium-Quality Kitchen Cabinets",
+    body: "We source high-specification cabinets built to last — the quality you'd expect from a top showroom, without the price tag.",
   },
   {
     icon: FileSignature,
-    title: "Transparent Pricing",
-    body: "Written quotations agreed before anything starts. No verbal estimates, no surprises.",
+    title: "Honest, Competitive Pricing",
+    body: "Clear, written fixed-price quotes agreed before we start. No hidden costs, no verbal estimates.",
   },
   {
     icon: MapPin,
-    title: "Trusted Local Business",
-    body: "Based in Cheshunt, working across Hertfordshire — a local team you can rely on.",
+    title: "No Expensive Showroom Overheads",
+    body: "We don't carry the running costs of a large showroom — those savings are passed directly to you.",
+  },
+  {
+    icon: Sparkles,
+    title: "Bespoke Manufactured Kitchens",
+    body: "Made-to-measure kitchens designed around your space and style, not off-the-shelf compromises.",
+  },
+  {
+    icon: Hammer,
+    title: "Expert Installation Available",
+    body: "Full fitting by our own experienced team — or supply-only if you prefer to use your own installer.",
+  },
+  {
+    icon: UserCheck,
+    title: "Friendly Advice From Experienced Installers",
+    body: "Guidance from people who have fitted hundreds of kitchens — practical, honest and always on your side.",
   },
   {
     icon: PackageCheck,
-    title: "Design, Supply & Installation",
-    body: "We can handle the full project from first ideas right through to a finished, fitted kitchen.",
+    title: "Fast Lead Times",
+    body: "We keep things moving. From confirmation to delivery, we work to a schedule that suits you.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Excellent Customer Service",
+    body: "We're with you from first enquiry to finished kitchen — responsive, reliable and easy to deal with.",
   },
 ];
 
@@ -236,12 +246,28 @@ export default function KitchenDesignPage() {
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            eyebrow="Why Zebra Trades"
-            title="Why Choose Zebra Trades?"
-            subtitle="A personal, professional kitchen service from a team with decades of experience."
+            eyebrow="Why Choose Zebra Trades"
+            title="Why Pay More?"
+            subtitle="Premium kitchens don't have to mean premium showroom prices."
           />
           <div className="mt-10">
             <ValueProps items={trustItems} />
+          </div>
+          <div className="mt-12 rounded-sm border border-accent/30 bg-paper p-8 text-center">
+            <p className="font-display text-xl font-bold uppercase tracking-tight text-ink sm:text-2xl">
+              Call today for a free quotation
+            </p>
+            <p className="mt-3 text-base text-slate">
+              Discover how much you could save without compromising on quality.
+            </p>
+            <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+              <Button href={siteConfig.phoneHref} variant="primary">
+                Call {siteConfig.phoneDisplay}
+              </Button>
+              <Button href={`/contact?service=${encodeURIComponent(SERVICE_LABEL)}`} variant="ghost-dark">
+                Request a Free Quote
+              </Button>
+            </div>
           </div>
         </Container>
       </section>
