@@ -129,16 +129,6 @@ const categories: PricingCategory[] = [
     note: "Large fencing projects benefit from reduced labour rates. Contact us for a free quotation.",
   },
   {
-    title: "Garden & Outdoor",
-    icon: "Umbrella",
-    items: [
-      { name: "Shed Assembly", price: "From £180" },
-      { name: "Pergola Assembly", price: "From £250" },
-      { name: "Decking Repairs", price: "From £120" },
-      { name: "Outside Tap Installation", price: "From £85" },
-    ],
-  },
-  {
     title: "Home Maintenance",
     icon: "Wrench",
     items: [
