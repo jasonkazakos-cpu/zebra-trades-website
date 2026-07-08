@@ -114,12 +114,22 @@ const categories: PricingCategory[] = [
     ],
   },
   {
+    title: "Gates & Fencing",
+    icon: "Fence",
+    items: [
+      { name: "Replace Fence Panel", price: "From £95" },
+      { name: "Replace Fence Post", price: "From £120" },
+      { name: "Replace Gravel Board", price: "From £95" },
+      { name: "Replace Garden Gate", price: "From £120" },
+      { name: "Fence Repair", price: "From £95" },
+      { name: "New Fence Installation", price: "From £175 per bay" },
+      { name: "Premium Closeboard Fence", price: "From £195 per bay" },
+    ],
+  },
+  {
     title: "Garden & Outdoor",
     icon: "Umbrella",
     items: [
-      { name: "Garden Gate Installation", price: "From £140" },
-      { name: "Fence Panel Replacement", price: "From £90" },
-      { name: "Fence Post Replacement", price: "From £120" },
       { name: "Shed Assembly", price: "From £180" },
       { name: "Pergola Assembly", price: "From £250" },
       { name: "Decking Repairs", price: "From £120" },

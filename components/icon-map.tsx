@@ -10,6 +10,7 @@ import {
   Wind,
   Flame,
   PanelRight,
+  Fence,
   type LucideProps,
 } from "lucide-react";
 
@@ -25,6 +26,7 @@ export const iconMap: Record<string, React.ComponentType<LucideProps>> = {
   Wind,
   Flame,
   PanelRight,
+  Fence,
 };
 
 export function ServiceIcon({
