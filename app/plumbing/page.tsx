@@ -77,56 +77,56 @@ const categories: PricingCategory[] = [
     title: "Taps & Sinks",
     icon: "Droplets",
     items: [
-      { name: "Tap Washer Replacement", price: "From £55" },
-      { name: "Tap Re-Seating", price: "From £65" },
+      { name: "Tap Washer Replacement", price: "From £75" },
+      { name: "Tap Re-Seating", price: "From £75" },
       { name: "Mixer Tap Replacement", price: "From £95" },
-      { name: "Kitchen Tap Installation (customer supplied)", price: "From £95" },
-      { name: "Bathroom Tap Installation (customer supplied)", price: "From £85" },
-      { name: "Outside Tap Installation", price: "From £120" },
-      { name: "Sink Installation", price: "From £150" },
-      { name: "Waste Trap Replacement", price: "From £55" },
-      { name: "Boiling Water Tap Installation", price: "From £195" },
+      { name: "Kitchen Tap Installation (Customer Supplied)", price: "From £95" },
+      { name: "Bathroom Tap Installation (Customer Supplied)", price: "From £95" },
+      { name: "Outside Tap Installation", price: "From £140" },
+      { name: "Kitchen Sink Installation", price: "From £175" },
+      { name: "Waste Trap Replacement", price: "From £75" },
+      { name: "Boiling Water Tap Installation", price: "From £225" },
     ],
   },
   {
     title: "Toilets & WC",
     icon: "Wrench",
     items: [
-      { name: "Toilet Seat Replacement", price: "From £45" },
-      { name: "Flush Valve Replacement", price: "From £65" },
-      { name: "Cistern Repair", price: "From £75" },
-      { name: "Fill Valve Replacement", price: "From £65" },
-      { name: "Toilet Isolation Valve Replacement", price: "From £75" },
-      { name: "Full Toilet Replacement", price: "From £175" },
-      { name: "Close Coupled Toilet Installation", price: "From £195" },
-      { name: "Wall Hung Toilet Installation", price: "From £250" },
+      { name: "Toilet Seat Replacement", price: "From £75" },
+      { name: "Flush Valve Replacement", price: "From £95" },
+      { name: "Cistern Repair", price: "From £95" },
+      { name: "Fill Valve Replacement", price: "From £95" },
+      { name: "Toilet Isolation Valve Replacement", price: "From £85" },
+      { name: "Full Toilet Replacement", price: "From £195" },
+      { name: "Close Coupled Toilet Installation", price: "From £225" },
+      { name: "Wall Hung Toilet Installation", price: "From £325" },
     ],
   },
   {
     title: "Showers & Baths",
     icon: "Droplets",
     items: [
-      { name: "Shower Head Replacement", price: "From £45" },
-      { name: "Shower Hose Replacement", price: "From £45" },
-      { name: "Shower Valve Replacement", price: "From £150" },
-      { name: "Electric Shower Installation", price: "From £195" },
-      { name: "Shower Tray Installation", price: "From £350" },
+      { name: "Shower Head Replacement", price: "From £75" },
+      { name: "Shower Hose Replacement", price: "From £75" },
+      { name: "Shower Valve Replacement", price: "From £175" },
+      { name: "Electric Shower Installation", price: "From £225" },
+      { name: "Shower Tray Installation", price: "From £395" },
       { name: "Shower Screen Installation", price: "From £120" },
-      { name: "Bath Installation", price: "From £350" },
-      { name: "Bath Tap & Waste Replacement", price: "From £140" },
+      { name: "Bath Installation", price: "From £425" },
+      { name: "Bath Tap & Waste Replacement", price: "From £160" },
     ],
   },
   {
     title: "Radiators & Heating",
     icon: "Wrench",
     items: [
-      { name: "Radiator Bleed", price: "From £45" },
-      { name: "TRV (Thermostatic Valve) Replacement", price: "From £75" },
-      { name: "Radiator Valve Replacement", price: "From £85" },
-      { name: "Radiator Removal & Refit", price: "From £120" },
-      { name: "Radiator Replacement (standard size)", price: "From £150" },
-      { name: "New Radiator Installation", price: "From £175" },
-      { name: "Towel Rail Installation", price: "From £165" },
+      { name: "Radiator Bleeding", price: "From £75" },
+      { name: "TRV (Thermostatic Radiator Valve) Replacement", price: "From £95" },
+      { name: "Radiator Valve Replacement", price: "From £95" },
+      { name: "Radiator Removal & Refit", price: "From £140" },
+      { name: "Radiator Replacement (Standard Size)", price: "From £185" },
+      { name: "New Radiator Installation", price: "From £225" },
+      { name: "Heated Towel Rail Installation", price: "From £185" },
     ],
   },
   {
@@ -135,13 +135,14 @@ const categories: PricingCategory[] = [
     items: [
       { name: "Minor Leak Repair", price: "From £75" },
       { name: "Copper Pipe Repair", price: "From £95" },
-      { name: "Isolation Valve Replacement", price: "From £75" },
-      { name: "Stopcock Replacement", price: "From £95" },
+      { name: "Isolation Valve Replacement", price: "From £85" },
+      { name: "Stopcock Replacement", price: "From £120" },
       { name: "Pipe Lagging / Insulation", price: "From £75" },
-      { name: "Water Supply Pipe Repair", price: "From £120" },
-      { name: "Pipe Re-Route (minor)", price: "From £150" },
-      { name: "Water Softener Connection", price: "From £120" },
+      { name: "Water Supply Pipe Repair", price: "From £145" },
+      { name: "Minor Pipe Re-Route", price: "From £175" },
+      { name: "Water Softener Connection", price: "From £150" },
     ],
+    note: "Larger plumbing projects and multiple installations are quoted individually.",
   },
 ];
 
@@ -239,6 +240,14 @@ export default function PlumbingPage() {
           />
           <div className="mt-10 space-y-6">
             {categories.map((cat) => <PricingCategoryCard key={cat.title} category={cat} />)}
+          </div>
+          <div className="mt-8 rounded-sm border border-line bg-paper p-6">
+            <h3 className="font-display text-base font-bold uppercase tracking-tight text-ink">Labour Charges</h3>
+            <ul className="mt-4 space-y-2 text-sm text-slate">
+              <li><span className="font-semibold text-ink">Minimum Call-Out:</span> £75</li>
+              <li><span className="font-semibold text-ink">Additional Labour (where required):</span> £45 per hour</li>
+              <li><span className="font-semibold text-ink">Materials charged separately unless otherwise stated.</span></li>
+            </ul>
           </div>
         </Container>
       </section>
