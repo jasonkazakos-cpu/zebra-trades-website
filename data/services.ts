@@ -31,16 +31,6 @@ export const services: Service[] = [
     href: "/kitchen-installation",
   },
   {
-    slug: "kitchen-design-supply",
-    title: "Kitchen Design & Supply",
-    icon: "PencilRuler",
-    swatch: "#0E9594",
-    teaser: "Planning and sourcing a new kitchen that fits your space and budget.",
-    description:
-      "Not sure where to start? We design your new kitchen layout, recommend units and worktops, and supply everything needed, ready for our own installation team to fit.",
-    href: "/kitchen-design",
-  },
-  {
     slug: "pergolas-gazebos",
     title: "Pergolas & Gazebos",
     icon: "Umbrella",
