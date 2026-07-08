@@ -91,16 +91,6 @@ export const services: Service[] = [
     href: "/garden-rooms",
   },
   {
-    slug: "air-conditioning",
-    title: "Air Conditioning",
-    icon: "Wind",
-    swatch: "#3FAFC4",
-    teaser: "Domestic air conditioning, supplied and installed for hot summers.",
-    description:
-      "We supply and install domestic air conditioning units, keeping bedrooms, living rooms and home offices comfortable through the warmer months.",
-    href: "/air-conditioning",
-  },
-  {
     slug: "media-walls",
     title: "Media Walls",
     icon: "Flame",
