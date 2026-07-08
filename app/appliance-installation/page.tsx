@@ -61,49 +61,55 @@ const packages: Package[] = [
 
 const categories: PricingCategory[] = [
   {
-    title: "Freestanding Appliances",
+    title: "Washing Machines & Dryers",
     icon: "PlugZap",
     items: [
-      { name: "Washing Machine Installation", price: "From £75" },
-      { name: "Dishwasher Installation", price: "From £75" },
-      { name: "Tumble Dryer Installation", price: "From £65" },
-      { name: "Fridge / Water Dispenser Connection", price: "From £85" },
+      { name: "Washing Machine Installation", price: "From £85" },
+      { name: "Integrated Washing Machine Installation", price: "From £120" },
+      { name: "Washer Dryer Installation", price: "From £95" },
+      { name: "Integrated Washer Dryer Installation", price: "From £135" },
+      { name: "Tumble Dryer Installation", price: "From £75" },
+      { name: "Stacking Kit Installation", price: "From £95" },
+    ],
+  },
+  {
+    title: "Dishwashers",
+    icon: "PlugZap",
+    items: [
+      { name: "Freestanding Dishwasher Installation", price: "From £85" },
+      { name: "Integrated Dishwasher Installation", price: "From £125" },
+    ],
+  },
+  {
+    title: "Fridges & Freezers",
+    icon: "PlugZap",
+    items: [
+      { name: "American Fridge Freezer Installation", price: "From £95" },
+      { name: "Fridge Freezer Door Reversal", price: "From £75" },
+      { name: "Built-In Fridge Installation", price: "From £120" },
+      { name: "Built-In Freezer Installation", price: "From £120" },
+      { name: "Plumbed Fridge Water Connection", price: "From £95" },
     ],
   },
   {
     title: "Cooking Appliances",
     icon: "PlugZap",
     items: [
-      { name: "Built-In Electric Oven Installation", price: "From £85" },
-      { name: "Electric Cooker Installation (existing circuit)", price: "From £120" },
-      { name: "Electric Hob Connection (existing circuit)", price: "From £95" },
-      { name: "Cooker Hood Installation", price: "From £95" },
+      { name: "Cooker Hood Replacement", price: "From £120" },
+      { name: "Integrated Cooker Hood Installation", price: "From £150" },
+      { name: "Electric Oven Replacement", price: "From £95" },
+      { name: "Built-In Electric Oven Installation", price: "From £110" },
+      { name: "Electric Hob Replacement", price: "From £95" },
+      { name: "Induction Hob Installation", price: "From £120" },
+      { name: "Microwave Oven Installation (Built-In)", price: "From £95" },
     ],
   },
   {
-    title: "Integrated Appliances",
+    title: "Other Appliances",
     icon: "PlugZap",
     items: [
-      { name: "Integrated Dishwasher Installation", price: "From £125" },
-      { name: "Integrated Washing Machine Installation", price: "From £125" },
-      { name: "Integrated Fridge Freezer Installation", price: "From £165" },
-    ],
-  },
-  {
-    title: "Premium Appliances",
-    icon: "PlugZap",
-    items: [
-      { name: "American Fridge Freezer Installation", price: "From £125" },
-      { name: "Boiling Water Tap Connection", price: "From £195" },
-    ],
-  },
-  {
-    title: "Additional Services",
-    icon: "PlugZap",
-    items: [
-      { name: "Appliance Removal", price: "From £25" },
-      { name: "Appliance Recycling", price: "From £35" },
-      { name: "Appliance Relocation", price: "From £75" },
+      { name: "Wine Cooler Installation", price: "From £95" },
+      { name: "Kitchen Appliance Removal & Disposal (when installing a replacement)", price: "From £40" },
     ],
   },
 ];
@@ -224,6 +230,17 @@ export default function ApplianceInstallationPage() {
           />
           <div className="mt-10 space-y-6">
             {categories.map((cat) => <PricingCategoryCard key={cat.title} category={cat} />)}
+          </div>
+          <div className="mt-8 rounded-sm border border-line bg-chalk p-6">
+            <h3 className="font-display text-base font-bold uppercase tracking-tight text-ink">Labour Charges</h3>
+            <ul className="mt-4 space-y-2 text-sm text-slate">
+              <li><span className="font-semibold text-ink">Minimum Call-Out:</span> £75</li>
+              <li><span className="font-semibold text-ink">Additional Labour (where required):</span> £45 per hour</li>
+              <li><span className="font-semibold text-ink">Materials and additional fittings charged separately unless otherwise stated.</span></li>
+            </ul>
+            <p className="mt-4 text-sm italic text-slate">
+              Please note: Zebra Trades installs electric and plumbing-connected domestic appliances only. Gas appliances must be installed by a Gas Safe registered engineer.
+            </p>
           </div>
         </Container>
       </section>
