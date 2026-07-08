@@ -9,6 +9,7 @@ export type PricingCategory = {
   title: string;
   icon: string;
   items: PricingItem[];
+  note?: string;
 };
 
 export default function PricingCategoryCard({
@@ -40,6 +41,9 @@ export default function PricingCategoryCard({
           </div>
         ))}
       </div>
+      {category.note && (
+        <p className="mt-4 text-sm italic text-slate">{category.note}</p>
+      )}
     </div>
   );
 }
