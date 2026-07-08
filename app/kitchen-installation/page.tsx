@@ -74,26 +74,6 @@ const packages: Package[] = [
   },
 ];
 
-const optionalExtras: PricingCategory = {
-  title: "Optional Extras",
-  icon: "Wrench",
-  items: [
-    { name: "Existing Kitchen Removal", price: "From £450" },
-    { name: "Waste Disposal", price: "From £295" },
-    { name: "Integrated Appliance Installation", price: "From £125 each" },
-    { name: "Sink & Tap Installation", price: "From £195" },
-    { name: "Dishwasher Plumbing", price: "From £95" },
-    { name: "Boiling Water Tap Installation", price: "From £195" },
-    { name: "Worktop Cut Outs", price: "From £75 each" },
-    { name: "Under Cabinet Lighting", price: "From £150" },
-    { name: "New Appliance Circuits", price: "Quoted" },
-    { name: "Additional Plumbing Alterations", price: "£75/hr" },
-    { name: "Additional Electrical Work", price: "£75/hr" },
-    { name: "Tiling", price: "Quoted" },
-    { name: "Flooring Installation", price: "Quoted" },
-    { name: "Decorating", price: "Quoted" },
-  ],
-};
 
 const installSteps: Step[] = [
   {
@@ -304,18 +284,7 @@ export default function KitchenInstallationPage() {
         </Container>
       </section>
 
-      <section className="bg-chalk">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
-            eyebrow="Add-Ons"
-            title="Optional Extras"
-            subtitle="Common additions to a kitchen installation, priced separately from the core package."
-          />
-          <div className="mt-10">
-            <PricingCategoryCard category={optionalExtras} />
-          </div>
-        </Container>
-      </section>
+
 
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
