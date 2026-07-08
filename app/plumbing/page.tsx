@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
-import PackageCard, { type Package } from "@/components/PackageCard";
 import PricingCategoryCard, { type PricingCategory } from "@/components/PricingCategoryCard";
 import Faq, { type FaqItem } from "@/components/Faq";
 import ValueProps from "@/components/ValueProps";
@@ -27,50 +26,6 @@ export const metadata: Metadata = {
 const SERVICE = "Plumbing";
 const quoteHref = `/contact?service=${encodeURIComponent(SERVICE)}`;
 
-const packages: Package[] = [
-  {
-    name: "Minimum Visit",
-    price: "From £75",
-    duration: "Single Job",
-    bestFor: "Best for one straightforward plumbing task",
-    description:
-      "A single repair or installation — a tap washer, a leaking joint, a toilet flush valve or a washing machine connection.",
-    features: [
-      "Ideal for a single, straightforward task",
-      "Same fixed-price approach as every visit",
-      "No call-out charge on top",
-    ],
-    serviceLabel: SERVICE,
-  },
-  {
-    name: "Half Day Plumbing",
-    price: "£225",
-    duration: "Around Half A Day",
-    bestFor: "Best for several plumbing jobs in one visit",
-    description:
-      "Work through a list — new taps, a toilet service, an outside tap and a radiator valve all in one appointment.",
-    features: [
-      "Tackle several jobs in a single visit",
-      "Great value for a backlog of plumbing tasks",
-      "One tradesperson, one invoice",
-    ],
-    serviceLabel: SERVICE,
-  },
-  {
-    name: "Full Day Plumbing",
-    price: "£395",
-    duration: "A Full Working Day",
-    bestFor: "Best for larger plumbing projects",
-    description:
-      "A full day for more involved work — bathroom re-pipes, multiple appliance connections, or a full bathroom suite installation.",
-    features: [
-      "A full day on site from start to finish",
-      "Best suited to larger or more complex jobs",
-      "Best value for extensive plumbing work",
-    ],
-    serviceLabel: SERVICE,
-  },
-];
 
 const categories: PricingCategory[] = [
   {
@@ -203,30 +158,6 @@ export default function PlumbingPage() {
             <Button href={siteConfig.phoneHref} variant="ghost-light">
               Call Now &middot; {siteConfig.phoneDisplay}
             </Button>
-          </div>
-        </Container>
-      </section>
-
-      <section className="border-y border-accent/20 bg-accent-soft">
-        <Container className="flex flex-col items-center gap-4 py-6 text-center sm:flex-row sm:justify-between sm:text-left">
-          <p className="font-display text-lg font-bold uppercase tracking-tight text-ink sm:text-xl">
-            Multiple plumbing jobs? Combine them into one half or full day visit.
-          </p>
-          <Button href="#packages" variant="secondary" className="shrink-0">
-            View Packages
-          </Button>
-        </Container>
-      </section>
-
-      <section className="bg-paper" id="packages">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
-            eyebrow="Labour Packages"
-            title="Plumbing Visit Packages"
-            subtitle="Fixed-price visits — know the cost before we start."
-          />
-          <div className="mt-10 grid gap-6 sm:grid-cols-3">
-            {packages.map((pkg) => <PackageCard key={pkg.name} pkg={pkg} />)}
           </div>
         </Container>
       </section>
