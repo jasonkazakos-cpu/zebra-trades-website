@@ -51,16 +51,6 @@ export const services: Service[] = [
     href: "/pergolas",
   },
   {
-    slug: "screens-and-privacy-panels",
-    title: "Screens & Privacy Panels",
-    icon: "PanelRight",
-    swatch: "#5B8FA8",
-    teaser: "Privacy screens, wind panels and weather protection for outdoor spaces.",
-    description:
-      "We supply and install pergola screens, privacy panels and wind barriers to create sheltered, private outdoor living spaces that can be enjoyed throughout the year.",
-    href: "/screens-and-privacy-panels",
-  },
-  {
     slug: "plumbing",
     title: "Plumbing",
     icon: "Droplets",
