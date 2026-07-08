@@ -232,6 +232,28 @@ export default function KitchenInstallationPage() {
         </Container>
       </section>
 
+      <section className="border-y border-line bg-chalk">
+        <Container className="py-10">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Any Supplier</p>
+          <h2 className="mt-2 font-display text-xl font-bold uppercase tracking-tight text-ink sm:text-2xl">
+            Kitchens We Install
+          </h2>
+          <p className="mt-2 text-sm text-slate">
+            We fit kitchens supplied by all the major retailers, as well as bespoke and independent suppliers.
+          </p>
+          <div className="mt-5 flex flex-wrap gap-3">
+            {kitchenBrands.map((brand) => (
+              <span
+                key={brand}
+                className="rounded-full border border-line bg-paper px-4 py-2 font-mono text-sm text-ink"
+              >
+                {brand}
+              </span>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
@@ -301,22 +323,6 @@ export default function KitchenInstallationPage() {
 
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
-          <SectionHeading
-            eyebrow="Any Supplier"
-            title="Kitchens We Install"
-            subtitle="We fit kitchens supplied by all the major retailers, as well as bespoke and independent suppliers."
-          />
-          <div className="mt-8 flex flex-wrap gap-3">
-            {kitchenBrands.map((brand) => (
-              <span
-                key={brand}
-                className="rounded-full border border-line bg-paper px-4 py-2 font-mono text-sm text-ink"
-              >
-                {brand}
-              </span>
-            ))}
-          </div>
-        </Container>
       </section>
 
       <CoverageArea background="paper" />
