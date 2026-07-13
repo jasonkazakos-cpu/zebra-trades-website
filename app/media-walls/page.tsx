@@ -17,6 +17,8 @@ import {
   Flame, PanelTop, Layers, Wallpaper, Tv, Lightbulb, LayoutGrid, Sparkles,
   Cable, Box,
 } from "lucide-react";
+import FireplaceCard from "@/components/FireplaceCard";
+import { fireplaces } from "@/data/fireplaces";
 
 export const metadata: Metadata = {
   title: "Media Walls & Electric Fireplace Installation in Cheshunt & Hertfordshire",
@@ -228,6 +230,21 @@ export default function MediaWallsPage() {
                   {item.title}
                 </h3>
               </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Premium Fireplaces"
+            title="Choose Your Fireplace"
+            subtitle="The fireplace is the heart of every media wall. Browse our premium range of electric fireplaces, professionally supplied and installed by Zebra Trades."
+          />
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {fireplaces.map((fp) => (
+              <FireplaceCard key={fp.id} fp={fp} />
             ))}
           </div>
         </Container>
