@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
+import { X, ZoomIn } from "lucide-react";
 import type { FireplaceProduct } from "@/data/fireplaces";
 
 function fmt(n: number) {
@@ -6,19 +10,50 @@ function fmt(n: number) {
 }
 
 export default function FireplaceCard({ fp }: { fp: FireplaceProduct }) {
+  const [open, setOpen] = useState(false);
   const quoteHref = `/contact?service=${encodeURIComponent("Media Walls")}&product=${encodeURIComponent(fp.name)}`;
   const detailHref = `/media-walls/${fp.slug}`;
 
   return (
+    <>
+      {/* Lightbox */}
+      {open && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+          onClick={() => setOpen(false)}
+        >
+          <button
+            className="absolute right-4 top-4 text-white/70 hover:text-white"
+            aria-label="Close"
+            onClick={() => setOpen(false)}
+          >
+            <X className="size-8" />
+          </button>
+          <img
+            src={fp.images.sales}
+            alt={fp.name}
+            style={{ maxWidth: "100%", maxHeight: "90vh", objectFit: "contain" }}
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
+
     <div className="flex flex-col overflow-hidden rounded-sm border border-line bg-paper shadow-sm transition-shadow hover:shadow-md">
-      {/* Sales image — full, uncropped */}
-      <div className="bg-chalk p-4">
+      {/* Sales image — clickable, full uncropped */}
+      <button
+        onClick={() => setOpen(true)}
+        className="group relative bg-chalk p-4 text-left"
+        aria-label={`Enlarge ${fp.name} image`}
+      >
         <img
           src={fp.images.sales}
           alt={fp.name}
           style={{ objectFit: "contain", width: "100%", display: "block" }}
         />
-      </div>
+        <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/15">
+          <ZoomIn className="size-8 text-white opacity-0 drop-shadow transition-opacity group-hover:opacity-100" />
+        </span>
+      </button>
 
       <div className="flex flex-1 flex-col gap-4 p-5">
         <div>
@@ -62,5 +97,6 @@ export default function FireplaceCard({ fp }: { fp: FireplaceProduct }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
