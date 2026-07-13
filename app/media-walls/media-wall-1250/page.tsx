@@ -55,7 +55,7 @@ export default function MediaWall1250Page() {
         </Container>
         <div className="w-full bg-chalk">
           <img
-            src={fp.images.sales}
+            src={fp.images.sales ?? undefined}
             alt={`${fp.name} sales image`}
             style={{ width: "100%", display: "block", objectFit: "contain" }}
           />
@@ -82,14 +82,14 @@ export default function MediaWall1250Page() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 max-w-xl">
             <div className="rounded-sm border border-line bg-paper p-6">
               <p className="font-mono text-xs uppercase tracking-widest text-slate">Supply &amp; Install</p>
-              <p className="mt-2 font-display text-3xl font-bold text-ink">From {fmt(fp.pricing.supplyAndInstallFrom)}</p>
+              <p className="mt-2 font-display text-3xl font-bold text-ink">From {fmt(fp.pricing.supplyAndInstallFrom!)}</p>
               <p className="mt-2 text-sm leading-relaxed text-slate">
                 Fireplace supplied and professionally fitted by Zebra Trades as part of your bespoke media wall.
               </p>
             </div>
             <div className="rounded-sm border border-line bg-paper p-6">
               <p className="font-mono text-xs uppercase tracking-widest text-slate">Supply Only</p>
-              <p className="mt-2 font-display text-3xl font-bold text-ink">{fmt(fp.pricing.supplyOnly)}</p>
+              <p className="mt-2 font-display text-3xl font-bold text-ink">{fmt(fp.pricing.supplyOnly!)}</p>
               <p className="mt-2 text-sm leading-relaxed text-slate">
                 Fireplace unit supplied. Installation arranged separately.
               </p>
@@ -165,12 +165,12 @@ export default function MediaWall1250Page() {
               </div>
             </div>
             <button
-              onClick={() => setLightbox(fp.images.specSheet)}
+              onClick={() => setLightbox(fp.images.specSheet ?? null)}
               className="group relative block w-full overflow-x-auto rounded-sm border border-line"
               aria-label="Zoom specification sheet"
             >
               <img
-                src={fp.images.specSheet}
+                src={fp.images.specSheet ?? undefined}
                 alt={`${fp.name} specification sheet`}
                 style={{ width: "100%", minWidth: "600px", display: "block", objectFit: "contain" }}
               />
