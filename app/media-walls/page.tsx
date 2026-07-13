@@ -17,8 +17,6 @@ import {
   Flame, PanelTop, Layers, Wallpaper, Tv, Lightbulb, LayoutGrid, Sparkles,
   Cable, Box,
 } from "lucide-react";
-import FireplaceCard from "@/components/FireplaceCard";
-import { fireplaces } from "@/data/fireplaces";
 
 export const metadata: Metadata = {
   title: "Media Walls & Electric Fireplace Installation in Cheshunt & Hertfordshire",
@@ -130,7 +128,7 @@ const galleryImages: GalleryImage[] = [
   { src: "/images/media-walls/electric-fireplace-feature-wall-waltham-abbey.jpg", alt: "Electric Fireplace Feature Wall", caption: "Electric fireplace feature wall — Waltham Abbey" },
   { src: "/images/media-walls/luxury-lounge-media-wall-hertfordshire.jpg", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hertfordshire" },
   { src: "/images/media-walls/built-in-shelving-media-wall-goffs-oak.jpg", alt: "Built-In Shelving Media Wall", caption: "Built-in shelving media wall — Goffs Oak" },
-  { src: "/images/media-walls/floating-media-wall-cuffley.png", alt: "Floating Media Wall", caption: "Floating media wall — Cuffley" },
+  { src: "", alt: "Floating Media Wall", caption: "Floating media wall — Enfield" },
   { src: "/images/media-walls/tv-fireplace-installation-cuffley.jpg", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
 ];
 
@@ -238,21 +236,6 @@ export default function MediaWallsPage() {
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            eyebrow="Featured Electric Fireplaces"
-            title="Featured Electric Fireplaces"
-            subtitle="Choose from our premium range of electric fireplaces, professionally supplied and installed as part of your bespoke media wall."
-          />
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {fireplaces.map((fp) => (
-              <FireplaceCard key={fp.id} fireplace={fp} />
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-paper">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
             eyebrow="Guide Prices"
             title="Media Wall Price Guide"
             subtitle="A starting point for budgeting — your fixed quote will reflect your exact design."
@@ -263,7 +246,7 @@ export default function MediaWallsPage() {
         </Container>
       </section>
 
-      <section className="bg-chalk">
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Customise Your Wall"
