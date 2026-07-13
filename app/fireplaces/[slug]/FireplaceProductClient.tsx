@@ -63,7 +63,7 @@ export default function FireplaceProductClient({ slug }: { slug: string }) {
   if (!fp) return notFound();
 
   const quoteHref = `/contact?service=${encodeURIComponent("Media Walls")}&product=${encodeURIComponent(fp.name)}`;
-  const heroImage = fp.images.sales ?? fp.images.gallery[0] ?? null;
+  const heroImage = fp.images.main ?? fp.images.sales ?? fp.images.gallery[0] ?? null;
   const specImage = fp.images.specSheet ?? fp.images.specification ?? null;
   const hasInstall = fp.pricing.supplyAndInstallFrom != null;
   const hasSupply = fp.pricing.supplyOnly != null;
