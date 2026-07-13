@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "FIREZ 1500 Electric Fireplace",
+  "brand": {
+    "@type": "Brand",
+    "name": "FIREZ"
+  },
+  "model": "1500",
+  "description": "The FIREZ 1500 is our most popular fireplace, offering the perfect balance of size, style and performance. Its impressive widescreen flame display creates a striking centrepiece, making it an ideal choice for modern media walls and open-plan living spaces. Featuring one of the most realistic 3D reflective flame effects available, the FIREZ 1500 delivers the ambience of a real wood-burning fire without the mess, maintenance or inconvenience.",
+  "image": [
+    "/images/fireplaces/firez/Firez-1500/Firez-1500-Scene-1.jpg"
+  ],
+  "offers": null
+}

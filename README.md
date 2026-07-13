@@ -1,27 +1,25 @@
-# MediaWall1250 Product Package
+# FIREZ 1500 Product Pack
 
-This folder contains everything needed for the Media Wall 1250 product line.
+Upload this complete folder to:
 
-## Included files
+`products/fireplaces/firez/Firez-1500/`
 
-- `MediaWall1250-Sales.jpg` — main sales image
-- `MediaWall1250-Scene-1.jpg` — lifestyle gallery image
-- `MediaWall1250-Scene-2.jpg` — lifestyle gallery image
-- `MediaWall1250-Spec-Sheet.jpg` — technical specification sheet
-- `MediaWall1250.ts` — ready-to-import Next.js/TypeScript product data
-- `MediaWall1250.json` — platform-neutral product data
-- `MediaWall1250.md` — formatted product wording and pricing
+Claude should treat everything in this folder as one product.
 
-## Suggested GitHub location
+## Included now
 
-Upload this folder to:
+- Product wording
+- Features and dimensions
+- Product JSON and TypeScript data
+- SEO metadata and Schema.org data
+- One gallery image
 
-`products/media-walls/firez/MediaWall1250/`
+## Add later when supplied
 
-Claude should treat this entire folder as one product. The `id`, filenames and folder name all use `MediaWall1250`, so the images, description, prices and specification sheet stay grouped together.
+- `Firez-1500-Sales.jpg`
+- Additional gallery images
+- `Firez-1500-Spec-Sheet.jpg` or PDF
+- Supply & Install price
+- Supply Only price
 
-For the live website, Claude may copy the images to:
-
-`public/images/media-walls/MediaWall1250/`
-
-Do not replace or remove existing media-wall products.
+Do not publish invented prices. Until prices are added, hide pricing or show “Contact us for pricing”.
