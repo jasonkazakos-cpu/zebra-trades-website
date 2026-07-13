@@ -1,0 +1,46 @@
+export const Firez1600ARGlass = {
+  id: "Firez-1600-AR-Glass",
+  slug: "firez-1600-ar-glass",
+  name: "FIREZ 1600 AR Glass",
+  displayName: "FIREZ 1600 AR Glass Electric Fireplace",
+  brand: "FIREZ",
+  model: "1600 AR Glass",
+  category: "Media Wall Electric Fire",
+  collection: "FIREZ",
+  featured: true,
+  images: {
+    main: "/images/fireplaces/firez/Firez-1600-AR-Glass/Firez-1600-AR-Glass-Main.jpg",
+    gallery: [],
+    specification: null,
+  },
+  pricing: {
+    supplyAndInstallFrom: 3490,
+    supplyOnly: 1990,
+    currency: "GBP",
+  },
+  shortDescription:
+    "Designed for larger media walls and bigger televisions, the FIREZ 1600 combines a wide panoramic flame display with smart controls and flexible installation options.",
+  description: `The FIREZ 1600 is the ideal choice for homeowners wanting a larger, more dramatic media wall. Its increased width makes it perfectly suited to larger televisions, creating a balanced and impressive focal point that enhances modern living spaces.
+
+Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1600 delivers the warmth and ambience of a real wood-burning fire—without the mess, maintenance or inconvenience.`,
+  features: [
+    "Ultra-realistic 3D Reflectory Flame technology",
+    "Remote control included",
+    "Smartphone app control",
+    "Alexa voice control compatibility",
+    "Manual push-button controls",
+    "Multiple flame colour options",
+    "Adjustable ember bed and overhead lighting colours",
+    "Choice of 1, 2 or 3-sided panoramic glass installation",
+    "High-definition interchangeable log fuel bed included",
+    "Optional upgrade to a deluxe real log fuel bed",
+  ],
+  dimensionsMm: {
+    height: 616.5,
+    width: 1630,
+    depth: 333,
+  },
+  glassOptions: [1, 2, 3],
+} as const;
+
+export default Firez1600ARGlass;
