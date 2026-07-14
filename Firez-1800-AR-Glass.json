@@ -43,5 +43,28 @@
   },
   "glassOptions": [1, 2, 3],
   "closingText": "Whether you're designing a large contemporary media wall or creating a show-stopping luxury centrepiece, the FIREZ 1800 offers outstanding flexibility, elegant styling and an immersive widescreen flame experience. Personalise the flame colours and lighting to create the perfect atmosphere throughout the year, whether you're using the heat function or simply enjoying the visual effect.",
-  "callToAction": "Available from Zebra Trades with supply only or professional installation."
+  "callToAction": "Available from Zebra Trades with supply only or professional installation.",
+  "seo": {
+    "title": "FIREZ 1800 AR Glass Electric Fireplace | Zebra Trades",
+    "description": "Discover the FIREZ 1800 AR Glass electric fireplace for full-width media walls, with realistic 3D flames, Alexa and app control, panoramic glass options and professional installation.",
+    "canonicalPath": "/fireplaces/firez-1800-ar-glass",
+    "image": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
+    "altText": "FIREZ 1800 AR Glass electric fireplace installed in a full-width modern media wall"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "FIREZ 1800 AR Glass Electric Fireplace",
+    "brand": { "@type": "Brand", "name": "FIREZ" },
+    "model": "1800 AR Glass",
+    "description": "The FIREZ 1800 is designed to make a bold statement. With its impressive extra-wide flame display, it is the perfect choice for full-width media walls and larger living spaces, creating a truly luxurious centrepiece that instantly transforms any room. Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1800 delivers the ambience and visual appeal of a real wood-burning fire—without the mess, maintenance or inconvenience.",
+    "image": [
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
+    ],
+    "offers": [
+      { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "2250.00", "availability": "https://schema.org/InStock" },
+      { "@type": "Offer", "name": "Supply and installation from", "priceCurrency": "GBP", "price": "3690.00", "availability": "https://schema.org/InStock" }
+    ]
+  }
 }

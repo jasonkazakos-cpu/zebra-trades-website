@@ -30,13 +30,16 @@ export type FireplaceProduct = {
   dimensionsMm: { height: number; width: number; depth: number };
   heatOutputKw?: number;
   closingText: string;
-  callToAction: string;
+  callToAction?: string;
+  seo?: { title: string; description: string; canonicalPath: string; image: string; altText: string };
+  schema?: Record<string, unknown>;
 };
 
 import mw1250 from "../MediaWall1250.json";
 import firez1500 from "../Firez-1500.json";
 import firez1600 from "../Firez-1600-AR-Glass.json";
 import firez1800 from "../Firez-1800-AR-Glass.json";
+import firez2200 from "../Firez-2200.json";
 
 // Normalise legacy MediaWall1250 shape to shared type
 const mw1250normalised: FireplaceProduct = {
@@ -53,4 +56,5 @@ export const fireplaces: FireplaceProduct[] = [
   firez1500 as FireplaceProduct,
   firez1600 as FireplaceProduct,
   firez1800 as FireplaceProduct,
+  firez2200 as FireplaceProduct,
 ];
