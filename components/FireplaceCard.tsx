@@ -32,6 +32,12 @@ export default function FireplaceCard({ fp }: { fp: FireplaceProduct }) {
             style={{ objectFit: "contain", width: "100%", display: "block" }}
           />
           <span className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/5" />
+          {hasInstallPrice && (
+            <span className="absolute bottom-3 left-3 rounded-sm bg-ink/80 px-3 py-1.5 backdrop-blur-sm">
+              <span className="block font-mono text-[9px] uppercase tracking-widest text-white/60">From</span>
+              <span className="block font-display text-base font-bold leading-tight text-white">{fmt(fp.pricing.supplyAndInstallFrom!)}</span>
+            </span>
+          )}
         </Link>
       ) : (
         <div className="flex h-48 items-center justify-center bg-chalk">
