@@ -170,7 +170,7 @@ export default function FireplaceProductClient({ slug }: { slug: string }) {
       {specImage ? (
         <section className="bg-paper">
           <Container className="py-12 sm:py-16">
-            <SectionHeading eyebrow="Specification" title="Technical Specification" subtitle="Click to zoom." />
+            <SectionHeading eyebrow="At a Glance" title={`${fp.name} At a Glance`} subtitle="Click to zoom." />
             <div className="mt-6 grid gap-4 sm:grid-cols-3 mb-8 max-w-lg">
               {[
                 { label: "Width", val: `${fp.dimensionsMm.width}mm` },

@@ -9,10 +9,12 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
+    "main": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
     "sales": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
     "gallery": [
       "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
     ],
+    "specSheet": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.jpg",
     "specification": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.jpg"
   },
   "pricing": {
@@ -39,9 +41,7 @@
     "width": 1830,
     "depth": 333
   },
-  "glassOptions": [
-    1,
-    2,
-    3
-  ]
+  "glassOptions": [1, 2, 3],
+  "closingText": "Whether you're designing a large contemporary media wall or creating a show-stopping luxury centrepiece, the FIREZ 1800 offers outstanding flexibility, elegant styling and an immersive widescreen flame experience. Personalise the flame colours and lighting to create the perfect atmosphere throughout the year, whether you're using the heat function or simply enjoying the visual effect.",
+  "callToAction": "Available from Zebra Trades with supply only or professional installation."
 }
