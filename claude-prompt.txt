@@ -1,0 +1,39 @@
+You are updating the Zebra Trades website.
+
+A new complete product folder has been added:
+
+products/fireplaces/firez/Firez-1800-AR-Glass/
+
+Read README.md first. Use the JSON, Markdown, SEO and schema files as the source of truth.
+
+Add FIREZ 1800 AR Glass to the existing Media Wall fireplace section using the same card layout, spacing, typography, buttons and responsive behaviour as the existing FIREZ products.
+
+Use:
+- Firez-1800-AR-Glass-Sales.jpg as the main product-card image
+- Firez-1800-AR-Glass-Scene-1.jpg as the clean gallery image
+- Firez-1800-AR-Glass-Spec.jpg as the specification/brochure image
+
+Product card:
+- FIREZ · MEDIA WALL ELECTRIC FIRE
+- FIREZ 1800 AR GLASS
+- Supply & Install From £3,690
+- Supply Only £2,250
+- VIEW DETAILS
+- GET QUOTE
+
+Create the product page at:
+
+/fireplaces/firez-1800-ar-glass
+
+Do not crop images. Use object-fit: contain.
+Clicking the product image or VIEW DETAILS should open the product page.
+On the product page, hero, gallery and specification images should open in a responsive lightbox.
+
+Copy images to:
+
+public/images/fireplaces/firez/Firez-1800-AR-Glass/
+
+Do not remove or alter existing products.
+Do not redesign the Media Wall page.
+Reuse existing components.
+Do not rewrite unchanged files.

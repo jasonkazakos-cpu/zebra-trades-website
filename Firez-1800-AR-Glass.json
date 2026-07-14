@@ -1,0 +1,47 @@
+{
+  "id": "Firez-1800-AR-Glass",
+  "slug": "firez-1800-ar-glass",
+  "name": "FIREZ 1800 AR Glass",
+  "displayName": "FIREZ 1800 AR Glass Electric Fireplace",
+  "brand": "FIREZ",
+  "model": "1800 AR Glass",
+  "category": "Media Wall Electric Fire",
+  "collection": "FIREZ",
+  "featured": true,
+  "images": {
+    "sales": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
+    "gallery": [
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
+    ],
+    "specification": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.jpg"
+  },
+  "pricing": {
+    "supplyAndInstallFrom": 3690,
+    "supplyOnly": 2250,
+    "currency": "GBP"
+  },
+  "shortDescription": "Built for large media walls, the FIREZ 1800 delivers a spectacular widescreen flame display with smart controls, panoramic glass options and a striking luxury finish.",
+  "description": "The FIREZ 1800 is designed to make a bold statement. With its impressive extra-wide flame display, it is the perfect choice for full-width media walls and larger living spaces, creating a truly luxurious centrepiece that instantly transforms any room.\n\nFeaturing one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1800 delivers the ambience and visual appeal of a real wood-burning fire—without the mess, maintenance or inconvenience.",
+  "features": [
+    "Ultra-realistic 3D Reflectory Flame technology",
+    "Remote control included",
+    "Smartphone app control",
+    "Alexa voice control compatibility",
+    "Manual push-button controls",
+    "Multiple flame colour options",
+    "Adjustable ember bed and overhead lighting colours",
+    "Choice of 1, 2 or 3-sided panoramic glass installation",
+    "High-definition interchangeable log fuel bed included",
+    "Optional upgrade to a deluxe real log fuel bed"
+  ],
+  "dimensionsMm": {
+    "height": 616.5,
+    "width": 1830,
+    "depth": 333
+  },
+  "glassOptions": [
+    1,
+    2,
+    3
+  ]
+}

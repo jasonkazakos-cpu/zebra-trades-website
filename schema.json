@@ -1,29 +1,30 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "FIREZ 1600 AR Glass Electric Fireplace",
+  "name": "FIREZ 1800 AR Glass Electric Fireplace",
   "brand": {
     "@type": "Brand",
     "name": "FIREZ"
   },
-  "model": "1600 AR Glass",
-  "description": "The FIREZ 1600 is the ideal choice for homeowners wanting a larger, more dramatic media wall. Its increased width makes it perfectly suited to larger televisions, creating a balanced and impressive focal point that enhances modern living spaces. Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1600 delivers the warmth and ambience of a real wood-burning fire\u2014without the mess, maintenance or inconvenience.",
+  "model": "1800 AR Glass",
+  "description": "The FIREZ 1800 is designed to make a bold statement. With its impressive extra-wide flame display, it is the perfect choice for full-width media walls and larger living spaces, creating a truly luxurious centrepiece that instantly transforms any room. Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1800 delivers the ambience and visual appeal of a real wood-burning fire\u2014without the mess, maintenance or inconvenience.",
   "image": [
-    "/images/fireplaces/firez/Firez-1600-AR-Glass/Firez-1600-AR-Glass-Main.jpg"
+    "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
+    "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
   ],
   "offers": [
     {
       "@type": "Offer",
       "name": "Supply only",
       "priceCurrency": "GBP",
-      "price": "1990.00",
+      "price": "2250.00",
       "availability": "https://schema.org/InStock"
     },
     {
       "@type": "Offer",
       "name": "Supply and installation from",
       "priceCurrency": "GBP",
-      "price": "3490.00",
+      "price": "3690.00",
       "availability": "https://schema.org/InStock"
     }
   ]
