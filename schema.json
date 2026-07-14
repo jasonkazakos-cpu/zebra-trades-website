@@ -1,30 +1,30 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "FIREZ 1800 AR Glass Electric Fireplace",
+  "name": "FIREZ 2200 Electric Fireplace",
   "brand": {
     "@type": "Brand",
     "name": "FIREZ"
   },
-  "model": "1800 AR Glass",
-  "description": "The FIREZ 1800 is designed to make a bold statement. With its impressive extra-wide flame display, it is the perfect choice for full-width media walls and larger living spaces, creating a truly luxurious centrepiece that instantly transforms any room. Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1800 delivers the ambience and visual appeal of a real wood-burning fire\u2014without the mess, maintenance or inconvenience.",
+  "model": "2200",
+  "description": "The FIREZ 2200 is the flagship model in the range, delivering an extraordinary panoramic flame display that transforms even the largest living spaces. At over 2.2 metres wide, it is designed for luxury media walls where maximum visual impact and breathtaking realism are the priority. Powered by FIREZ's advanced 3D Reflectory Flame technology, the 2200 creates one of the most realistic electric flame effects available, bringing the atmosphere of a real wood-burning fire into your home without the maintenance, smoke or mess.",
   "image": [
-    "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
-    "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
+    "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg",
+    "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg"
   ],
   "offers": [
     {
       "@type": "Offer",
       "name": "Supply only",
       "priceCurrency": "GBP",
-      "price": "2250.00",
+      "price": "2490.00",
       "availability": "https://schema.org/InStock"
     },
     {
       "@type": "Offer",
       "name": "Supply and installation from",
       "priceCurrency": "GBP",
-      "price": "3690.00",
+      "price": "3890.00",
       "availability": "https://schema.org/InStock"
     }
   ]

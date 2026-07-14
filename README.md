@@ -1,21 +1,24 @@
-# FIREZ 1800 AR Glass Product Pack
+# FIREZ 2200 Product Pack
 
 Upload this complete folder to:
 
-`products/fireplaces/firez/Firez-1800-AR-Glass/`
+`products/fireplaces/firez/Firez-2200/`
 
-Claude should treat all files in this folder as one product.
+Claude should treat everything inside as one product.
 
-Included:
-- Sales image with prices
-- Clean gallery image
-- Specification/brochure image
-- Full product wording
-- JSON and TypeScript product data
-- SEO metadata
-- Product schema
-- Ready-to-paste Claude prompt
+## Included
 
-Copy live images to:
+- `Firez-2200-Sales.jpg` — promotional image with pricing
+- `Firez-2200-Scene-1.jpg` — clean gallery image
+- `Firez-2200.md` — SEO-friendly product wording
+- `Firez-2200.json` — structured product data
+- `Firez-2200.ts` — TypeScript product object
+- `seo.json` — SEO metadata
+- `schema.json` — Product schema
+- `claude-prompt.txt` — ready-to-paste Claude instructions
 
-`public/images/fireplaces/firez/Firez-1800-AR-Glass/`
+Copy images to:
+
+`public/images/fireplaces/firez/Firez-2200/`
+
+Do not crop the sales image. Use `object-fit: contain`.
