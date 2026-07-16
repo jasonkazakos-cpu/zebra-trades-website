@@ -8,18 +8,17 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "sales": null,
-    "gallery": [
-      "/images/fireplaces/firez/Firez-1500/Firez-1500-Scene-1.jpg"
-    ],
+    "main": "/images/fireplaces/firez/Firez-1500/Firez-1500-Scene-1.jpg",
+    "sales": "/images/fireplaces/firez/Firez-1500/Firez-1500-Scene-1.jpg",
+    "gallery": [],
     "specification": null
   },
   "pricing": {
-    "supplyAndInstallFrom": null,
-    "supplyOnly": null,
-    "currency": "GBP",
-    "note": "Prices not supplied yet."
+    "supplyAndInstallFrom": 3390,
+    "supplyOnly": 1649,
+    "currency": "GBP"
   },
+  "shortDescription": "The FIREZ 1500 combines stunning panoramic flame visuals with an ultra-slim 190mm installation depth, perfect for modern media walls where space is at a premium.",
   "description": "The FIREZ 1500 is our most popular fireplace, offering the perfect balance of size, style and performance. Its impressive widescreen flame display creates a striking centrepiece, making it an ideal choice for modern media walls and open-plan living spaces.\n\nFeaturing one of the most realistic 3D reflective flame effects available, the FIREZ 1500 delivers the ambience of a real wood-burning fire without the mess, maintenance or inconvenience.",
   "features": [
     "Ultra-realistic 3D flame technology",
