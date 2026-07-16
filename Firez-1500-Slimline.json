@@ -9,10 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg",
-    "sales": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg",
+    "main": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
+    "sales": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
     "gallery": [
-      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg"
+      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg"
     ],
     "specSheet": null,
     "specification": null
@@ -52,7 +52,7 @@
     "title": "FIREZ 1500 Slimline Electric Fire & Media Wall | Zebra Trades",
     "description": "Discover the FIREZ 1500 Slimline electric fireplace with realistic 3D flames, Alexa and app control, panoramic glass options and a space-saving 190mm installation depth. Supply only or fully installed by Zebra Trades.",
     "canonicalPath": "/fireplaces/firez-1500-slimline",
-    "image": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg",
+    "image": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
     "altText": "FIREZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
   },
   "schema": {
