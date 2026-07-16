@@ -1,17 +1,18 @@
 {
-  "name": "FIRÉZ 1500 Slimline",
-  "slug": "firez-1500-slimline",
-  "category": "Media Wall Electric Fire",
-  "supplyInstallFrom": 3390,
-  "supplyOnly": 1649,
+  "name": "FIRÉZ 1800 Slimline",
+  "slug": "firez-1800-slimline",
+  "category": "FIREZ · MEDIA WALL ELECTRIC FIRE",
+  "shortSummary": "The FIRÉZ 1800 Slimline delivers an impressive widescreen flame display with an ultra-slim 190mm installation depth, ideal for luxury media walls where space is at a premium.",
+  "supplyInstallFrom": 3690,
+  "supplyOnly": 1990,
   "currency": "GBP",
-  "heaterOutput": "1.6kW",
-  "buildInDepth": "190mm",
   "dimensions": {
     "heightMm": 616.5,
-    "widthMm": 1530,
-    "depthMm": 207
+    "widthMm": 1830,
+    "depthMm": 207,
+    "builtInDepthMm": 190
   },
+  "heaterOutput": "1.6kW",
   "glassOptions": [
     "1-sided",
     "2-sided",
@@ -20,18 +21,20 @@
   "controls": [
     "Remote control",
     "Smartphone app",
-    "Alexa",
+    "Amazon Alexa",
     "Manual push-button controls"
   ],
+  "fuelBed": "High-definition mixed log fuel bed with optional deluxe real log upgrade",
   "features": [
     "3D Reflectory flame effect",
-    "High-definition mixed log fuel bed",
-    "Optional deluxe real log fuel bed",
     "Multiple flame colours",
     "Adjustable flame speed",
     "Under-bed glow lighting",
     "Over-bed lighting"
   ],
-  "image": "/images/media-walls/firez-1500-slimline-media-wall.jpg",
-  "alt": "FIRÉZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
+  "websiteImage": "/images/media-walls/firez-1800-slimline-original.jpg",
+  "marketingImage": "/images/media-walls/firez-1800-slimline-media-wall.jpg",
+  "alt": "FIRÉZ 1800 Slimline electric fireplace installed in a contemporary bespoke media wall with television above.",
+  "seoTitle": "FIRÉZ 1800 Slimline Electric Fire & Media Wall | Zebra Trades",
+  "metaDescription": "Explore the FIRÉZ 1800 Slimline electric fireplace with panoramic 3D flames, smart controls and a space-saving 190mm built-in depth. Available supply only or fully installed by Zebra Trades."
 }

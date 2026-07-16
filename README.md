@@ -1,13 +1,16 @@
-# FIRÉZ 1500 Slimline – Zebra Trades Upload Package
+# FIRÉZ 1800 Slimline – Zebra Trades GitHub/Claude Package
 
-This package contains everything needed to add the FIRÉZ 1500 Slimline to the Zebra Trades Media Walls page.
+## Included
 
-## Included files
+- `firez-1800-slimline-original.jpg` — clean image for the website product card
+- `firez-1800-slimline-media-wall.jpg` — marketing image with prices
+- `product-description.md` — full SEO sales description
+- `product-data.json` — structured product details
+- `claude-prompt.txt` — implementation instructions
+- `README.md` — this guide
 
-- `firez-1500-slimline-media-wall.jpg` – finished product sales image with prices
-- `firez-1500-slimline-original.jpg` – clean original product image
-- `product-description.md` – SEO sales copy, metadata and alt text
-- `product-data.json` – structured product details
-- `claude-prompt.txt` – ready-to-paste Claude implementation prompt
+## Important
 
-Upload the ZIP to Claude or extract it into the Zebra Trades GitHub project and follow the instructions in `claude-prompt.txt`.
+The website product card must use the clean original image and must copy the existing FIREZ 1600 AR GLASS product card design exactly.
+
+The marketing image with embedded prices must not be used inside the website product card.

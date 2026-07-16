@@ -1,57 +1,68 @@
-Add the new FIRÉZ 1500 Slimline product to the Zebra Trades Media Walls page.
+Add the FIRÉZ 1800 Slimline product to the Zebra Trades Media Walls page.
 
-IMPORTANT:
-- Inspect the existing media wall product structure first.
-- Match the exact layout, styling, spacing, typography, button design and responsive behaviour used by the existing FIRÉZ products.
-- Do not redesign the page.
-- Do not remove, rename or alter any existing products.
-- Do not rewrite unchanged files.
-- Reuse existing components and data structures wherever possible to save tokens.
-- Prevent duplicate entries.
-- Keep the current product ordering logical alongside the other FIRÉZ models.
+CRITICAL DESIGN RULE:
+Use the existing FIREZ 1600 AR GLASS product card as the exact master template.
 
-FILES PROVIDED:
-1. firez-1500-slimline-media-wall.jpg
-   - This is the finished sales image with prices.
-2. firez-1500-slimline-original.jpg
-   - Clean original image, included as a backup.
-3. product-description.md
-   - Full SEO sales copy and metadata.
-4. product-data.json
-   - Structured product details.
+Match exactly:
+- card dimensions
+- clean image aspect ratio and crop
+- typography
+- category label
+- title styling
+- short-summary spacing
+- two-column price panel
+- View Details and Get Quote buttons
+- borders, padding and margins
+- desktop and mobile responsive behaviour
 
-PRODUCT:
-FIRÉZ 1500 Slimline
+Do not redesign the card.
 
-PRICES:
-- Supply & Install From: £3,390.00
-- Supply Only: £1,649.00
+PRODUCT CONTENT
 
-IMAGE:
-Copy `firez-1500-slimline-media-wall.jpg` into the same public image folder used by the existing FIRÉZ product images. Keep the SEO-friendly filename unchanged.
+Category:
+FIREZ · MEDIA WALL ELECTRIC FIRE
 
-CONTENT:
-Use the full product wording from `product-description.md`. Preserve the FIRÉZ spelling and the trademark symbol in 3D Reflectory™.
+Title:
+FIRÉZ 1800 Slimline
 
-SEO:
-- Page title/product heading: FIRÉZ 1500 Slimline Electric Fireplace
-- Suggested slug: firez-1500-slimline
-- Alt text: FIRÉZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above.
-- Include natural keywords such as slimline electric fireplace, media wall fire, panoramic electric fire, bespoke media wall installation and electric fireplace installation.
-- Do not keyword-stuff.
+Short summary:
+The FIRÉZ 1800 Slimline delivers an impressive widescreen flame display with an ultra-slim 190mm installation depth, ideal for luxury media walls where space is at a premium.
 
-TECHNICAL DETAILS:
+Price panel:
+SUPPLY & INSTALL
+From £3,690
+
+SUPPLY ONLY
+£1,990
+
+WEBSITE IMAGE RULE:
+Use `firez-1800-slimline-original.jpg` for the product card.
+
+This is the clean website image. It must contain no prices, product names, banners or promotional graphics.
+
+Do not use `firez-1800-slimline-media-wall.jpg` on the website product card. That file is for marketing use only.
+
+FULL DETAILS:
+Use the complete copy from `product-description.md` for the View Details page or the existing details section.
+
+TECHNICAL DATA:
+- Dimensions: H 616.5 × W 1830 × D 207mm
 - Built-in depth: 190mm
-- Heater: 1.6kW
-- Dimensions: H 616.5 × W 1530 × D 207mm
-- Available in 1, 2 or 3-sided panoramic glass configurations
-- Remote, app, Alexa and manual controls
-- Standard high-definition mixed log fuel bed
+- Heater output: 1.6kW
+- 1, 2 or 3-sided panoramic glass options
+- Remote, smartphone app, Alexa and manual controls
+- High-definition mixed log fuel bed as standard
 - Optional deluxe real log fuel bed
+- Multiple flame colours and lighting options
 
-After making the change:
-- Check mobile and desktop layouts.
-- Confirm the image loads correctly.
-- Confirm prices display exactly as supplied.
-- Confirm no previous FIRÉZ products have been removed or duplicated.
-- Return a concise summary listing only the files changed.
+DO NOT:
+- alter the FIREZ 1600 AR GLASS master card
+- alter unrelated products
+- add a duplicate product
+- use the marketing image as the website card image
+- rewrite unchanged files
+
+FINAL CHECK:
+Compare the finished card directly with the FIREZ 1600 AR GLASS card. The only differences should be the product image, title, summary and prices.
+
+Return a concise list of changed files only.
