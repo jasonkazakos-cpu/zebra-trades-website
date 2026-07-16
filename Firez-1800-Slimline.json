@@ -1,0 +1,73 @@
+{
+  "id": "Firez-1800-Slimline",
+  "slug": "firez-1800-slimline",
+  "name": "FIREZ 1800 Slimline",
+  "displayName": "FIREZ 1800 Slimline Electric Fireplace",
+  "brand": "FIREZ",
+  "model": "1800 Slimline",
+  "category": "Media Wall Electric Fire",
+  "collection": "FIREZ",
+  "featured": true,
+  "images": {
+    "main": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+    "sales": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+    "gallery": [
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.jpg"
+    ],
+    "specSheet": null,
+    "specification": null
+  },
+  "pricing": {
+    "supplyAndInstallFrom": 3690,
+    "supplyOnly": 1990,
+    "currency": "GBP"
+  },
+  "shortDescription": "The FIREZ 1800 Slimline delivers an impressive widescreen flame display while maintaining an ultra-slim 190mm installation depth, making it the perfect choice for homeowners who want a spectacular media wall without sacrificing valuable floor space.",
+  "description": "The FIREZ 1800 Slimline delivers an impressive widescreen flame display while maintaining an ultra-slim installation depth, making it the perfect choice for homeowners who want a spectacular media wall without sacrificing valuable floor space. At 1800mm wide with a slim 190mm built-in depth, this premium electric fireplace creates a stunning focal point that brings luxury, warmth and contemporary style to any living space.\n\nFeaturing the same advanced technology found throughout the FIREZ range, the 1800 Slimline showcases the incredibly realistic 3D Reflectory Flame effect, producing one of the most lifelike electric fires available today. Enjoy effortless control using the supplied remote control, smartphone app, Amazon Alexa voice control, or the convenient manual push-button controls. The integrated 1.6kW heater provides instant warmth whenever required, allowing you to enjoy the ambience of the flames all year round with or without heat.\n\nEvery FIREZ 1800 Slimline is supplied with a premium high-definition mixed log fuel bed as standard, with the option to upgrade to our deluxe real log fuel bed for an even more authentic appearance. Available in one-sided, two-sided or three-sided panoramic glass configurations, it offers complete flexibility to create the perfect bespoke media wall to complement your home.",
+  "features": [
+    "Impressive 1800mm panoramic widescreen design",
+    "Ultra-slim 190mm built-in installation depth",
+    "Stunning 3D Reflectory Flame technology",
+    "Integrated 1.6kW heater",
+    "Remote control included",
+    "Smartphone app control",
+    "Amazon Alexa voice control compatibility",
+    "Manual push-button controls",
+    "Available in 1, 2 or 3-sided panoramic glass configurations",
+    "Premium high-definition mixed log fuel bed included",
+    "Optional deluxe real log fuel bed upgrade",
+    "Multiple flame colours and adjustable flame effects",
+    "Independent over-bed and under-bed LED lighting"
+  ],
+  "dimensionsMm": {
+    "height": 616.5,
+    "width": 1830,
+    "depth": 207
+  },
+  "heatOutputKw": 1.6,
+  "closingText": "Combining space-saving slimline design, exceptional flame realism and intelligent smart-home technology, the FIREZ 1800 Slimline Electric Fireplace is the ideal choice for anyone looking to create a luxurious, contemporary media wall with maximum visual impact.",
+  "callToAction": "Available from Zebra Trades with supply only or professional installation.",
+  "seo": {
+    "title": "FIREZ 1800 Slimline Electric Fire & Media Wall | Zebra Trades",
+    "description": "Explore the FIREZ 1800 Slimline electric fireplace with panoramic 3D flames, smart controls and a space-saving 190mm built-in depth. Available supply only or fully installed by Zebra Trades.",
+    "canonicalPath": "/fireplaces/firez-1800-slimline",
+    "image": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+    "altText": "FIREZ 1800 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "FIREZ 1800 Slimline Electric Fireplace",
+    "brand": { "@type": "Brand", "name": "FIREZ" },
+    "model": "1800 Slimline",
+    "description": "The FIREZ 1800 Slimline delivers an impressive widescreen flame display while maintaining an ultra-slim 190mm installation depth, making it the perfect choice for homeowners who want a spectacular media wall without sacrificing valuable floor space.",
+    "image": [
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.jpg"
+    ],
+    "offers": [
+      { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "1990.00", "availability": "https://schema.org/InStock" },
+      { "@type": "Offer", "name": "Supply and installation from", "priceCurrency": "GBP", "price": "3690.00", "availability": "https://schema.org/InStock" }
+    ]
+  }
+}
