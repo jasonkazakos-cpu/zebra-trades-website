@@ -9,9 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
-    "sales": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
+    "main": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-logs.png",
+    "sales": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-logs.png",
     "gallery": [
+      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
       "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-media-wall.jpg"
     ],
     "specSheet": null,
