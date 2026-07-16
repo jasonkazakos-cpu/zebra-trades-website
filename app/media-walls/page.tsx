@@ -257,7 +257,38 @@ export default function MediaWallsPage() {
         </Container>
       </section>
 
+      {/* Media Wall Design Inspiration gallery */}
       <section className="bg-chalk">
+        <Container className="py-16 sm:py-20">
+          <SectionHeading
+            eyebrow="Inspiration"
+            title="Media Wall Design Inspiration"
+            subtitle="A selection of bespoke media wall designs installed across Hertfordshire."
+          />
+          <div className="mt-10 grid gap-4 sm:grid-cols-2">
+            {[
+              { src: "/images/media-walls/promo/contemporary-media-walls-hertfordshire.png", alt: "Contemporary media wall installation in Hertfordshire" },
+              { src: "/images/media-walls/promo/electric-fireplace-media-walls.png", alt: "Electric fireplace media wall installation" },
+              { src: "/images/media-walls/promo/floating-media-walls-hertfordshire.png", alt: "Floating media wall design in Hertfordshire" },
+              { src: "/images/media-walls/promo/luxury-feature-media-walls-goffs-oak.png", alt: "Luxury feature media wall in Goffs Oak" },
+            ].map((img) => (
+              <div key={img.src} className="overflow-hidden rounded-sm border border-line bg-paper">
+                <img src={img.src} alt={img.alt} className="w-full" style={{ display: "block" }} />
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <p className="font-display text-2xl font-bold uppercase tracking-tight text-ink sm:text-3xl">
+              Ready To Design Your Media Wall?
+            </p>
+            <div className="mt-6">
+              <Button href={quoteHref} variant="primary">Get a Free Quote</Button>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Guide Prices"
