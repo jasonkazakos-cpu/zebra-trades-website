@@ -9,9 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "sales": "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg",
+    "main": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg",
+    "sales": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg",
     "gallery": [
-      "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg"
+      "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg"
     ],
     "specification": null
   },
