@@ -271,6 +271,7 @@ export default function MediaWallsPage() {
               { src: "/images/media-walls/promo/electric-fireplace-media-walls.png", alt: "Electric fireplace media wall installation" },
               { src: "/images/media-walls/promo/floating-media-walls-hertfordshire.png", alt: "Floating media wall design in Hertfordshire" },
               { src: "/images/media-walls/promo/luxury-feature-media-walls-goffs-oak.png", alt: "Luxury feature media wall in Goffs Oak" },
+              { src: "/images/media-walls/promo/floating-media-walls-cheshunt.png", alt: "Floating media wall installation in Cheshunt" },
             ].map((img) => (
               <div key={img.src} className="overflow-hidden rounded-sm border border-line bg-paper">
                 <img src={img.src} alt={img.alt} className="w-full" style={{ display: "block" }} />
