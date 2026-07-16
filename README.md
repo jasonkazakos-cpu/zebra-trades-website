@@ -1,24 +1,13 @@
-# FIREZ 2200 Product Pack
+# FIRÉZ 1500 Slimline – Zebra Trades Upload Package
 
-Upload this complete folder to:
+This package contains everything needed to add the FIRÉZ 1500 Slimline to the Zebra Trades Media Walls page.
 
-`products/fireplaces/firez/Firez-2200/`
+## Included files
 
-Claude should treat everything inside as one product.
+- `firez-1500-slimline-media-wall.jpg` – finished product sales image with prices
+- `firez-1500-slimline-original.jpg` – clean original product image
+- `product-description.md` – SEO sales copy, metadata and alt text
+- `product-data.json` – structured product details
+- `claude-prompt.txt` – ready-to-paste Claude implementation prompt
 
-## Included
-
-- `Firez-2200-Sales.jpg` — promotional image with pricing
-- `Firez-2200-Scene-1.jpg` — clean gallery image
-- `Firez-2200.md` — SEO-friendly product wording
-- `Firez-2200.json` — structured product data
-- `Firez-2200.ts` — TypeScript product object
-- `seo.json` — SEO metadata
-- `schema.json` — Product schema
-- `claude-prompt.txt` — ready-to-paste Claude instructions
-
-Copy images to:
-
-`public/images/fireplaces/firez/Firez-2200/`
-
-Do not crop the sales image. Use `object-fit: contain`.
+Upload the ZIP to Claude or extract it into the Zebra Trades GitHub project and follow the instructions in `claude-prompt.txt`.

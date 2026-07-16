@@ -1,0 +1,37 @@
+{
+  "name": "FIRÉZ 1500 Slimline",
+  "slug": "firez-1500-slimline",
+  "category": "Media Wall Electric Fire",
+  "supplyInstallFrom": 3390,
+  "supplyOnly": 1649,
+  "currency": "GBP",
+  "heaterOutput": "1.6kW",
+  "buildInDepth": "190mm",
+  "dimensions": {
+    "heightMm": 616.5,
+    "widthMm": 1530,
+    "depthMm": 207
+  },
+  "glassOptions": [
+    "1-sided",
+    "2-sided",
+    "3-sided panoramic"
+  ],
+  "controls": [
+    "Remote control",
+    "Smartphone app",
+    "Alexa",
+    "Manual push-button controls"
+  ],
+  "features": [
+    "3D Reflectory flame effect",
+    "High-definition mixed log fuel bed",
+    "Optional deluxe real log fuel bed",
+    "Multiple flame colours",
+    "Adjustable flame speed",
+    "Under-bed glow lighting",
+    "Over-bed lighting"
+  ],
+  "image": "/images/media-walls/firez-1500-slimline-media-wall.jpg",
+  "alt": "FIRÉZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
+}

@@ -1,40 +1,57 @@
-You are updating the Zebra Trades website.
+Add the new FIRÉZ 1500 Slimline product to the Zebra Trades Media Walls page.
 
-A new complete product folder has been added:
+IMPORTANT:
+- Inspect the existing media wall product structure first.
+- Match the exact layout, styling, spacing, typography, button design and responsive behaviour used by the existing FIRÉZ products.
+- Do not redesign the page.
+- Do not remove, rename or alter any existing products.
+- Do not rewrite unchanged files.
+- Reuse existing components and data structures wherever possible to save tokens.
+- Prevent duplicate entries.
+- Keep the current product ordering logical alongside the other FIRÉZ models.
 
-products/fireplaces/firez/Firez-2200/
+FILES PROVIDED:
+1. firez-1500-slimline-media-wall.jpg
+   - This is the finished sales image with prices.
+2. firez-1500-slimline-original.jpg
+   - Clean original image, included as a backup.
+3. product-description.md
+   - Full SEO sales copy and metadata.
+4. product-data.json
+   - Structured product details.
 
-Read README.md first. Use Firez-2200.json, Firez-2200.md, seo.json and schema.json as the source of truth.
+PRODUCT:
+FIRÉZ 1500 Slimline
 
-Add FIREZ 2200 to the existing Media Wall fireplace section using exactly the same card layout, image area, typography, spacing, pricing block, buttons and responsive behaviour as the existing FIREZ products.
+PRICES:
+- Supply & Install From: £3,390.00
+- Supply Only: £1,649.00
 
-Use:
-- Firez-2200-Sales.jpg as the main product-card image
-- Firez-2200-Scene-1.jpg as the gallery image
+IMAGE:
+Copy `firez-1500-slimline-media-wall.jpg` into the same public image folder used by the existing FIRÉZ product images. Keep the SEO-friendly filename unchanged.
 
-Product card:
-- Category: FIREZ · MEDIA WALL ELECTRIC FIRE
-- Product: FIREZ 2200
-- Supply & Install From £3,890
-- Supply Only £2,490
-- VIEW DETAILS
-- GET QUOTE
+CONTENT:
+Use the full product wording from `product-description.md`. Preserve the FIRÉZ spelling and the trademark symbol in 3D Reflectory™.
 
-Create the product page at:
+SEO:
+- Page title/product heading: FIRÉZ 1500 Slimline Electric Fireplace
+- Suggested slug: firez-1500-slimline
+- Alt text: FIRÉZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above.
+- Include natural keywords such as slimline electric fireplace, media wall fire, panoramic electric fire, bespoke media wall installation and electric fireplace installation.
+- Do not keyword-stuff.
 
-/fireplaces/firez-2200
+TECHNICAL DETAILS:
+- Built-in depth: 190mm
+- Heater: 1.6kW
+- Dimensions: H 616.5 × W 1530 × D 207mm
+- Available in 1, 2 or 3-sided panoramic glass configurations
+- Remote, app, Alexa and manual controls
+- Standard high-definition mixed log fuel bed
+- Optional deluxe real log fuel bed
 
-Do not crop images. Use object-fit: contain.
-Clicking the product image or VIEW DETAILS should open the product page.
-On the product page, hero and gallery images should open in a responsive lightbox.
-
-Copy images to:
-
-public/images/fireplaces/firez/Firez-2200/
-
-Use the supplied SEO metadata and Product schema once only.
-
-Do not remove, overwrite or alter existing products.
-Do not redesign the Media Wall page.
-Reuse existing components.
-Do not rewrite unchanged files.
+After making the change:
+- Check mobile and desktop layouts.
+- Confirm the image loads correctly.
+- Confirm prices display exactly as supplied.
+- Confirm no previous FIRÉZ products have been removed or duplicated.
+- Return a concise summary listing only the files changed.
