@@ -245,28 +245,6 @@ export default function MediaWallsPage() {
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            eyebrow="Design Options"
-            title="Media Wall Options"
-            subtitle="From a simple TV feature wall to a fully bespoke fireplace centrepiece."
-          />
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {wallOptions.map((item) => (
-              <div key={item.title} className="flex flex-col items-center gap-3 rounded-sm border border-line bg-paper p-5 text-center transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_12px_24px_-12px_rgba(20,20,26,0.2)]">
-                <span className="flex size-11 items-center justify-center rounded-sm bg-accent-soft">
-                  <item.icon className="size-5 text-accent-dark" strokeWidth={1.75} aria-hidden="true" />
-                </span>
-                <h3 className="font-display text-sm font-bold uppercase tracking-tight text-ink">
-                  {item.title}
-                </h3>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-paper">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
             eyebrow="Premium Fireplaces"
             title="Choose Your Fireplace"
             subtitle="The fireplace is the heart of every media wall. Browse our premium range of electric fireplaces, professionally supplied and installed by Zebra Trades."
