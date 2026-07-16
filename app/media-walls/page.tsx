@@ -200,6 +200,35 @@ export default function MediaWallsPage() {
         </Container>
       </section>
 
+      {/* Summer Sale Banner */}
+      <section className="bg-[#0f0f0f]">
+        <Container className="py-10 sm:py-12">
+          <div className="rounded-xl border border-white/10 bg-gradient-to-br from-[#1a1a1a] to-[#111] px-6 py-10 text-center sm:px-10 sm:py-12">
+            <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent">Limited Time Offer &nbsp;·&nbsp; ☀️ Summer Sale</p>
+            <p className="mt-5 font-display text-6xl font-bold tracking-tight text-white sm:text-7xl lg:text-8xl">
+              10% OFF
+            </p>
+            <p className="mt-3 font-display text-xl font-bold uppercase tracking-tight text-white sm:text-2xl">
+              All FIRÉZ Electric Fireplaces
+            </p>
+            <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-white/70 sm:text-base">
+              For a limited time, receive <strong className="text-white">10% off every FIRÉZ electric fireplace</strong> when you book through Zebra Trades.
+            </p>
+            <p className="mx-auto mt-3 max-w-xl text-xs leading-relaxed text-white/45 sm:text-sm">
+              The 10% discount applies to the electric fireplace unit only. Media wall construction, installation, plastering, decorating, electrical work and additional building work are priced separately.
+            </p>
+            <div className="mt-8">
+              <a
+                href={quoteHref}
+                className="inline-block rounded-sm bg-accent px-8 py-4 font-mono text-sm font-bold uppercase tracking-widest text-white transition-opacity hover:opacity-90 sm:px-10 sm:text-base"
+              >
+                Get a Free Quote
+              </a>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
