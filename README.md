@@ -1,9 +1,9 @@
-# FIRÉZ 1800 Slimline – Zebra Trades GitHub/Claude Package
+# FIRÉZ 900 Slimline – Zebra Trades GitHub/Claude Package
 
 ## Included
 
-- `firez-1800-slimline-original.jpg` — clean image for the website product card
-- `firez-1800-slimline-media-wall.jpg` — marketing image with prices
+- `firez-900-slimline-original.jpg` — clean image for the website product card
+- `firez-900-slimline-media-wall.jpg` — marketing image with prices
 - `product-description.md` — full SEO sales description
 - `product-data.json` — structured product details
 - `claude-prompt.txt` — implementation instructions

@@ -1,4 +1,4 @@
-Add the FIRÉZ 1800 Slimline product to the Zebra Trades Media Walls page.
+Add the FIRÉZ 900 Slimline product to the Zebra Trades Media Walls page.
 
 CRITICAL DESIGN RULE:
 Use the existing FIREZ 1600 AR GLASS product card as the exact master template.
@@ -23,37 +23,37 @@ Category:
 FIREZ · MEDIA WALL ELECTRIC FIRE
 
 Title:
-FIRÉZ 1800 Slimline
+FIRÉZ 900 Slimline
 
 Short summary:
-The FIRÉZ 1800 Slimline delivers an impressive widescreen flame display with an ultra-slim 190mm installation depth, ideal for luxury media walls where space is at a premium.
+The FIRÉZ 900 Slimline combines realistic panoramic flame effects with an ultra-slim 175mm installation depth, making it ideal for chimney breasts, flat-wall installations and compact media walls.
 
 Price panel:
 SUPPLY & INSTALL
-From £3,690
+From £2,790
 
 SUPPLY ONLY
-£1,990
+£1,190
 
 WEBSITE IMAGE RULE:
-Use `firez-1800-slimline-original.jpg` for the product card.
+Use `firez-900-slimline-original.jpg` for the website product card.
 
 This is the clean website image. It must contain no prices, product names, banners or promotional graphics.
 
-Do not use `firez-1800-slimline-media-wall.jpg` on the website product card. That file is for marketing use only.
+Do not use `firez-900-slimline-media-wall.jpg` on the website product card. That file is for marketing use only.
 
 FULL DETAILS:
-Use the complete copy from `product-description.md` for the View Details page or the existing details section.
+Use the complete copy from `product-description.md` for the View Details page or existing details section.
 
 TECHNICAL DATA:
-- Dimensions: H 616.5 × W 1830 × D 207mm
-- Built-in depth: 190mm
+- Dimensions: H 600 × W 978 × D 175mm
+- Built-in depth: 175mm
 - Heater output: 1.6kW
-- 1, 2 or 3-sided panoramic glass options
+- One-sided installation
 - Remote, smartphone app, Alexa and manual controls
-- High-definition mixed log fuel bed as standard
-- Optional deluxe real log fuel bed
-- Multiple flame colours and lighting options
+- High-definition mixed interchangeable log fuel bed
+- Multiple flame colours and flame speeds
+- Over-bed and under-bed lighting
 
 DO NOT:
 - alter the FIREZ 1600 AR GLASS master card
