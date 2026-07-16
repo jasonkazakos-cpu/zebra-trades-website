@@ -42,7 +42,6 @@ import firez1800 from "../Firez-1800-AR-Glass.json";
 import firez2200 from "../Firez-2200.json";
 import firez1500sl from "../Firez-1500-Slimline.json";
 import firez1800sl from "../Firez-1800-Slimline.json";
-import firez900sl from "../Firez-900-Slimline.json";
 
 // Normalise legacy MediaWall1250 shape to shared type
 const mw1250normalised: FireplaceProduct = {
@@ -62,5 +61,4 @@ export const fireplaces: FireplaceProduct[] = [
   firez2200 as FireplaceProduct,
   firez1500sl as FireplaceProduct,
   firez1800sl as FireplaceProduct,
-  firez900sl as FireplaceProduct,
 ];
