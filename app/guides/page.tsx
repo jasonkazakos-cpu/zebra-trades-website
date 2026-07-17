@@ -63,7 +63,7 @@ export default function GuidesPage() {
         </Container>
       </section>
 
-      <section id="browse" className="bg-paper">
+      <section id="browse" className="bg-paper" style={{ scrollMarginTop: "80px" }}>
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="All Guides"
