@@ -497,4 +497,78 @@ export const guides: Guide[] = [
     ],
     relatedSlugs: ["do-you-need-planning-permission-for-a-garden-room"],
   },
+  {
+    slug: "pergola-vs-gazebo-which-is-right-for-your-garden",
+    title: "Pergola vs Gazebo: Which Is Right for Your Garden?",
+    excerpt: "Pergolas and gazebos both add outdoor living space, but they suit different gardens and different needs. Here's an honest comparison to help you choose.",
+    category: "pergolas",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "Pergola vs Gazebo: Which Is Right for Your Garden? | Zebra Trades Hertfordshire",
+    seoDescription: "Pergola or gazebo? Compare styles, costs, shelter and planning rules to find the right outdoor structure for your garden. Advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "What Is a Pergola?",
+        body: "A pergola is an open overhead structure supported by posts, with horizontal beams and cross-rafters forming a roof framework. It provides partial shade and can be used to define an outdoor dining or seating area, frame a garden path, or create a sheltered link between the house and a garden building. Because the roof is open, a pergola does not provide full weather protection — though roof panels, polycarbonate sheets or retractable canopies can be added to increase shelter.",
+      },
+      {
+        heading: "What Is a Gazebo?",
+        body: "A gazebo is a freestanding structure with a solid or semi-solid roof, typically octagonal or square in shape, with open or partially open sides. Unlike a pergola, a gazebo provides full overhead shelter from rain and direct sun. Gazebos are well suited to gardens where the structure will be used as a destination — a sheltered seating spot, an outdoor bar or a focal point in the landscape.",
+      },
+      {
+        heading: "Shelter and Usability",
+        body: "If weather protection is your priority, a gazebo wins outright — the solid roof keeps you dry in light to moderate rain. A standard pergola offers shade from sun but little protection from rain. However, a pergola fitted with a louvred or polycarbonate roof panel system bridges the gap and is increasingly popular for year-round outdoor dining. Think about how you actually want to use the space, and in what seasons, before deciding.",
+      },
+      {
+        heading: "Appearance and Garden Fit",
+        body: "Pergolas tend to suit longer, narrower spaces and work well attached to the house wall to create a covered terrace. They have a lighter, more architectural appearance and can be dressed with climbing plants to soften the structure over time. Gazebos suit larger, more open gardens and work best as freestanding features positioned away from the house. Their presence is more prominent — which can be a positive if you want a strong focal point or a drawback in a smaller garden.",
+      },
+      {
+        heading: "Materials and Longevity",
+        body: "Both structures are available in timber, powder-coated aluminium or composite materials. Softwood pergolas are the most affordable but require regular treating or painting to prevent rot. Hardwood and composite options last longer with less maintenance. Aluminium gazebos and pergolas require virtually no maintenance and are particularly well suited to the UK climate. Expect a quality timber structure to last 15–25 years with proper care; aluminium structures typically last 25 years or more.",
+      },
+      {
+        heading: "Cost Comparison",
+        body: "In the Hertfordshire area, a quality timber or aluminium pergola typically costs from £2,500 to £6,000 supply and install depending on size and specification. A freestanding gazebo ranges from £3,000 to £8,000 installed. Larger bespoke structures, louvred pergola systems or those with integrated lighting and electrical connections cost more. Always obtain a written quotation that includes groundwork, fixings and any electrical work separately.",
+      },
+    ],
+    relatedSlugs: ["do-you-need-planning-permission-for-a-pergola-or-gazebo"],
+  },
+  {
+    slug: "do-you-need-planning-permission-for-a-pergola-or-gazebo",
+    title: "Do You Need Planning Permission for a Pergola or Gazebo?",
+    excerpt: "Most pergolas and gazebos in residential gardens don't need planning permission — but size, position and location all matter. Here's what the rules say.",
+    category: "pergolas",
+    readingTime: 4,
+    publishedAt: "2025-07-17",
+    seoTitle: "Do You Need Planning Permission for a Pergola or Gazebo? | Zebra Trades Hertfordshire",
+    seoDescription: "Find out if your pergola or gazebo needs planning permission. Clear guidance on permitted development rules from Zebra Trades, serving Hertfordshire.",
+    sections: [
+      {
+        heading: "Pergolas and Gazebos Are Classed as Outbuildings",
+        body: "In England, pergolas and gazebos are treated as outbuildings under the Town and Country Planning (General Permitted Development) Order. This means that in most cases they are covered by permitted development rights and do not require a planning application, as long as your project stays within the set limits.",
+      },
+      {
+        heading: "The Permitted Development Rules That Apply",
+        body: "Your structure must not cover more than 50% of the total land area surrounding the original house, including all other outbuildings. It must be single storey. Maximum eaves height is 2.5 metres. Maximum overall height is 4 metres for a dual-pitched roof or 3 metres for any other roof type — including flat and mono-pitch roofs. The structure must not be positioned forward of the principal elevation of the house, and must not be used as a dwelling.",
+      },
+      {
+        heading: "The 2-Metre Boundary Rule",
+        body: "If any part of the structure is within 2 metres of your property boundary, the maximum permitted height drops to 2.5 metres overall. This catches many standard gazebos and larger pergolas positioned near fences or walls, so check your distances carefully before finalising your design. Moving a structure a metre further from the boundary can sometimes bring it back within permitted development.",
+      },
+      {
+        heading: "Open Pergolas vs Solid-Roof Structures",
+        body: "A pergola with a fully open roof framework — beams and rafters with no covering — is generally treated more leniently than a solid-roofed gazebo because it is not an enclosed structure. However, adding a solid, watertight roof covering typically brings the structure within the same outbuilding rules. If in doubt, contact your local planning authority before building rather than after.",
+      },
+      {
+        heading: "When Planning Permission Is Required",
+        body: "You will need to apply for planning permission if your property is a listed building or sits within a conservation area, a National Park, an Area of Outstanding Natural Beauty or the Broads. Permitted development rights can also be removed by conditions on the original planning consent for your property — common on newer developments. Check with your local planning authority if you are unsure.",
+      },
+      {
+        heading: "Getting Peace of Mind",
+        body: "If your project is straightforward and clearly within permitted development limits, you can proceed without any formal application. If there is any doubt — particularly if you are near a boundary, in a restricted area or on a property with planning conditions — a lawful development certificate provides written confirmation from the council that no permission was needed. This costs a small fee but protects you when you come to sell. At Zebra Trades we can help you understand the rules before any work begins.",
+      },
+    ],
+    relatedSlugs: ["pergola-vs-gazebo-which-is-right-for-your-garden"],
+  },
 ];
