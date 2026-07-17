@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) return {};
   return {
-    title: `${guide.title} | Zebra Trades`,
-    description: guide.excerpt,
+    title: guide.seoTitle ?? `${guide.title} | Zebra Trades`,
+    description: guide.seoDescription ?? guide.excerpt,
   };
 }
 

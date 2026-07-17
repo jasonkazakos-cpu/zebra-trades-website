@@ -14,6 +14,8 @@ export type Guide = {
   publishedAt: string;
   sections: { heading: string; body: string }[];
   relatedSlugs?: string[];
+  seoTitle?: string;
+  seoDescription?: string;
 };
 
 export const categories: GuideCategory[] = [
@@ -285,5 +287,66 @@ export const guides: Guide[] = [
       },
     ],
     relatedSlugs: ["how-much-does-a-handyman-cost"],
+  },
+  {
+    slug: "handyman-guide-10-simple-home-repairs",
+    title: "Handyman Guide: 10 Simple Home Repairs Every Homeowner Should Know",
+    excerpt: "Keeping your home in good condition doesn't always require expensive renovations. Many common household problems can be prevented with routine maintenance and by tackling small repairs before they become bigger, more costly issues.",
+    category: "handyman",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "10 Simple Handyman Repairs Every Homeowner Should Know | Zebra Trades",
+    seoDescription: "Learn 10 simple handyman repairs and home maintenance tips that can save you money. Expert advice from Zebra Trades serving Hertfordshire and surrounding areas.",
+    sections: [
+      {
+        heading: "Stop Squeaky Doors",
+        body: "A squeaky door is usually caused by dry hinges. Apply a small amount of silicone spray or light machine oil to the hinge pins and open and close the door several times. Avoid using cooking oil as it attracts dirt and dust. If the door has dropped or no longer closes properly, it may need adjusting rather than just lubricating.",
+      },
+      {
+        heading: "Tighten Loose Door Handles",
+        body: "Door handles naturally work loose over time through daily use. Every few months, check the fixing screws and tighten them with a screwdriver. If the screws no longer grip properly, they may need replacing or the fixing holes may need repairing.",
+      },
+      {
+        heading: "Fix Small Wall Holes",
+        body: "Picture hooks, curtain poles and accidental knocks often leave small holes in plaster. For holes under 10mm, remove any loose material, fill with a quality decorator's filler, allow to dry completely, sand smooth, then touch up with matching paint. Small repairs completed quickly stop damage becoming more noticeable.",
+      },
+      {
+        heading: "Keep Silicone Seals in Good Condition",
+        body: "Bathroom and kitchen sealant protects against water damage. If you notice black mould, peeling silicone or gaps around baths or showers, replace the sealant before water gets behind the tiles or units.",
+      },
+      {
+        heading: "Check Your Smoke Alarms",
+        body: "Smoke alarms should be tested every month. Replace batteries when required and replace the entire alarm according to the manufacturer's recommendations — usually every 10 years. This is one of the simplest but most important maintenance jobs in any home.",
+      },
+      {
+        heading: "Don't Ignore Sticking Doors",
+        body: "If internal doors begin sticking, don't force them. The cause could be seasonal timber movement, loose hinges, house settlement or humidity. Early adjustment is usually quick and inexpensive — leaving it often leads to a bigger repair.",
+      },
+      {
+        heading: "Prevent Flat-Pack Furniture Becoming Loose",
+        body: "Wardrobes, beds and cabinets gradually loosen through everyday use. Every six months, tighten bolts, check brackets, inspect drawer runners and adjust door hinges. Regular maintenance dramatically increases furniture life.",
+      },
+      {
+        heading: "Clean Extractor Fans",
+        body: "Bathroom and kitchen extractor fans collect dust surprisingly quickly. A dirty fan removes less moisture, increasing the risk of condensation, damp and mould. Vacuum the grille regularly and clean accessible parts with a damp cloth.",
+      },
+      {
+        heading: "Inspect External Sealants",
+        body: "Take a walk around your home every spring and autumn. Check sealant around windows, doors and external pipework. If sealant has cracked or separated, replacing it early prevents water ingress and costly repairs later.",
+      },
+      {
+        heading: "Know When to Call a Professional",
+        body: "DIY can save money, but some jobs are better left to experienced tradespeople. Consider professional help for TV wall mounting, internal door fitting, kitchen installation, plumbing repairs, electrical work, heavy shelving, large flat-pack furniture and media wall construction. A properly completed installation is usually safer, lasts longer and often saves money by avoiding mistakes.",
+      },
+      {
+        heading: "Why Choose Zebra Trades?",
+        body: "At Zebra Trades, we believe in doing every job properly, whether it's fitting a single shelf or installing a complete media wall. We offer honest, transparent pricing, professional workmanship, friendly reliable service, high-quality materials, clean and tidy installations, and free no-obligation quotations. No matter the size of your project, we're here to help keep your home looking its best.",
+      },
+      {
+        heading: "Need a Handyman in Hertfordshire?",
+        body: "If you'd rather leave the hard work to a professional, Zebra Trades provides reliable handyman services throughout Hertfordshire and the surrounding areas. From door fitting and TV wall mounting to flat-pack assembly, shelving, home repairs and bespoke media wall installations, we're ready to help. Contact Zebra Trades today for a free quotation and expert advice on your next home improvement project.",
+      },
+    ],
+    relatedSlugs: ["how-much-does-a-handyman-cost", "how-to-prepare-for-a-handyman-visit", "diy-vs-trade-tv-wall-mounting"],
   },
 ];
