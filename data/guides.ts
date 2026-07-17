@@ -423,4 +423,78 @@ export const guides: Guide[] = [
     ],
     relatedSlugs: ["when-to-call-a-plumber", "how-to-fix-a-dripping-tap"],
   },
+  {
+    slug: "do-you-need-planning-permission-for-a-garden-room",
+    title: "Do You Need Planning Permission for a Garden Room?",
+    excerpt: "Most garden rooms fall under permitted development and don't need planning permission — but there are rules. Here's what you need to know before you build.",
+    category: "garden-rooms",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "Do You Need Planning Permission for a Garden Room? | Zebra Trades Hertfordshire",
+    seoDescription: "Find out if your garden room needs planning permission. Clear guidance on permitted development rules from Zebra Trades, serving Hertfordshire.",
+    sections: [
+      {
+        heading: "The Good News: Most Garden Rooms Don't Need Permission",
+        body: "In England, garden rooms are classed as outbuildings and are usually covered by permitted development rights — meaning you can build without applying for planning permission, as long as your project falls within certain limits. The majority of residential garden rooms meet these criteria without any issue.",
+      },
+      {
+        heading: "The Key Permitted Development Rules",
+        body: "To qualify under permitted development, your garden room must not cover more than 50% of the total land area surrounding the original house (including any other outbuildings). It must be single storey with a maximum eaves height of 2.5 metres and a maximum overall height of 4 metres with a dual-pitched roof, or 3 metres for any other roof type. It must not be used as a dwelling — meaning no sleeping overnight as a permanent residence.",
+      },
+      {
+        heading: "Siting and Boundary Rules",
+        body: "If any part of your garden room is within 2 metres of your property boundary, the maximum height drops to 2.5 metres. Garden rooms must be located behind the principal elevation of the house — in most cases this means behind the front wall of the property. Side returns and rear gardens are typically fine. Front gardens are not covered by permitted development.",
+      },
+      {
+        heading: "When You Will Need Planning Permission",
+        body: "You will need to apply for planning permission if your property is a listed building, if it sits within a conservation area, a National Park, an Area of Outstanding Natural Beauty or the Broads, or if previous development has already used up your 50% allowance. Permitted development rights can also be removed by conditions attached to the original planning consent for your home — worth checking if your property is on a newer estate.",
+      },
+      {
+        heading: "What About Building Regulations?",
+        body: "Planning permission and building regulations are separate things. Most garden rooms under 15 square metres are exempt from building regulations entirely. Between 15 and 30 square metres, building regulations apply if the structure contains sleeping accommodation, or if it is not at least one metre from the boundary. Above 30 square metres, full building regulations approval is required regardless. Even where exempt, a well-built garden room should meet the spirit of the regulations for safety and longevity.",
+      },
+      {
+        heading: "Our Advice",
+        body: "Before committing to a design, check whether your permitted development rights are intact — your local planning authority can confirm this quickly. If your project is borderline, a lawful development certificate gives you a formal record that no permission was needed, which protects you when you come to sell the property. At Zebra Trades we can advise on typical requirements for garden rooms in the Hertfordshire area and help ensure your build is compliant from day one.",
+      },
+    ],
+    relatedSlugs: ["how-much-does-a-garden-room-cost", "what-to-consider-before-building-a-garden-room"],
+  },
+  {
+    slug: "what-to-consider-before-building-a-garden-room",
+    title: "What to Consider Before Building a Garden Room",
+    excerpt: "A garden room can add valuable space and increase your property value — but there are several practical decisions to make before you start. Here's what to think through first.",
+    category: "garden-rooms",
+    readingTime: 6,
+    publishedAt: "2025-07-17",
+    seoTitle: "What to Consider Before Building a Garden Room | Zebra Trades Hertfordshire",
+    seoDescription: "Planning a garden room? Here's everything to consider before you build — size, insulation, electrics, foundations and more. Advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "What Will You Use It For?",
+        body: "The intended use of your garden room should drive every other decision. A home office has different requirements to a gym, a studio or a games room. An office used year-round needs good insulation, heating and fast broadband. A gym needs ventilation and durable flooring. A hobby space may need extra power sockets and lighting. Being clear on the purpose before you start avoids expensive changes later.",
+      },
+      {
+        heading: "Size and Positioning",
+        body: "Consider how much space you actually need, not just what fits in the garden. A room that is too small becomes frustrating quickly. Think about natural light — south or west facing positions get the most sunlight, but heavy summer sun through glazing can overheat the space without shade or ventilation. Also consider the view from the main house, privacy from neighbours, and the distance you'll be walking from the back door in bad weather.",
+      },
+      {
+        heading: "Insulation Is Not Optional",
+        body: "If you intend to use the garden room throughout the year — including winter — insulation is essential. A poorly insulated room is expensive to heat and uncomfortable to work in. Look for insulated panels or frames with insulation between the structural timbers in the walls, floor and roof. The higher the insulation value (measured in U-values), the cheaper the running costs. Don't let a supplier skip this — cheap upfront usually means cold and costly year-round.",
+      },
+      {
+        heading: "Foundations and Ground Conditions",
+        body: "Most garden rooms are built on timber frame supports, concrete pads or screw pile foundations. The right choice depends on your garden's ground conditions, slope and any tree roots nearby. Timber bearers on concrete pads are common and cost-effective on flat ground. Screw piles are faster to install and better suited to sloped or unstable ground. A good installer will assess your specific garden before recommending a foundation type.",
+      },
+      {
+        heading: "Electrics, Heating and Broadband",
+        body: "Running power to a garden room requires a dedicated cable from your consumer unit, buried underground in conduit to a safe depth — typically 450mm under a lawn or 600mm under a drive. This must be carried out by a qualified electrician and notified to building control. Consider how many sockets you need, whether you want underfloor heating or a wall heater, and whether you need a data cable run alongside the power. Getting this right first time avoids the cost of digging up the garden later.",
+      },
+      {
+        heading: "Budget Realistically",
+        body: "Garden room costs in Hertfordshire vary significantly depending on size, specification and finish. A basic insulated timber room typically starts from around £8,000–£12,000 supply and install. Mid-range rooms with quality glazing, electrical installation and internal fit-out typically run £14,000–£22,000. Premium bespoke structures cost more. Always get a detailed written quotation that specifies what is and isn't included — particularly electrics, foundations and internal finishing — before committing.",
+      },
+    ],
+    relatedSlugs: ["do-you-need-planning-permission-for-a-garden-room"],
+  },
 ];
