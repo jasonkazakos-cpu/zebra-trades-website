@@ -6,7 +6,7 @@ type Props = { category: GuideCategory; count: number };
 export default function CategoryCard({ category, count }: Props) {
   return (
     <Link
-      href={`/guides?category=${category.slug}`}
+      href={`/guides?category=${category.slug}#browse`}
       className="group flex flex-col gap-3 rounded-sm border border-line bg-paper p-5 transition-shadow hover:shadow-md"
     >
       <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-slate">
