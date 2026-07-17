@@ -35,6 +35,7 @@ export const navLinks = [
   { href: "/about", label: "About Us" },
   { href: "/services", label: "Services" },
   { href: "/guides", label: "Advice & Guides" },
+  { href: "/areas", label: "Areas We Cover" },
   { href: "/contact", label: "Contact" },
 ];
 
