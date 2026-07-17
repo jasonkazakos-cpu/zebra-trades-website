@@ -571,4 +571,78 @@ export const guides: Guide[] = [
     ],
     relatedSlugs: ["pergola-vs-gazebo-which-is-right-for-your-garden"],
   },
+  {
+    slug: "how-to-choose-the-right-garden-fence",
+    title: "How to Choose the Right Garden Fence: Panels, Posts and Materials Explained",
+    excerpt: "With so many fencing options available, it's easy to make the wrong choice. Here's a practical guide to panels, posts and materials to help you pick a fence that looks good and lasts.",
+    category: "fencing",
+    readingTime: 6,
+    publishedAt: "2025-07-17",
+    seoTitle: "How to Choose the Right Garden Fence | Fencing Guide | Zebra Trades Hertfordshire",
+    seoDescription: "Choosing a garden fence? Compare panel styles, post types and materials to find the best option for your garden. Expert advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "Start With the Purpose",
+        body: "Before choosing a style, be clear on what you need your fence to do. Privacy fencing needs to be close-boarded and tall enough to screen sight lines. A boundary marker between properties can be lighter and more decorative. A fence containing pets or children needs to be solid at the base with no gaps. A front garden fence often benefits from a more open, attractive design. Matching the fence to its purpose avoids replacing it too soon.",
+      },
+      {
+        heading: "Panel Styles Explained",
+        body: "Lap panels are the most common and affordable option — overlapping horizontal slats create a solid screen but they are the least durable style. Closeboard or featherboard fencing uses vertical boards nailed to arris rails and is significantly stronger and longer-lasting than lap panels. Slatted or hit-and-miss panels offer a contemporary look with partial privacy and better wind resistance. Picket fencing is open and decorative, suited to front gardens. Trellis panels are lightweight and best used as a topper rather than a full fence.",
+      },
+      {
+        heading: "Post Materials: Concrete vs Timber vs Metal",
+        body: "Posts are the foundation of any fence and failing posts are the most common reason fences fall down prematurely. Concrete posts last significantly longer than timber and are worth the extra cost in most situations — particularly for closeboard fencing. Softwood timber posts should be pressure-treated to ground contact specification (UC4 rated) and will typically last 10–15 years if installed correctly. Steel or aluminium posts are used with contemporary panel systems and offer excellent longevity with minimal maintenance.",
+      },
+      {
+        heading: "Height Considerations",
+        body: "Standard fence panels are available in heights from 0.9 metres to 1.8 metres. A 1.8-metre fence provides good privacy for most rear gardens. On sloped ground, panels are typically stepped down in stages — a professional installer will account for the gradient so posts and panels align correctly. Note that fences over 2 metres high require planning permission, and front garden fences adjoining a highway are limited to 1 metre without permission.",
+      },
+      {
+        heading: "Gravel Boards — Worth the Investment",
+        body: "A gravel board is a horizontal board fitted at the base of a fence between the posts, keeping the main fence panel off the ground. This is one of the most cost-effective ways to extend fence life — ground contact rots timber panels quickly, particularly at the base. Concrete gravel boards are the most durable and highly recommended. Timber gravel boards are a reasonable alternative if pressure-treated to UC4 standard.",
+      },
+      {
+        heading: "What Does Professional Fence Installation Cost?",
+        body: "In the Hertfordshire area, professional fence installation typically costs from £80–£120 per metre supply and install for standard lap or closeboard fencing, depending on height and ground conditions. Concrete posts and gravel boards add to the cost but significantly extend the fence's life. Rocky ground, removal of an old fence or access difficulties will affect the final price. Always get a written quote that specifies post type, panel style, gravel boards and any groundwork included.",
+      },
+    ],
+    relatedSlugs: ["do-you-need-planning-permission-for-a-fence-or-gate"],
+  },
+  {
+    slug: "do-you-need-planning-permission-for-a-fence-or-gate",
+    title: "Do You Need Planning Permission for a Fence or Gate?",
+    excerpt: "Most garden fences and gates don't need planning permission — but height limits and location matter more than most people realise. Here's what the rules say.",
+    category: "fencing",
+    readingTime: 4,
+    publishedAt: "2025-07-17",
+    seoTitle: "Do You Need Planning Permission for a Fence or Gate? | Zebra Trades Hertfordshire",
+    seoDescription: "Find out if your fence or gate needs planning permission. Clear guidance on height limits and permitted development rules from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "The General Rule",
+        body: "In England, you do not need planning permission to erect a fence, wall or gate in most residential gardens, provided it falls within the permitted development height limits. These limits depend on where the fence is positioned relative to your property and the highway.",
+      },
+      {
+        heading: "Height Limits You Need to Know",
+        body: "For fences, walls and gates adjacent to a highway used by vehicles — including roads, footpaths and bridleways — the maximum permitted height is 1 metre without planning permission. For all other boundaries, including rear gardens and the sides of the property where they do not adjoin a highway, the maximum permitted height is 2 metres. A fence at exactly 2 metres does not need permission; anything over 2 metres does.",
+      },
+      {
+        heading: "Front Gardens and Visibility",
+        body: "Front garden fencing is where most disputes and planning issues arise. Even within the 1-metre height limit adjacent to a highway, local authorities and highways departments may have concerns about visibility splays — the clear sight lines drivers need when exiting your driveway. If you are planning a front garden fence near a driveway access, it is worth checking with your local authority before installation.",
+      },
+      {
+        heading: "Listed Buildings and Conservation Areas",
+        body: "If your property is a listed building, you will need listed building consent before erecting any fence or gate, regardless of height. Within a conservation area, permitted development rights for fences and gates are more restricted and you should contact your local planning authority before proceeding. These rules exist to protect the character of the area and are enforced.",
+      },
+      {
+        heading: "Boundary Disputes and Party Fence Agreements",
+        body: "Planning permission and boundary ownership are separate matters. Before installing or replacing a boundary fence, be clear on which boundary belongs to your property — check your title deeds or Land Registry records if unsure. Where a fence sits on or near a shared boundary, it is always worth discussing the plans with your neighbour before work begins. Most boundary issues that end up in dispute could have been avoided with a brief conversation.",
+      },
+      {
+        heading: "When to Check Before You Build",
+        body: "If you are in any doubt — whether due to your location, the height of the proposed fence, proximity to a highway or any planning conditions on your property — contact your local planning authority before work starts. Enforcement action against an unpermitted fence can require you to remove it at your own cost. At Zebra Trades we can advise on standard requirements for fencing in the Hertfordshire area and flag anything that needs checking before installation begins.",
+      },
+    ],
+    relatedSlugs: ["how-to-choose-the-right-garden-fence"],
+  },
 ];
