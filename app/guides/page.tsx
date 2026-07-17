@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import CtaBand from "@/components/CtaBand";
@@ -69,7 +70,9 @@ export default function GuidesPage() {
             title="Search & Browse"
           />
           <div className="mt-10">
-            <GuidesGrid guides={guides} />
+            <Suspense fallback={null}>
+              <GuidesGrid guides={guides} />
+            </Suspense>
           </div>
         </Container>
       </section>

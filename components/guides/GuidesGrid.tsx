@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { Search, X } from "lucide-react";
 import type { Guide } from "@/data/guides";
 import { categories } from "@/data/guides";
@@ -12,8 +13,14 @@ const LOAD_MORE = 6;
 type Props = { guides: Guide[] };
 
 export default function GuidesGrid({ guides }: Props) {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState(() => searchParams.get("category") ?? "all");
+
+  useEffect(() => {
+    const cat = searchParams.get("category");
+    if (cat) setActiveCategory(cat);
+  }, [searchParams]);
   const [visible, setVisible] = useState(PAGE_SIZE);
 
   const filtered = useMemo(() => {
