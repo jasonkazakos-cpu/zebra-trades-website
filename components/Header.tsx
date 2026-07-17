@@ -19,7 +19,7 @@ export default function Header() {
       <Container className="flex h-18 items-center justify-between py-3">
         <Logo />
 
-        <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
+        <nav className="hidden lg:flex items-center gap-8 ml-10" aria-label="Primary">
           {navLinks.map((link) => {
             const active = pathname === link.href;
             return (
