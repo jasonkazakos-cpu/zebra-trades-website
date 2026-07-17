@@ -645,4 +645,78 @@ export const guides: Guide[] = [
     ],
     relatedSlugs: ["how-to-choose-the-right-garden-fence"],
   },
+  {
+    slug: "home-maintenance-checklist-spring-and-summer",
+    title: "Home Maintenance Checklist: Spring and Summer",
+    excerpt: "Warmer months are the best time to tackle outdoor repairs and inspect your property after winter. Here's a practical checklist to work through each spring and summer.",
+    category: "home-maintenance",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "Home Maintenance Checklist: Spring & Summer | Zebra Trades Hertfordshire",
+    seoDescription: "A practical spring and summer home maintenance checklist to keep your property in top condition. Expert advice from Zebra Trades, serving Hertfordshire.",
+    sections: [
+      {
+        heading: "Check Your Roof and Gutters",
+        body: "Winter weather takes a toll on roofs and guttering. In spring, walk around the outside of your property and look for missing or slipped roof tiles, cracked ridge tiles and any sagging or damaged guttering. Blocked gutters overflow and direct water down external walls, leading to damp and damage internally. Clear leaves and debris from gutters and downpipes, check that all joints are watertight, and ensure downpipes are discharging correctly away from the building.",
+      },
+      {
+        heading: "Inspect External Sealants and Pointing",
+        body: "Check the sealant around all ground-floor windows, doors and external pipework. Sealant that has cracked, pulled away or gone black with mould should be replaced before water gets into the wall. Also look at the mortar pointing between bricks on chimney stacks and exposed wall sections — crumbling or missing pointing lets water in and leads to expensive repairs if left. Spring is the ideal time to spot and address these issues before summer rain arrives.",
+      },
+      {
+        heading: "Service Your Boiler and Heating",
+        body: "Spring is an ideal time to book a boiler service — engineers are less busy than in autumn when the heating season begins. An annual service keeps your boiler running efficiently, extends its life and ensures it is safe. While the heating is off for summer, bleed any radiators that underperformed over winter and top up the system pressure if needed. Check thermostatic radiator valves move freely — they can seize if left in a fixed position over summer.",
+      },
+      {
+        heading: "Inspect Fences, Gates and Outbuildings",
+        body: "Walk the boundary of your garden and check fences for rotten posts, broken panels and leaning sections. A fence that fails in a storm can cause damage and may be your responsibility to repair or replace. Check gate hinges and latches for rust or looseness. Inspect any sheds, summerhouses or garden rooms for signs of water ingress, rot at the base of frames or damaged roofing felt. Early intervention is almost always cheaper than a full repair.",
+      },
+      {
+        heading: "Outdoor Taps, Pipes and Drainage",
+        body: "Restore any outdoor taps that were isolated over winter — check for splits in the pipe caused by freezing before fully opening the supply. Pour water down external drains to check they are flowing freely. Clear any blockages from drain grates. If you have a patio or decking, check that surface water is draining away from the house and not pooling against the external wall.",
+      },
+      {
+        heading: "Refresh External Paintwork and Timber",
+        body: "Dry spring and summer weather is the window for external decorating. Check painted timber window frames, soffits, fascias and external doors for cracking, peeling or bare wood. Sand, prime and repaint any areas where the coating has broken down — exposed bare timber rots quickly. External masonry paint on rendered walls should also be inspected for cracks and bare patches where damp could get in.",
+      },
+    ],
+    relatedSlugs: ["home-maintenance-checklist-autumn-and-winter"],
+  },
+  {
+    slug: "home-maintenance-checklist-autumn-and-winter",
+    title: "Home Maintenance Checklist: Autumn and Winter",
+    excerpt: "Getting your home ready before the cold sets in can prevent a lot of expensive problems. Here's what to check and action every autumn before winter arrives.",
+    category: "home-maintenance",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "Home Maintenance Checklist: Autumn & Winter | Zebra Trades Hertfordshire",
+    seoDescription: "A practical autumn and winter home maintenance checklist to protect your property from cold weather damage. Advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "Clear Gutters Before the Leaves Fall",
+        body: "Autumn leaves block gutters quickly. A blocked gutter in a heavy downpour overflows and drives water into the roof space, down the external wall or into the foundations. Clear gutters and downpipes in late autumn once most leaves have fallen, and check all joints are secure. If your gutters block every year, gutter guards are a worthwhile investment that reduce the frequency of clearing.",
+      },
+      {
+        heading: "Protect Your Pipes From Freezing",
+        body: "Burst pipes caused by freezing are one of the most costly winter home emergencies. Lag any exposed pipes in unheated spaces — lofts, garages and under-floor voids — with pipe insulation, which is inexpensive and simple to fit. Isolate and drain outdoor taps before the first frost, and know where your main stopcock is so you can turn the water off quickly if a pipe does freeze or burst.",
+      },
+      {
+        heading: "Get Your Boiler Serviced",
+        body: "If you did not service your boiler in spring, book it in early autumn before the heating season begins. Boiler engineers are significantly harder to book in November and December when demand peaks. A service also confirms your boiler is ready for the cold months ahead — the last thing you want is a breakdown on the coldest night of the year. Check that your thermostat and programmer are working correctly before you need them.",
+      },
+      {
+        heading: "Check Your Roof Before Winter Storms",
+        body: "A quick visual inspection of your roof in autumn can save significant repair costs. Look for missing, cracked or slipped tiles that could let water in during winter storms. Check the flashing around chimney stacks, skylights and roof valleys — failed flashing is a common source of roof leaks. If you spot anything of concern, get it looked at before winter weather makes the problem worse and access to the roof more difficult.",
+      },
+      {
+        heading: "Draught-Proof Doors and Windows",
+        body: "Draughts waste heat and push up energy bills. Check the seals around external doors and windows and replace any worn or compressed draught strips. Letter boxes, keyholes and cat flaps all let cold air in and can be fitted with draught-excluding covers inexpensively. Check loft hatch seals too — a poorly sealed loft hatch allows warm air to escape directly into the cold roof space, where it condenses and can cause damp.",
+      },
+      {
+        heading: "Test Smoke and Carbon Monoxide Alarms",
+        body: "With heating systems, fires and candles used more heavily in winter, autumn is a good time to test every smoke alarm and carbon monoxide detector in the property. Replace batteries in any alarm that hasn't had them changed in the past 12 months. Carbon monoxide alarms are particularly important when gas boilers, fires and wood burners are in regular use — CO is odourless and invisible, making a working detector essential.",
+      },
+    ],
+    relatedSlugs: ["home-maintenance-checklist-spring-and-summer"],
+  },
 ];
