@@ -349,4 +349,78 @@ export const guides: Guide[] = [
     ],
     relatedSlugs: ["how-much-does-a-handyman-cost", "how-to-prepare-for-a-handyman-visit", "diy-vs-trade-tv-wall-mounting"],
   },
+  {
+    slug: "how-to-fix-a-dripping-tap",
+    title: "How to Fix a Dripping Tap: Causes, Costs and When to Call a Plumber",
+    excerpt: "A dripping tap wastes more water than most people realise and can cost you money on your water bill. Here's what causes it, what's involved in fixing it, and when it's worth calling a professional.",
+    category: "plumbing",
+    readingTime: 5,
+    publishedAt: "2025-07-17",
+    seoTitle: "How to Fix a Dripping Tap | Plumbing Guide | Zebra Trades Hertfordshire",
+    seoDescription: "Find out what causes a dripping tap, how to fix it and when to call a plumber. Expert plumbing advice from Zebra Trades serving Hertfordshire.",
+    sections: [
+      {
+        heading: "Why a Dripping Tap Is Worth Fixing Quickly",
+        body: "A tap that drips once per second wastes over 30 litres of water a day — more than 10,000 litres a year. Beyond the environmental cost, if you're on a water meter that's money going straight down the drain. A dripping hot water tap also wastes the energy used to heat that water. The good news is that most dripping taps are caused by worn internal parts that are inexpensive to replace.",
+      },
+      {
+        heading: "What Causes a Tap to Drip?",
+        body: "The most common cause is a worn tap washer — a small rubber disc inside the tap body that presses against a valve seat to stop water flow. Over time the washer hardens, cracks or wears away and can no longer form a watertight seal. On newer ceramic disc taps, a cracked or worn ceramic cartridge is usually the culprit. Other causes include a damaged valve seat, worn O-rings around the cartridge or spindle, or high water pressure forcing water past worn components.",
+      },
+      {
+        heading: "Traditional Taps vs Ceramic Disc Taps",
+        body: "Traditional pillar taps use a rubber washer on a threaded spindle. They require multiple turns to open and close and the washer is straightforward to replace. Ceramic disc taps use a ceramic cartridge and only require a quarter turn to operate. They are generally more durable but when they do fail the entire cartridge usually needs replacing. Knowing which type you have helps you buy the right replacement part before starting the job.",
+      },
+      {
+        heading: "Replacing a Tap Washer: What's Involved",
+        body: "The water supply to the tap must first be isolated — either at the isolating valve beneath the sink or at the main stopcock. The tap handle and headgear are then removed to access the washer, which is unscrewed and replaced. The tap is reassembled and the water turned back on to check the repair. The parts cost pennies. The job typically takes 30–60 minutes for someone familiar with it, but can take longer if the tap is old, corroded or in an awkward location.",
+      },
+      {
+        heading: "When to Call a Plumber",
+        body: "Call a professional if you cannot locate or operate the isolating valve, if the tap is corroded and parts are seized, if the drip is coming from the base of the tap rather than the spout (indicating a worn O-ring or a more involved repair), or if you replace the washer and the tap still drips. A plumber will also advise whether an old tap is worth repairing or whether replacement is the better long-term option.",
+      },
+      {
+        heading: "What Does a Dripping Tap Repair Cost?",
+        body: "In the Hertfordshire area, a plumber call-out to repair a dripping tap typically starts from £75, covering the visit and a washer or cartridge replacement on a standard tap. If the valve seat is damaged or the tap needs replacing, expect to pay more for parts and additional labour. Getting it fixed promptly is almost always cheaper than leaving it.",
+      },
+    ],
+    relatedSlugs: ["when-to-call-a-plumber", "how-to-prepare-for-a-handyman-visit"],
+  },
+  {
+    slug: "how-to-bleed-a-radiator",
+    title: "How to Bleed a Radiator: A Step-by-Step Guide",
+    excerpt: "If your radiator is cold at the top but warm at the bottom, it almost certainly needs bleeding. Here's exactly how to do it safely, and what to do if the problem comes back.",
+    category: "plumbing",
+    readingTime: 4,
+    publishedAt: "2025-07-17",
+    seoTitle: "How to Bleed a Radiator: Step-by-Step Guide | Zebra Trades Hertfordshire",
+    seoDescription: "Learn how to bleed a radiator safely and efficiently. Step-by-step plumbing guide from Zebra Trades, serving Cheshunt and Hertfordshire.",
+    sections: [
+      {
+        heading: "Why Radiators Need Bleeding",
+        body: "Air gets into central heating systems over time — through the water supply, through micro-leaks or when the system is drained and refilled. Air rises to the top of the radiator and stops hot water filling that space, leaving the top of the radiator cold while the bottom remains warm. The boiler has to work harder to heat the room and your energy bills go up. Bleeding releases the trapped air and allows the radiator to heat evenly again.",
+      },
+      {
+        heading: "What You Will Need",
+        body: "You need a radiator bleed key — a small square-ended tool available from any hardware shop for under £1 — and a cloth or small container to catch any water that drips out. Some modern radiators have a slot-head bleed valve that can be turned with a flat-head screwdriver instead.",
+      },
+      {
+        heading: "Step 1 — Identify Which Radiators Need Bleeding",
+        body: "Turn your heating on and let the system reach full temperature. Run your hand along each radiator from top to bottom. Any radiator that feels cold at the top but warm at the bottom has trapped air and needs bleeding. Make a note of which radiators need attention before turning the heating off and allowing the system to cool for at least 30 minutes — never bleed a pressurised hot system.",
+      },
+      {
+        heading: "Step 2 — Bleed Each Radiator",
+        body: "Hold your cloth beneath the bleed valve at the top corner of the radiator. Insert the bleed key and turn it slowly anti-clockwise by a quarter to half a turn. You will hear a hissing sound as air escapes. When the hissing stops and a steady trickle of water appears, close the valve immediately by turning clockwise. Do not over-tighten. Start with the radiators furthest from the boiler and work towards it.",
+      },
+      {
+        heading: "Step 3 — Check the Boiler Pressure",
+        body: "After bleeding, check the pressure gauge on your boiler. Bleeding releases trapped air and the system loses a small amount of water, which can cause pressure to drop. Most combi boilers should read between 1 and 1.5 bar when cold. If it has dropped below 1 bar, top up via the filling loop — a flexible hose usually beneath the boiler — until pressure reaches 1.2 bar, then close both valves. Check your boiler manual if you are unsure.",
+      },
+      {
+        heading: "If the Problem Keeps Coming Back",
+        body: "If you find yourself bleeding the same radiators repeatedly, air is entering the system faster than normal. Common causes include a faulty automatic air vent, a small leak drawing air in, or internal corrosion producing hydrogen gas. A plumber can diagnose the root cause and may recommend a power flush and inhibitor treatment to clean and protect the system. Leaving recurring air problems untreated accelerates corrosion and can shorten the life of your boiler.",
+      },
+    ],
+    relatedSlugs: ["when-to-call-a-plumber", "how-to-fix-a-dripping-tap"],
+  },
 ];
