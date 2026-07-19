@@ -126,12 +126,12 @@ const processSteps: Step[] = [
 ];
 
 const galleryImages: GalleryImage[] = [
-  { src: "/images/media-walls/modern-media-wall-cheshunt.jpg", alt: "Modern Media Wall Installation", caption: "Modern media wall installation — Cheshunt" },
-  { src: "/images/media-walls/electric-fireplace-feature-wall-waltham-abbey.jpg", alt: "Electric Fireplace Feature Wall", caption: "Electric fireplace feature wall — Waltham Abbey" },
-  { src: "/images/media-walls/luxury-lounge-media-wall-hertfordshire.jpg", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hertfordshire" },
-  { src: "/images/media-walls/built-in-shelving-media-wall-goffs-oak.jpg", alt: "Built-In Shelving Media Wall", caption: "Built-in shelving media wall — Goffs Oak" },
-  { src: "/images/media-walls/promo/floating-media-walls-cheshunt.png", alt: "Floating Media Wall", caption: "Floating media wall — Cheshunt" },
-  { src: "/images/media-walls/tv-fireplace-installation-cuffley.jpg", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
+  { src: "/images/media-walls/modern-media-wall-cheshunt.webp", alt: "Modern Media Wall Installation", caption: "Modern media wall installation — Cheshunt" },
+  { src: "/images/media-walls/electric-fireplace-feature-wall-waltham-abbey.webp", alt: "Electric Fireplace Feature Wall", caption: "Electric fireplace feature wall — Waltham Abbey" },
+  { src: "/images/media-walls/luxury-lounge-media-wall-hertfordshire.webp", alt: "Luxury Lounge Media Wall", caption: "Luxury lounge media wall — Hertfordshire" },
+  { src: "/images/media-walls/built-in-shelving-media-wall-goffs-oak.webp", alt: "Built-In Shelving Media Wall", caption: "Built-in shelving media wall — Goffs Oak" },
+  { src: "/images/media-walls/promo/floating-media-walls-cheshunt.webp", alt: "Floating Media Wall", caption: "Floating media wall — Cheshunt" },
+  { src: "/images/media-walls/tv-fireplace-installation-cuffley.webp", alt: "TV & Fireplace Installation", caption: "TV & fireplace installation — Cuffley" },
 ];
 
 const faqs: FaqItem[] = [
@@ -267,11 +267,11 @@ export default function MediaWallsPage() {
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {[
-              { src: "/images/media-walls/promo/contemporary-media-walls-hertfordshire.png", alt: "Contemporary media wall installation in Hertfordshire" },
-              { src: "/images/media-walls/promo/electric-fireplace-media-walls.png", alt: "Electric fireplace media wall installation" },
-              { src: "/images/media-walls/promo/floating-media-walls-hertfordshire.png", alt: "Floating media wall design in Hertfordshire" },
-              { src: "/images/media-walls/promo/luxury-feature-media-walls-goffs-oak.png", alt: "Luxury feature media wall in Goffs Oak" },
-              { src: "/images/media-walls/promo/floating-media-walls-cheshunt.png", alt: "Floating media wall installation in Cheshunt" },
+              { src: "/images/media-walls/promo/contemporary-media-walls-hertfordshire.webp", alt: "Contemporary media wall installation in Hertfordshire" },
+              { src: "/images/media-walls/promo/electric-fireplace-media-walls.webp", alt: "Electric fireplace media wall installation" },
+              { src: "/images/media-walls/promo/floating-media-walls-hertfordshire.webp", alt: "Floating media wall design in Hertfordshire" },
+              { src: "/images/media-walls/promo/luxury-feature-media-walls-goffs-oak.webp", alt: "Luxury feature media wall in Goffs Oak" },
+              { src: "/images/media-walls/promo/floating-media-walls-cheshunt.webp", alt: "Floating media wall installation in Cheshunt" },
             ].map((img) => (
               <div key={img.src} className="overflow-hidden rounded-sm border border-line bg-paper">
                 <img src={img.src} alt={img.alt} className="w-full" style={{ display: "block" }} />

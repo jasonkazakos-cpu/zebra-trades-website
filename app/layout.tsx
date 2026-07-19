@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_GB",
     images: [
       {
-        url: "/images/og-default.jpg",
+        url: "/images/og-default.webp",
         width: 1200,
         height: 630,
         alt: "Zebra Trades — Home Improvements in Cheshunt & Hertfordshire",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/images/og-default.jpg"],
+    images: ["/images/og-default.webp"],
   },
 };
 

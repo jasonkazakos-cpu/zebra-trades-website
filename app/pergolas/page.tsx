@@ -54,17 +54,17 @@ const showcaseVideos: VideoItem[] = [
 ];
 
 const projectImages: GalleryImage[] = [
-  { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
-  { src: "/images/pergolas/aluminium-pergola-02.jpg", alt: "Aluminium pergola installation in Hertford", caption: "Aluminium Pergola Installation — Hertford" },
-  { src: "/images/pergolas/aluminium-pergola-03.jpg", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
-  { src: "/images/pergolas/aluminium-pergola-04.jpg", alt: "Bespoke aluminium pergola installation in Waltham Abbey", caption: "Bespoke Aluminium Pergola — Waltham Abbey" },
-  { src: "/images/pergolas/aluminium-pergola-05.jpg", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
-  { src: "/images/pergolas/aluminium-pergola-06.jpg", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
-  { src: "/images/pergolas/aluminium-pergola-07.jpg", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
-  { src: "/images/pergolas/aluminium-pergola-08.jpg", alt: "Aluminium pergola installation in Cuffley", caption: "Aluminium Pergola Installation — Cuffley" },
-  { src: "/images/pergolas/aluminium-pergola-09.jpg", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
-  { src: "/images/pergolas/aluminium-pergola-10.jpg", alt: "Aluminium pergola installation in Waltham Abbey", caption: "Aluminium Pergola Installation — Waltham Abbey" },
-  { src: "/images/pergolas/aluminium-pergola-11.jpg", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-01.webp", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-02.webp", alt: "Aluminium pergola installation in Hertford", caption: "Aluminium Pergola Installation — Hertford" },
+  { src: "/images/pergolas/aluminium-pergola-03.webp", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-04.webp", alt: "Bespoke aluminium pergola installation in Waltham Abbey", caption: "Bespoke Aluminium Pergola — Waltham Abbey" },
+  { src: "/images/pergolas/aluminium-pergola-05.webp", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
+  { src: "/images/pergolas/aluminium-pergola-06.webp", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-07.webp", alt: "Aluminium pergola installation in Cheshunt", caption: "Aluminium Pergola Installation — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-08.webp", alt: "Aluminium pergola installation in Cuffley", caption: "Aluminium Pergola Installation — Cuffley" },
+  { src: "/images/pergolas/aluminium-pergola-09.webp", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
+  { src: "/images/pergolas/aluminium-pergola-10.webp", alt: "Aluminium pergola installation in Waltham Abbey", caption: "Aluminium Pergola Installation — Waltham Abbey" },
+  { src: "/images/pergolas/aluminium-pergola-11.webp", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
 ];
 
 const PREMIUM_SERVICE_LABEL = "Wall Mounted Pergola With Glass Sliding Doors";
@@ -93,13 +93,13 @@ const glassPergolaFeatures = [
 ];
 
 const glassPergolaGalleryImages: GalleryImage[] = [
-  { src: "/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.jpg", alt: "Wall mounted pergola with glass sliding doors in Hertfordshire", caption: "Wall Mounted Pergola With Glass Sliding Doors — Hertfordshire" },
-  { src: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.jpg", alt: "Wall mounted aluminium pergola installation in Cuffley", caption: "Wall Mounted Aluminium Pergola — Cuffley" },
-  { src: "/images/pergolas/aluminium-pergola-01.jpg", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
-  { src: "/images/pergolas/aluminium-pergola-03.jpg", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
-  { src: "/images/pergolas/aluminium-pergola-05.jpg", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
-  { src: "/images/pergolas/aluminium-pergola-09.jpg", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
-  { src: "/images/pergolas/aluminium-pergola-11.jpg", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
+  { src: "/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.webp", alt: "Wall mounted pergola with glass sliding doors in Hertfordshire", caption: "Wall Mounted Pergola With Glass Sliding Doors — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-wall-mounted-large-cuffley.webp", alt: "Wall mounted aluminium pergola installation in Cuffley", caption: "Wall Mounted Aluminium Pergola — Cuffley" },
+  { src: "/images/pergolas/aluminium-pergola-01.webp", alt: "Bespoke aluminium pergola installation in Hertfordshire", caption: "Bespoke Aluminium Pergola — Hertfordshire" },
+  { src: "/images/pergolas/aluminium-pergola-03.webp", alt: "Bespoke aluminium pergola installation in Cheshunt", caption: "Bespoke Aluminium Pergola — Cheshunt" },
+  { src: "/images/pergolas/aluminium-pergola-05.webp", alt: "Aluminium pergola installation in Broxbourne", caption: "Aluminium Pergola Installation — Broxbourne" },
+  { src: "/images/pergolas/aluminium-pergola-09.webp", alt: "Aluminium pergola installation in Goffs Oak", caption: "Aluminium Pergola Installation — Goffs Oak" },
+  { src: "/images/pergolas/aluminium-pergola-11.webp", alt: "Aluminium pergola installation in Hertfordshire", caption: "Aluminium Pergola Installation — Hertfordshire" },
 ];
 
 export default function PergolasPage() {
@@ -375,7 +375,7 @@ export default function PergolasPage() {
           <div className="mt-10 overflow-hidden rounded-sm border border-line">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.jpg"
+              src="/images/pergolas/wall-mounted-pergola-glass-sliding-doors-hertfordshire.webp"
               alt="Wall mounted pergola with glass sliding doors"
               loading="lazy"
               className="aspect-[16/8] w-full object-cover sm:aspect-[16/6]"

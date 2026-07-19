@@ -2,7 +2,7 @@ import Link from "next/link";
 
 // Official Zebra Trades logo. Natural size 874x330 (≈2.65:1) — width/height
 // below preserve this aspect ratio so the mark is never stretched or cropped.
-const LOGO_IMAGE_SRC = "/zebra-logo.png";
+const LOGO_IMAGE_SRC = "/zebra-logo.webp";
 const LOGO_WIDTH = 874;
 const LOGO_HEIGHT = 330;
 

@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `/${serviceParam}/${locationParam}`,
       images: [
         {
-          url: loc.featuredImage ?? "/images/og-default.jpg",
+          url: loc.featuredImage ?? "/images/og-default.webp",
           width: 1200,
           height: 630,
           alt: `${svc.title} in ${loc.name} — Zebra Trades`,
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: [loc.featuredImage ?? "/images/og-default.jpg"],
+      images: [loc.featuredImage ?? "/images/og-default.webp"],
     },
   };
 }

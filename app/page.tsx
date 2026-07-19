@@ -139,7 +139,7 @@ export default function Home() {
             <div className="flex justify-center lg:justify-start">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/jason-kazakos-profile.jpg"
+                src="/jason-kazakos-profile.webp"
                 alt="Jason Kazakos, owner of Zebra Trades in Cheshunt Hertfordshire"
                 loading="lazy"
                 className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)] sm:max-w-xs lg:max-w-sm"
