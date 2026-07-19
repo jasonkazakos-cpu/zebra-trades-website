@@ -12,6 +12,7 @@ import PricingCategoryCard, {
 import Faq from "@/components/Faq";
 import Testimonials from "@/components/Testimonials";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -260,6 +261,8 @@ export default function HandymanPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedGuides category="handyman" background="chalk" />
 
       <CtaBand
         title="Ready To Book Your Visit?"

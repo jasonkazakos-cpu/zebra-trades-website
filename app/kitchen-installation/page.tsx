@@ -12,6 +12,7 @@ import PricingCategoryCard, {
 import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import SectionNavPrompt from "@/components/SectionNavPrompt";
 import Gallery, { type GalleryImage } from "@/components/Gallery";
 import { siteConfig } from "@/data/site";
@@ -332,6 +333,8 @@ export default function KitchenInstallationPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedGuides category="kitchen-installation" background="chalk" />
 
       <CtaBand
         title="Ready For Your New Kitchen?"

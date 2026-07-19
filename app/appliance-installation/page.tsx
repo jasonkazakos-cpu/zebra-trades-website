@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
 import {
   WashingMachine, Refrigerator, Flame, Wind, CookingPot, PlugZap,
@@ -346,6 +347,8 @@ export default function ApplianceInstallationPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedGuides category="appliance-installation" background="chalk" />
 
       <CtaBand
         title="Need A New Appliance Installed?"

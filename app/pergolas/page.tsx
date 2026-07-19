@@ -10,6 +10,7 @@ import ValueProps from "@/components/ValueProps";
 import SectionNavPrompt from "@/components/SectionNavPrompt";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
 import { GALLERY_ITEMS, BASE_PRICES } from "@/data/pergola-prices";
 import Link from "next/link";
@@ -483,6 +484,8 @@ export default function PergolasPage() {
       </section>
 
       <CoverageArea background="paper" serviceSlug="pergolas" />
+
+      <RelatedGuides category="pergolas" background="chalk" />
 
       <CtaBand
         title="Ready To Transform Your Garden?"

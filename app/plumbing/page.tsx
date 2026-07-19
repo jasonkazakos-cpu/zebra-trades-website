@@ -8,6 +8,7 @@ import ValueProps from "@/components/ValueProps";
 import Testimonials from "@/components/Testimonials";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -218,6 +219,8 @@ export default function PlumbingPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedGuides category="plumbing" background="chalk" />
 
       <CtaBand
         title="Need A Plumber In Cheshunt Or Hertfordshire?"

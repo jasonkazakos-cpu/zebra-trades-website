@@ -13,6 +13,7 @@ import Testimonials from "@/components/Testimonials";
 import Faq, { type FaqItem } from "@/components/Faq";
 import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
+import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
 import {
   Briefcase, Dumbbell, Tv, Palette, Music, Bed, HeartHandshake, Sparkles, Wind, Snowflake, CheckCircle2,
@@ -388,6 +389,8 @@ export default function GardenRoomsPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedGuides category="garden-rooms" background="chalk" />
 
       <CtaBand
         title="Ready To Create Extra Space?"
