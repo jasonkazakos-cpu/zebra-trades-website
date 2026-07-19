@@ -336,7 +336,7 @@ export default function ApplianceInstallationPage() {
         </Container>
       </section>
 
-      <CoverageArea background="chalk" />
+      <CoverageArea background="chalk" serviceSlug="appliance-installation" />
 
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">

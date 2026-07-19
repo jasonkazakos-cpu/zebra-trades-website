@@ -322,7 +322,7 @@ export default function KitchenInstallationPage() {
       </section>
 
 
-      <CoverageArea background="paper" />
+      <CoverageArea background="paper" serviceSlug="kitchen-installation" />
 
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">

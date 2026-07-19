@@ -378,7 +378,7 @@ export default function MediaWallsPage() {
         </Container>
       </section>
 
-      <CoverageArea background="chalk" />
+      <CoverageArea background="chalk" serviceSlug="media-walls" />
 
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">

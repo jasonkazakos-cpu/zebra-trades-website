@@ -482,7 +482,7 @@ export default function PergolasPage() {
         </Container>
       </section>
 
-      <CoverageArea background="paper" />
+      <CoverageArea background="paper" serviceSlug="pergolas" />
 
       <CtaBand
         title="Ready To Transform Your Garden?"

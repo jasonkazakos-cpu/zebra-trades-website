@@ -378,7 +378,7 @@ export default function GardenRoomsPage() {
         </Container>
       </section>
 
-      <CoverageArea background="paper" />
+      <CoverageArea background="paper" serviceSlug="garden-rooms" />
 
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">

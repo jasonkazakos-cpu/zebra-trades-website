@@ -208,7 +208,7 @@ export default function PlumbingPage() {
         </Container>
       </section>
 
-      <CoverageArea background="paper" />
+      <CoverageArea background="paper" serviceSlug="plumbing" />
 
       <section className="bg-chalk">
         <Container className="py-16 sm:py-20">

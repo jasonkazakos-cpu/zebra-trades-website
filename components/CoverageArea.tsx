@@ -1,6 +1,8 @@
+import Link from "next/link";
 import SectionHeading from "@/components/SectionHeading";
 import Container from "@/components/Container";
 import { siteConfig } from "@/data/site";
+import { locations } from "@/data/locations";
 
 // A stylised, non-literal hub-and-spoke graphic — not a geographic map.
 // Cheshunt sits at the centre with surrounding towns evenly arranged around it.
@@ -16,12 +18,18 @@ function spokePoints(count: number, radius = 40) {
 
 export default function CoverageArea({
   background = "chalk",
+  serviceSlug,
 }: {
   background?: "chalk" | "paper";
+  serviceSlug?: string;
 }) {
   const [hub, ...spokes] = siteConfig.areas;
   const points = spokePoints(spokes.length);
   const bg = background === "chalk" ? "bg-chalk" : "bg-paper";
+
+  function locationSlugForTown(town: string) {
+    return locations.find((l) => l.name === town)?.slug;
+  }
 
   return (
     <section className={bg}>
@@ -71,21 +79,46 @@ export default function CoverageArea({
             </span>
           </div>
 
-          {spokes.map((area, i) => (
-            <div
-              key={area}
-              className="absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full border border-line bg-paper px-2 py-1 text-[10px] font-medium text-ink shadow-sm sm:px-3 sm:py-1.5 sm:text-xs"
-              style={{ left: `${points[i].x}%`, top: `${points[i].y}%` }}
-            >
-              {area}
-            </div>
-          ))}
+          {spokes.map((area, i) => {
+            const locSlug = locationSlugForTown(area);
+            const chipClass = "absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full border border-line bg-paper px-2 py-1 text-[10px] font-medium text-ink shadow-sm sm:px-3 sm:py-1.5 sm:text-xs";
+            const style = { left: `${points[i].x}%`, top: `${points[i].y}%` };
+            return serviceSlug && locSlug ? (
+              <Link
+                key={area}
+                href={`/${serviceSlug}/${locSlug}`}
+                className={`${chipClass} transition-colors hover:border-accent hover:text-accent-dark`}
+                style={style}
+              >
+                {area}
+              </Link>
+            ) : (
+              <div key={area} className={chipClass} style={style}>
+                {area}
+              </div>
+            );
+          })}
         </div>
 
         <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-slate">
-          Covering {hub}, {spokes.join(", ")} and other nearby parts of{" "}
-          {siteConfig.county}. Not on the list? Get in touch — we may still
-          be able to help.
+          Covering {hub},{" "}
+          {spokes.map((area, i) => {
+            const locSlug = locationSlugForTown(area);
+            return (
+              <span key={area}>
+                {serviceSlug && locSlug ? (
+                  <Link href={`/${serviceSlug}/${locSlug}`} className="text-accent-dark underline-offset-2 hover:underline">
+                    {area}
+                  </Link>
+                ) : (
+                  area
+                )}
+                {i < spokes.length - 1 ? ", " : ""}
+              </span>
+            );
+          })}{" "}
+          and other nearby parts of {siteConfig.county}. Not on the list? Get
+          in touch — we may still be able to help.
         </p>
       </Container>
     </section>

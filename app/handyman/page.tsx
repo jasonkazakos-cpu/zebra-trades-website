@@ -237,7 +237,7 @@ export default function HandymanPage() {
         </Container>
       </section>
 
-      <CoverageArea background="chalk" />
+      <CoverageArea background="chalk" serviceSlug="handyman" />
 
       <section className="bg-paper">
         <Container className="py-16 sm:py-20">
