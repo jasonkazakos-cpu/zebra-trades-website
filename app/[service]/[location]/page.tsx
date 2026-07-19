@@ -36,10 +36,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const svc = resolveService(serviceParam);
   const loc = locations.find((l) => l.slug === locationParam);
   if (!svc || !loc) return {};
+  const title = `${svc.title} in ${loc.name} | Zebra Trades`;
+  const description = `Professional ${svc.title.toLowerCase()} services in ${loc.name}, ${loc.county}. ${svc.tagline ?? svc.teaser} Free no-obligation quotes from Zebra Trades.`;
   return {
-    title: `${svc.title} in ${loc.name} | Zebra Trades`,
-    description: `Professional ${svc.title.toLowerCase()} services in ${loc.name}, ${loc.county}. ${svc.tagline ?? svc.teaser} Free no-obligation quotes from Zebra Trades.`,
+    title,
+    description,
     alternates: { canonical: `/${serviceParam}/${locationParam}` },
+    openGraph: {
+      title,
+      description,
+      url: `/${serviceParam}/${locationParam}`,
+      images: [
+        {
+          url: loc.featuredImage ?? "/images/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: `${svc.title} in ${loc.name} — Zebra Trades`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [loc.featuredImage ?? "/images/og-default.jpg"],
+    },
   };
 }
 
@@ -92,11 +113,28 @@ export default async function ServiceLocationPage({ params }: Props) {
     ...loc.faqs.slice(0, 2),
   ];
 
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
       {/* Breadcrumb */}

@@ -24,6 +24,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: loc.seoTitle,
     description: loc.seoDescription,
     alternates: { canonical: `/areas/${loc.slug}` },
+    openGraph: {
+      title: loc.seoTitle,
+      description: loc.seoDescription,
+      url: `/areas/${loc.slug}`,
+      images: [
+        {
+          url: loc.featuredImage ?? "/images/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: `Zebra Trades in ${loc.name}, ${loc.county}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: loc.seoTitle,
+      description: loc.seoDescription,
+      images: [loc.featuredImage ?? "/images/og-default.jpg"],
+    },
   };
 }
 
@@ -34,7 +53,7 @@ export default async function AreaPage({ params }: Props) {
 
   const quoteHref = `/contact?area=${encodeURIComponent(loc.name)}`;
 
-  const jsonLd = {
+  const localBusinessLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: siteConfig.name,
@@ -48,12 +67,31 @@ export default async function AreaPage({ params }: Props) {
     url: `https://www.zebratrades.co.uk/areas/${loc.slug}`,
   };
 
+  const faqLd = loc.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: loc.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <div className="border-b border-line bg-chalk">

@@ -42,6 +42,23 @@ export const metadata: Metadata = {
     "kitchen installation Cheshunt",
     "Zebra Trades",
   ],
+  openGraph: {
+    type: "website",
+    siteName: "Zebra Trades",
+    locale: "en_GB",
+    images: [
+      {
+        url: "/images/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Zebra Trades — Home Improvements in Cheshunt & Hertfordshire",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/og-default.jpg"],
+  },
 };
 
 export const viewport = {
