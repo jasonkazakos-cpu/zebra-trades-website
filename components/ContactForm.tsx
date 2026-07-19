@@ -78,6 +78,7 @@ export default function ContactForm() {
             value={form.name}
             onChange={handleChange}
             required
+            maxLength={100}
             className={inputClasses}
           />
         </Field>
@@ -138,10 +139,14 @@ export default function ContactForm() {
           onChange={handleChange}
           required
           rows={5}
+          maxLength={2000}
           className={inputClasses}
         />
         <ValidationError prefix="Message" field="message" errors={formspreeState.errors} className="mt-1.5 text-xs font-medium text-accent-dark" />
       </Field>
+
+      {/* Honeypot field — hidden from real users, catches bots that fill all fields */}
+      <input type="text" name="_gotcha" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
       {validationError && (
         <p className="text-sm font-medium text-accent-dark">{validationError}</p>
