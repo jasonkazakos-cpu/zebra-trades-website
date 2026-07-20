@@ -9,10 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
-    "sales": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+    "main": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.webp",
+    "sales": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.webp",
     "gallery": [
-      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.jpg"
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.webp"
     ],
     "specSheet": null,
     "specification": null
@@ -51,7 +51,7 @@
     "title": "FIREZ 1800 Slimline Electric Fire & Media Wall | Zebra Trades",
     "description": "Explore the FIREZ 1800 Slimline electric fireplace with panoramic 3D flames, smart controls and a space-saving 190mm built-in depth. Available supply only or fully installed by Zebra Trades.",
     "canonicalPath": "/fireplaces/firez-1800-slimline",
-    "image": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
+    "image": "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.webp",
     "altText": "FIREZ 1800 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
   },
   "schema": {
@@ -62,8 +62,8 @@
     "model": "1800 Slimline",
     "description": "The FIREZ 1800 Slimline delivers an impressive widescreen flame display while maintaining an ultra-slim 190mm installation depth, making it the perfect choice for homeowners who want a spectacular media wall without sacrificing valuable floor space.",
     "image": [
-      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.jpg",
-      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.jpg"
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-original.webp",
+      "/images/fireplaces/firez/Firez-1800-Slimline/firez-1800-slimline-media-wall.webp"
     ],
     "offers": [
       { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "1990.00", "availability": "https://schema.org/InStock" },

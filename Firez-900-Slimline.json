@@ -12,8 +12,8 @@
     "main": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-logs.png",
     "sales": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-logs.png",
     "gallery": [
-      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
-      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-media-wall.jpg"
+      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.webp",
+      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-media-wall.webp"
     ],
     "specSheet": null,
     "specification": null
@@ -52,7 +52,7 @@
     "title": "FIREZ 900 Slimline Electric Fire & Media Wall | Zebra Trades",
     "description": "Discover the FIREZ 900 Slimline electric fireplace with realistic 3D flames, smart controls and an ultra-slim 175mm built-in depth. Supply only or fully installed by Zebra Trades.",
     "canonicalPath": "/fireplaces/firez-900-slimline",
-    "image": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
+    "image": "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.webp",
     "altText": "FIREZ 900 Slimline electric fireplace fitted into a contemporary chimney breast beneath a television."
   },
   "schema": {
@@ -63,8 +63,8 @@
     "model": "900 Slimline",
     "description": "The FIREZ 900 Slimline is the perfect solution for homeowners looking to enjoy the beauty of a premium electric fireplace where installation space is limited. With an ultra-slim 175mm built-in depth, it is ideal for fitting into an existing chimney breast or creating a sleek flat-wall media wall installation.",
     "image": [
-      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.jpg",
-      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-media-wall.jpg"
+      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-original.webp",
+      "/images/fireplaces/firez/Firez-900-Slimline/firez-900-slimline-media-wall.webp"
     ],
     "offers": [
       { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "1190.00", "availability": "https://schema.org/InStock" },

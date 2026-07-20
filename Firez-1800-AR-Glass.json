@@ -9,13 +9,13 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg",
-    "sales": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg",
+    "main": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.webp",
+    "sales": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.webp",
     "gallery": [
-      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg"
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.webp"
     ],
-    "specSheet": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.jpg",
-    "specification": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.jpg"
+    "specSheet": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.webp",
+    "specification": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Spec.webp"
   },
   "pricing": {
     "supplyAndInstallFrom": 3690,
@@ -48,7 +48,7 @@
     "title": "FIREZ 1800 AR Glass Electric Fireplace | Zebra Trades",
     "description": "Discover the FIREZ 1800 AR Glass electric fireplace for full-width media walls, with realistic 3D flames, Alexa and app control, panoramic glass options and professional installation.",
     "canonicalPath": "/fireplaces/firez-1800-ar-glass",
-    "image": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
+    "image": "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.webp",
     "altText": "FIREZ 1800 AR Glass electric fireplace installed in a full-width modern media wall"
   },
   "schema": {
@@ -59,8 +59,8 @@
     "model": "1800 AR Glass",
     "description": "The FIREZ 1800 is designed to make a bold statement. With its impressive extra-wide flame display, it is the perfect choice for full-width media walls and larger living spaces, creating a truly luxurious centrepiece that instantly transforms any room. Featuring one of the most realistic 3D Reflectory Flame effects available, the FIREZ 1800 delivers the ambience and visual appeal of a real wood-burning fire—without the mess, maintenance or inconvenience.",
     "image": [
-      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.jpg",
-      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.jpg"
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Sales.webp",
+      "/images/fireplaces/firez/Firez-1800-AR-Glass/Firez-1800-AR-Glass-Scene-1.webp"
     ],
     "offers": [
       { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "2250.00", "availability": "https://schema.org/InStock" },

@@ -9,10 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg",
-    "sales": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg",
+    "main": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.webp",
+    "sales": "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.webp",
     "gallery": [
-      "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg"
+      "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.webp"
     ],
     "specification": null
   },
@@ -51,7 +51,7 @@
     "title": "FIREZ 2200 Electric Fireplace | Luxury Media Wall Fire | Zebra Trades",
     "description": "Discover the flagship FIREZ 2200 electric fireplace with a 2.2-metre panoramic flame display, Alexa and app control, panoramic glass options and professional installation.",
     "canonicalPath": "/fireplaces/firez-2200",
-    "image": "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg",
+    "image": "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.webp",
     "altText": "FIREZ 2200 panoramic electric fireplace installed beneath a television in a luxury media wall"
   },
   "schema": {
@@ -62,8 +62,8 @@
     "model": "2200",
     "description": "The FIREZ 2200 is the flagship model in the range, delivering an extraordinary panoramic flame display that transforms even the largest living spaces. At over 2.2 metres wide, it is designed for luxury media walls where maximum visual impact and breathtaking realism are the priority. Powered by FIREZ's advanced 3D Reflectory Flame technology, the 2200 creates one of the most realistic electric flame effects available, bringing the atmosphere of a real wood-burning fire into your home without the maintenance, smoke or mess.",
     "image": [
-      "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.jpg",
-      "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.jpg"
+      "/images/fireplaces/firez/Firez-2200/Firez-2200-Sales.webp",
+      "/images/fireplaces/firez/Firez-2200/Firez-2200-Scene-1.webp"
     ],
     "offers": [
       { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "2490.00", "availability": "https://schema.org/InStock" },

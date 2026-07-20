@@ -8,12 +8,12 @@
   "collection": "Media Walls",
   "featured": true,
   "images": {
-    "sales": "/images/media-walls/MediaWall1250/MediaWall1250-Sales.jpg",
+    "sales": "/images/media-walls/MediaWall1250/MediaWall1250-Sales.webp",
     "gallery": [
-      "/images/media-walls/MediaWall1250/MediaWall1250-Scene-1.jpg",
-      "/images/media-walls/MediaWall1250/MediaWall1250-Scene-2.jpg"
+      "/images/media-walls/MediaWall1250/MediaWall1250-Scene-1.webp",
+      "/images/media-walls/MediaWall1250/MediaWall1250-Scene-2.webp"
     ],
-    "specSheet": "/images/media-walls/MediaWall1250/MediaWall1250-Spec-Sheet.jpg"
+    "specSheet": "/images/media-walls/MediaWall1250/MediaWall1250-Spec-Sheet.webp"
   },
   "pricing": {
     "supplyAndInstallFrom": 3390,

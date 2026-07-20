@@ -9,10 +9,10 @@
   "collection": "FIREZ",
   "featured": true,
   "images": {
-    "main": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
-    "sales": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
+    "main": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.webp",
+    "sales": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.webp",
     "gallery": [
-      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg"
+      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.webp"
     ],
     "specSheet": null,
     "specification": null
@@ -52,7 +52,7 @@
     "title": "FIREZ 1500 Slimline Electric Fire & Media Wall | Zebra Trades",
     "description": "Discover the FIREZ 1500 Slimline electric fireplace with realistic 3D flames, Alexa and app control, panoramic glass options and a space-saving 190mm installation depth. Supply only or fully installed by Zebra Trades.",
     "canonicalPath": "/fireplaces/firez-1500-slimline",
-    "image": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg",
+    "image": "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.webp",
     "altText": "FIREZ 1500 Slimline electric fireplace installed in a contemporary bespoke media wall with television above."
   },
   "schema": {
@@ -63,8 +63,8 @@
     "model": "1500 Slimline",
     "description": "The FIREZ 1500 Slimline combines stunning panoramic flame visuals with an ultra-slim 190mm installation depth, making it the perfect choice for modern homes where space is at a premium.",
     "image": [
-      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.jpg",
-      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.jpg"
+      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-media-wall.webp",
+      "/images/fireplaces/firez/Firez-1500-Slimline/firez-1500-slimline-original.webp"
     ],
     "offers": [
       { "@type": "Offer", "name": "Supply only", "priceCurrency": "GBP", "price": "1649.00", "availability": "https://schema.org/InStock" },
