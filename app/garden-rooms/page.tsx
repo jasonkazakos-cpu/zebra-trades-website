@@ -141,8 +141,8 @@ const processSteps: Step[] = [
 ];
 
 const galleryImages: GalleryImage[] = [
-  { src: "", alt: "Modern Garden Office", caption: "Modern garden office — Cheshunt" },
-  { src: "", alt: "Garden Gym", caption: "Garden gym — Waltham Cross" },
+  { src: "/images/garden-rooms/garden-room-cuffley.webp", alt: "Modern garden office room in Cuffley, Hertfordshire", caption: "Modern garden office — Cuffley" },
+  { src: "/images/garden-rooms/garden-room-gym-goffs-oak.webp", alt: "Garden gym room in Goffs Oak, Hertfordshire", caption: "Garden gym — Goffs Oak" },
   { src: "", alt: "Luxury Garden Studio", caption: "Luxury garden studio — Hoddesdon" },
   { src: "", alt: "Contemporary Garden Room", caption: "Contemporary garden room — Broxbourne" },
   { src: "", alt: "Entertainment Space", caption: "Entertainment space — Enfield" },
