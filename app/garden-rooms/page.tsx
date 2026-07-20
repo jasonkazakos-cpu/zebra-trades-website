@@ -144,7 +144,7 @@ const galleryImages: GalleryImage[] = [
   { src: "/images/garden-rooms/garden-room-cuffley.webp", alt: "Modern garden office room in Cuffley, Hertfordshire", caption: "Modern garden office — Cuffley" },
   { src: "/images/garden-rooms/garden-room-gym-goffs-oak.webp", alt: "Garden gym room in Goffs Oak, Hertfordshire", caption: "Garden gym — Goffs Oak" },
   { src: "/images/garden-rooms/garden-room-office-hertfordshire.webp", alt: "Garden room home office in Hertfordshire", caption: "Home office garden room — Hertfordshire" },
-  { src: "", alt: "Contemporary Garden Room", caption: "Contemporary garden room — Broxbourne" },
+  { src: "/images/garden-rooms/garden-room-hot-tub-games-room-hertfordshire.webp", alt: "Garden room with hot tub and games room in Hertfordshire", caption: "Hot tub & games room — Hertfordshire" },
   { src: "", alt: "Entertainment Space", caption: "Entertainment space — Enfield" },
   { src: "", alt: "Multi-Purpose Garden Building", caption: "Multi-purpose garden building — Cuffley" },
 ];
