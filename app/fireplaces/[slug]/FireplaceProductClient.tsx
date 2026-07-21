@@ -49,7 +49,9 @@ function ClickImg({ src, alt, style }: { src: string; alt: string; style?: React
         className="group relative block w-full text-left"
         aria-label={`Enlarge: ${alt}`}
       >
-        <img src={src} alt={alt} style={{ display: "block", width: "100%", objectFit: "contain", ...style }} />
+        <div className="relative aspect-[4/3]">
+          <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-contain" style={style} />
+        </div>
         <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/10">
           <ZoomIn className="size-8 text-white opacity-0 drop-shadow transition-opacity group-hover:opacity-100" />
         </span>

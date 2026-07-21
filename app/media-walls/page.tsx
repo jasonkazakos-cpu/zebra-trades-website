@@ -274,7 +274,9 @@ export default function MediaWallsPage() {
               { src: "/images/media-walls/promo/floating-media-walls-cheshunt.webp", alt: "Floating media wall installation in Cheshunt" },
             ].map((img) => (
               <div key={img.src} className="overflow-hidden rounded-sm border border-line bg-paper">
-                <img src={img.src} alt={img.alt} className="w-full" style={{ display: "block" }} />
+                <div className="relative aspect-[3/2]">
+                  <img src={img.src} alt={img.alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+                </div>
               </div>
             ))}
           </div>
