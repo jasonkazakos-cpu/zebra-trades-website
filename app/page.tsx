@@ -142,6 +142,9 @@ export default function Home() {
                 src="/jason-kazakos-profile.webp"
                 alt="Jason Kazakos, owner of Zebra Trades in Cheshunt Hertfordshire"
                 loading="lazy"
+                decoding="async"
+                width={900}
+                height={1200}
                 className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)] sm:max-w-xs lg:max-w-sm"
               />
             </div>

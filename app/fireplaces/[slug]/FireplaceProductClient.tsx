@@ -39,8 +39,22 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
   );
 }
 
-function ClickImg({ src, alt, style }: { src: string; alt: string; style?: React.CSSProperties }) {
+function ClickImg({
+  src,
+  alt,
+  style,
+  priority = false,
+}: {
+  src: string;
+  alt: string;
+  style?: React.CSSProperties;
+  priority?: boolean;
+}) {
   const [open, setOpen] = useState(false);
+  // Derive thumbnail path: /images/foo/bar.webp → /images/foo/thumbs/bar.webp
+  const slash = src.lastIndexOf("/");
+  const thumb = src.slice(0, slash) + "/thumbs" + src.slice(slash);
+
   return (
     <>
       {open && <Lightbox src={src} alt={alt} onClose={() => setOpen(false)} />}
@@ -50,7 +64,16 @@ function ClickImg({ src, alt, style }: { src: string; alt: string; style?: React
         aria-label={`Enlarge: ${alt}`}
       >
         <div className="relative aspect-[4/3]">
-          <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-contain" style={style} />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={priority ? src : thumb}
+            alt={alt}
+            loading={priority ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : undefined}
+            decoding={priority ? "sync" : "async"}
+            className="absolute inset-0 h-full w-full object-contain"
+            style={style}
+          />
         </div>
         <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/10">
           <ZoomIn className="size-8 text-white opacity-0 drop-shadow transition-opacity group-hover:opacity-100" />
@@ -85,7 +108,7 @@ export default function FireplaceProductClient({ slug }: { slug: string }) {
         </Container>
         {heroImage && (
           <div className="bg-chalk">
-            <ClickImg src={heroImage} alt={`${fp.name} promotional image`} />
+            <ClickImg src={heroImage} alt={`${fp.name} promotional image`} priority />
           </div>
         )}
       </section>

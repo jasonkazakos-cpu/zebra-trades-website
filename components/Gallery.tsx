@@ -9,6 +9,13 @@ export type GalleryImage = {
   caption?: string;
 };
 
+// Derives the thumbnail path from the full-size src.
+// Thumbnails live in a thumbs/ subdirectory alongside the originals.
+function thumbSrc(src: string): string {
+  const slash = src.lastIndexOf("/");
+  return src.slice(0, slash) + "/thumbs" + src.slice(slash);
+}
+
 // Inline SVG placeholder — replace src with a real image path to swap it out.
 function PlaceholderImage({ label }: { label: string }) {
   return (
@@ -46,9 +53,11 @@ function GalleryCard({
       ) : (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={image.src}
+          src={thumbSrc(image.src)}
           alt={image.alt}
           loading="lazy"
+          decoding="async"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
       )}

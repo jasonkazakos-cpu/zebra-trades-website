@@ -53,11 +53,13 @@ export default function MediaWall1250Page() {
             {fp.name}
           </h1>
         </Container>
-        <div className="w-full bg-chalk">
+        <div className="relative aspect-[16/9] w-full bg-chalk sm:aspect-[21/9]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={fp.images.sales ?? undefined}
             alt={`${fp.name} sales image`}
-            style={{ width: "100%", display: "block", objectFit: "contain" }}
+            fetchPriority="high"
+            className="absolute inset-0 h-full w-full object-contain"
           />
         </div>
       </section>
@@ -124,23 +126,30 @@ export default function MediaWall1250Page() {
         <Container className="py-12 sm:py-16">
           <SectionHeading eyebrow="Gallery" title="See It In Situ" subtitle="Click any image to enlarge." />
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            {fp.images.gallery.map((src, i) => (
-              <button
-                key={src}
-                onClick={() => setLightbox(src)}
-                className="group relative overflow-hidden rounded-sm border border-line bg-paper"
-                aria-label={`Enlarge scene image ${i + 1}`}
-              >
-                <img
-                  src={src}
-                  alt={`${fp.name} scene ${i + 1}`}
-                  style={{ width: "100%", display: "block", objectFit: "contain" }}
-                />
-                <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/20">
-                  <ZoomIn className="size-8 text-white opacity-0 drop-shadow transition-opacity group-hover:opacity-100" />
-                </span>
-              </button>
-            ))}
+            {fp.images.gallery.map((src, i) => {
+              const slash = src.lastIndexOf("/");
+              const thumb = src.slice(0, slash) + "/thumbs" + src.slice(slash);
+              return (
+                <button
+                  key={src}
+                  onClick={() => setLightbox(src)}
+                  className="group relative aspect-[4/3] overflow-hidden rounded-sm border border-line bg-paper"
+                  aria-label={`Enlarge scene image ${i + 1}`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={thumb}
+                    alt={`${fp.name} scene ${i + 1}`}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-contain"
+                  />
+                  <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/20">
+                    <ZoomIn className="size-8 text-white opacity-0 drop-shadow transition-opacity group-hover:opacity-100" />
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </Container>
       </section>
@@ -169,9 +178,12 @@ export default function MediaWall1250Page() {
               className="group relative block w-full overflow-x-auto rounded-sm border border-line"
               aria-label="Zoom specification sheet"
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={fp.images.specSheet ?? undefined}
                 alt={`${fp.name} specification sheet`}
+                loading="lazy"
+                decoding="async"
                 style={{ width: "100%", minWidth: "600px", display: "block", objectFit: "contain" }}
               />
               <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/10">
