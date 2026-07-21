@@ -683,6 +683,220 @@ export const guides: Guide[] = [
     relatedSlugs: ["home-maintenance-checklist-autumn-and-winter"],
   },
   {
+    slug: "how-much-does-a-garden-room-cost",
+    title: "How Much Does a Garden Room Cost in Hertfordshire?",
+    excerpt: "Garden room prices vary widely depending on size, specification and finish. Here's a transparent breakdown to help you set a realistic budget.",
+    category: "costs",
+    readingTime: 6,
+    publishedAt: "2025-07-21",
+    seoTitle: "How Much Does a Garden Room Cost? | Hertfordshire Prices | Zebra Trades",
+    seoDescription: "Find out how much a garden room costs in Hertfordshire. Transparent price breakdowns for different sizes and specifications from Zebra Trades.",
+    sections: [
+      {
+        heading: "Why Garden Room Costs Vary So Much",
+        body: "Garden room prices range from under £10,000 to over £50,000. The difference comes down to size, insulation specification, glazing, foundations, electrics, internal finishing and whether the build includes bespoke joinery or a standard modular design. Unlike a kitchen or bathroom where the components are largely standardised, every garden room is a bespoke structure — so the specification you choose has a significant impact on cost.",
+      },
+      {
+        heading: "Entry-Level Garden Rooms: From £8,000–£12,000",
+        body: "At the lower end of the market you'll find smaller garden rooms in the 10–15 square metre range, typically with standard timber cladding, basic insulation (sufficient for occasional use but not ideal for a year-round office), single glazed or budget double-glazed doors and windows, and minimal interior finishing. These can represent good value for storage or occasional use, but may fall short if you need the space every day through winter.",
+      },
+      {
+        heading: "Mid-Range Garden Rooms: £14,000–£25,000",
+        body: "The majority of residential garden rooms fall in this range. A quality mid-range garden room at 15–25 square metres will include well-insulated walls, floor and roof (typically 90–100mm of high-performance insulation), double-glazed aluminium or timber-framed doors and windows, a dedicated electrical supply and consumer unit, internal plastered or boarded walls and ceiling, and a choice of flooring. This specification is comfortable for year-round use as a home office, gym or hobby room.",
+      },
+      {
+        heading: "Premium and Bespoke Garden Rooms: £25,000+",
+        body: "Premium garden rooms at 25 square metres and above, or those with particularly high specifications, carry higher costs. Factors that push the price up include aluminium bi-fold or slide-and-fold door systems, underfloor heating, bespoke internal joinery (fitted desks, shelving or kitchenettes), feature roofing such as lantern lights or sedum (living) roofs, high-end external cladding (larch, cedar or composite), and planning consent costs where applicable.",
+      },
+      {
+        heading: "Costs That Are Often Missed",
+        body: "Several items are commonly excluded from initial garden room quotes and catch customers by surprise. Groundwork and foundations — concrete pads or screw piles — are a significant cost that varies by garden condition. The electrical supply cable buried from your house to the garden room is often priced separately. Internal decoration, flooring and blinds are rarely included in the structure price. Planning fees, if applicable, are an additional cost. Always ask your installer what is and isn't included before comparing quotes.",
+      },
+      {
+        heading: "What Does Zebra Trades Charge for a Garden Room?",
+        body: "At Zebra Trades, our garden rooms are priced individually based on size, specification and site conditions. We provide fully itemised written quotes so you can see exactly what you're paying for. As a guide, a well-specified 4m × 3m garden room with electrics, insulation and internal finishing typically starts from around £15,000–£18,000 supply and install in Hertfordshire. Contact us for a free survey and written quotation based on your specific requirements.",
+      },
+    ],
+    relatedSlugs: ["do-you-need-planning-permission-for-a-garden-room", "what-to-consider-before-building-a-garden-room"],
+  },
+  {
+    slug: "how-much-does-a-media-wall-cost",
+    title: "How Much Does a Media Wall Cost in Hertfordshire?",
+    excerpt: "A bespoke media wall transforms a living room — but what should you budget? Here's a clear breakdown of media wall costs with and without an electric fireplace.",
+    category: "costs",
+    readingTime: 5,
+    publishedAt: "2025-07-21",
+    seoTitle: "How Much Does a Media Wall Cost? | Hertfordshire Prices | Zebra Trades",
+    seoDescription: "Media wall cost guide for Hertfordshire homeowners. Find out what a bespoke media wall with electric fireplace costs from Zebra Trades.",
+    sections: [
+      {
+        heading: "What Is a Media Wall?",
+        body: "A media wall is a bespoke feature wall built to house a TV, electric fireplace, storage and integrated LED lighting in a single cohesive design. They're typically built from studwork framing with MDF or similar sheet material cladding, painted or clad in a chosen finish. A well-designed media wall becomes the focal point of the living room and is one of the most impactful home improvements available at a mid-range budget.",
+      },
+      {
+        heading: "Media Wall Without a Fireplace: From £1,200–£2,500",
+        body: "A media wall without an electric fireplace — typically a TV recess with storage alcoves, floating shelving and LED lighting — starts from around £1,200–£1,500 for a straightforward design in a standard-sized room. More elaborate designs with floor-to-ceiling panelling, bespoke joinery and built-in storage cabinets sit in the £2,000–£2,500 range. Material costs and the complexity of the design are the main variables.",
+      },
+      {
+        heading: "Media Wall With an Electric Fireplace: From £2,500–£5,000+",
+        body: "Adding a high-quality electric fireplace to a media wall is where the real wow factor comes in — and the cost increases accordingly. The fireplace unit itself (at Zebra Trades we supply and fit Firez electric fireplaces from £1,299 to £3,199 for the unit alone), plus the construction of the wall and electrical connection, typically brings total project costs to £2,500–£4,500 for a standard installation. Larger walls, premium fireplace models or complex designs with feature cladding can reach £5,000–£7,000.",
+      },
+      {
+        heading: "What's Included in a Zebra Trades Media Wall Quote",
+        body: "Our media wall quotes include all labour and materials for the stud wall construction, MDF cladding, cutting and finishing, electric fireplace supply and installation, TV recess preparation, LED strip lighting installation, and a clean painted finish. We work from your brief and provide a design consultation before quoting. Decorating beyond the wall itself, plastering of adjacent walls and specialist wall claddings (stone, tiles, veneer panels) are priced separately if required.",
+      },
+      {
+        heading: "How to Get an Accurate Quote",
+        body: "Media wall costs are highly dependent on the specific design, room dimensions and fireplace model chosen. The best way to get an accurate price is to share a photo or sketch of your room, your approximate wall width, and any reference images of styles you like. Contact Zebra Trades for a free design consultation and written quotation — we cover the whole of Hertfordshire and surrounding areas.",
+      },
+    ],
+    relatedSlugs: ["how-much-does-a-handyman-cost"],
+  },
+  {
+    slug: "how-much-does-a-pergola-cost",
+    title: "How Much Does a Pergola Cost in Hertfordshire?",
+    excerpt: "Pergola prices vary depending on size, material and specification. Here's an honest breakdown of what to expect from timber and aluminium pergolas in the Hertfordshire area.",
+    category: "costs",
+    readingTime: 5,
+    publishedAt: "2025-07-21",
+    seoTitle: "How Much Does a Pergola Cost? | Hertfordshire Prices | Zebra Trades",
+    seoDescription: "Find out how much a pergola costs in Hertfordshire. Transparent price guide for timber and aluminium pergolas from Zebra Trades.",
+    sections: [
+      {
+        heading: "Key Factors That Affect Pergola Cost",
+        body: "The cost of a pergola depends on four main factors: size (footprint and height), material (pressure-treated softwood, hardwood, composite or aluminium), roof type (open rafters, polycarbonate panels or louvred blades), and any additional features such as integrated lighting, electrical connections, climbing plant support wires, privacy screens or gates. Each of these adds cost but also adds value and usability.",
+      },
+      {
+        heading: "Timber Pergolas: From £2,000–£5,000",
+        body: "A pressure-treated softwood pergola at a typical patio size (3m × 3m to 4m × 4m) with open rafter roof, installed on an existing patio, typically costs between £2,000 and £3,500 supply and install in the Hertfordshire area. A larger structure (5m × 4m and above), or one with hardwood timber rather than softwood, sits in the £3,500–£5,000 range. Timber pergolas require regular maintenance — oiling or staining every 2–3 years — to maintain appearance and prevent deterioration.",
+      },
+      {
+        heading: "Aluminium Pergolas: From £4,000–£9,000",
+        body: "Powder-coated aluminium pergolas are significantly more expensive than timber but require virtually no maintenance and have a contemporary, architectural appearance that many homeowners prefer. A louvred roof aluminium pergola — where the blades can be adjusted to control light and ventilation — at a standard patio size starts from around £4,000–£5,500. Larger structures with built-in lighting, side privacy screens and integrated drainage typically cost £6,000–£9,000 or more.",
+      },
+      {
+        heading: "Wall-Mounted vs Freestanding",
+        body: "A wall-mounted pergola (fixed to the house wall on one side) is typically less expensive than a fully freestanding structure because it requires fewer posts and less material. However, fixings into the house wall must be done correctly to avoid water ingress — an important consideration in the UK climate. Freestanding structures allow more flexibility in positioning and are often preferred for larger gardens where the pergola is sited away from the house.",
+      },
+      {
+        heading: "Additional Costs to Budget For",
+        body: "If a new patio or base is needed, this adds cost — typically £800–£2,500 depending on size and material (porcelain, paving or concrete). Electrical connection for integrated lighting or an outdoor socket adds £300–£600 depending on the distance from your consumer unit. Climbing plant support wires or a trellis infill can add £150–£400. Always ask for a fully itemised quote so you know exactly what is and isn't included.",
+      },
+      {
+        heading: "How to Get a Quote From Zebra Trades",
+        body: "We supply and install timber and aluminium pergolas across Hertfordshire, Essex and surrounding areas. For a free site survey and written quotation, contact us with your garden dimensions and any reference photos you have. We'll come to you, assess the site and provide a fixed-price written quote with no obligation to proceed.",
+      },
+    ],
+    relatedSlugs: ["pergola-vs-gazebo-which-is-right-for-your-garden", "do-you-need-planning-permission-for-a-pergola-or-gazebo"],
+  },
+  {
+    slug: "how-to-choose-kitchen-worktops",
+    title: "How to Choose Kitchen Worktops: Materials, Costs and Maintenance",
+    excerpt: "Your worktop is one of the hardest-working surfaces in the home. Here's an honest guide to the main materials — laminate, quartz, granite and solid wood — to help you choose well.",
+    category: "kitchen-installation",
+    readingTime: 6,
+    publishedAt: "2025-07-21",
+    seoTitle: "How to Choose Kitchen Worktops: Materials & Costs | Zebra Trades Hertfordshire",
+    seoDescription: "Compare kitchen worktop materials — laminate, quartz, granite and wood. Costs, durability and maintenance explained. Advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "Laminate Worktops: Best Budget Option",
+        body: "Laminate worktops are the most affordable option and have improved significantly in quality in recent years. Modern high-pressure laminate (HPL) worktops convincingly replicate the look of stone, concrete and wood at a fraction of the cost. They're easy to clean, resistant to most stains and available in hundreds of finishes. The main drawbacks are that they can be damaged by prolonged exposure to moisture at joints and cut edges, are not heat-proof (always use a trivet), and cannot be sanded or refinished if scratched. Expect to pay £80–£180 per metre for mid-range laminate supply and fit.",
+      },
+      {
+        heading: "Quartz Worktops: The Modern Choice",
+        body: "Engineered quartz (brands include Silestone, Caesarstone and Kompas) is the most popular premium worktop material for new kitchens. It is non-porous, highly stain-resistant, available in a consistent range of colours and patterns, and does not require sealing. It is more heat-resistant than laminate but not heat-proof — sudden thermal shock from a very hot pan can crack a quartz surface. Quartz worktops are templated after units are installed, fabricated off-site and then fitted. Supply and installation typically costs £400–£700+ per metre depending on the brand and edge profile chosen.",
+      },
+      {
+        heading: "Granite Worktops: Natural Stone",
+        body: "Natural granite has been a premium kitchen worktop material for decades and remains popular for its unique appearance — no two granite slabs are identical. It is extremely hard-wearing and heat-resistant, but is porous and must be sealed annually to prevent staining. The supply process is the same as quartz — template, fabricate, fit — and costs are similar: £350–£650 per metre depending on the origin and pattern of the stone. Granite is heavier than quartz, which occasionally requires reinforcement of cabinet carcasses for longer unsupported runs.",
+      },
+      {
+        heading: "Solid Wood Worktops: Warmth and Character",
+        body: "Solid oak, walnut and beech worktops add warmth and character that no synthetic material fully replicates. They can be sanded and refinished if scratched, which extends their life significantly. However, they require regular oiling (typically every 3–6 months for work surfaces in regular use), must never be left wet, and can move or crack if not properly conditioned and maintained. They're best suited to less heavily used sections of a kitchen, or to homeowners who are prepared to carry out proper maintenance. Expect to pay £180–£350 per metre supply and fit.",
+      },
+      {
+        heading: "Sintered Stone: The Premium Alternative",
+        body: "Sintered stone surfaces (Dekton, Neolith) are made by compressing natural minerals under extreme heat and pressure. The result is an ultra-hard, heat-proof, UV-stable surface with virtually zero porosity. They require no sealing, are scratch-resistant and can be used inside and out. The main disadvantage is cost — typically £600–£900+ per metre — and the fact that repairs if chipped are almost impossible to do invisibly. For a long-term, low-maintenance kitchen in a high-end renovation, sintered stone is worth serious consideration.",
+      },
+      {
+        heading: "Which Should You Choose?",
+        body: "For most kitchens, quartz offers the best balance of looks, durability and maintenance requirements. Laminate is the right choice if budget is the priority. Solid wood suits traditional or country-style kitchens where the natural material is part of the design intent. Granite suits homeowners who want the unique character of natural stone and don't mind annual sealing. Sintered stone suits high-use kitchens where performance is paramount. At Zebra Trades, we can advise on worktop choice as part of your kitchen planning and work with all the main worktop suppliers.",
+      },
+    ],
+    relatedSlugs: ["how-to-plan-a-new-kitchen", "how-much-does-kitchen-installation-cost", "howdens-vs-wren-kitchens"],
+  },
+  {
+    slug: "how-to-install-a-dishwasher",
+    title: "How to Install a Dishwasher: What's Involved and When to Get Help",
+    excerpt: "Installing a dishwasher looks straightforward but there are a few things that can go wrong. Here's what a professional installation involves and what to check first.",
+    category: "appliance-installation",
+    readingTime: 4,
+    publishedAt: "2025-07-21",
+    seoTitle: "How to Install a Dishwasher | Appliance Installation Guide | Zebra Trades",
+    seoDescription: "Find out what dishwasher installation involves, what can go wrong with DIY and when to call a professional. Advice from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "Before the Dishwasher Arrives",
+        body: "Before your new dishwasher is delivered, check that you have a cold water inlet supply within reach (usually the hot or cold supply under the kitchen sink), a waste outlet to connect the drain hose (either a spare entry on the sink waste trap or a standpipe), a 13-amp fused spur or socket nearby, and sufficient space in the cabinet aperture. Standard undercounter dishwashers are 45cm or 60cm wide, 85cm tall and 55–60cm deep — measure your opening carefully, including the door swing clearance.",
+      },
+      {
+        heading: "What a Professional Installation Includes",
+        body: "A proper dishwasher installation involves: connecting the inlet hose to the cold water supply using an appropriate fitting, connecting the drain hose to the sink waste (and fitting an anti-siphon loop or air gap where required), levelling the machine on its adjustable feet so the door closes correctly, checking all connections for leaks, running a short test cycle, and adjusting the door hinges and kick plate if needed. For integrated dishwashers, the door panel and hinges also need to be fitted and adjusted.",
+      },
+      {
+        heading: "Why DIY Dishwasher Installation Often Goes Wrong",
+        body: "The most common DIY installation errors are: using incorrect or incompatible fittings on the cold water supply, failing to install a proper anti-siphon loop on the drain hose (which can cause grey water to siphon back into the machine), over-tightening compression fittings and cracking them, and not checking under the machine during the first full cycle. A slow drip at a poorly made joint can go unnoticed for months and cause significant damage to the cabinet carcass and floor.",
+      },
+      {
+        heading: "Integrated vs Freestanding",
+        body: "Freestanding dishwashers are the easiest to install — they sit in a floor space and just need connecting. Integrated dishwashers fit inside a kitchen cabinet and require a furniture door panel to be fitted to the dishwasher door. The hinge mechanism must be correctly set so the furniture door opens and closes squarely with the machine door. This adds time to the installation and requires some adjustment skill to get right.",
+      },
+      {
+        heading: "When to Call a Professional",
+        body: "If there is no existing cold water supply near the dishwasher position, new pipework will be needed — this is a plumbing job. If the waste needs to be taken further than a standard drain hose allows, an extension or a pump-assisted drain may be needed. If you are installing in a new position rather than replacing an existing machine, the job almost always needs a plumber and possibly an electrician. Zebra Trades handles dishwasher and appliance installations throughout Hertfordshire — contact us for a free quote.",
+      },
+    ],
+    relatedSlugs: ["how-to-install-a-washing-machine", "how-much-does-a-handyman-cost"],
+  },
+  {
+    slug: "what-is-a-media-wall",
+    title: "What Is a Media Wall? Everything You Need to Know",
+    excerpt: "Media walls have become one of the most popular home improvements in the UK. Here's what they are, what they typically include, and whether one is right for your living room.",
+    category: "diy-vs-trade",
+    readingTime: 5,
+    publishedAt: "2025-07-21",
+    seoTitle: "What Is a Media Wall? | Everything You Need to Know | Zebra Trades",
+    seoDescription: "What is a media wall? Learn what they include, how they're built and whether one is right for your home. Expert guide from Zebra Trades, Hertfordshire.",
+    sections: [
+      {
+        heading: "The Basic Idea",
+        body: "A media wall is a built-in feature wall designed to house a TV, electric fireplace, storage and lighting in a single cohesive unit. Unlike a freestanding TV stand or a bracket-mounted TV on a bare wall, a media wall integrates all the elements of a modern living room focal point into a structured, custom-built design. The result is a cleaner look, better cable management and a feature that adds genuine value to the room.",
+      },
+      {
+        heading: "What a Media Wall Typically Contains",
+        body: "Most media walls include one or more of the following: a recessed TV section (with the TV mounted flush within the wall rather than protruding from it), an electric fireplace positioned below the TV, open display shelving or closed storage cabinets on either side, LED strip lighting behind panels or within alcoves for ambient effect, and a painted or clad surface finish — often with feature panelling such as fluted MDF, slat wall or stone-effect tiles in the fireplace surround.",
+      },
+      {
+        heading: "Electric Fireplaces vs Gas Fires",
+        body: "Almost all modern media walls use electric fireplaces rather than gas fires. Electric fires are far easier to incorporate into a stud wall — they require only a standard electrical connection, no gas supply, no flue and no building regulations notification. Modern electric fireplaces use LED technology to produce a convincing flame effect and can provide genuine heat output of up to 2kW. They are available in a huge range of sizes and frame finishes to suit any design.",
+      },
+      {
+        heading: "Is a Media Wall Structural?",
+        body: "A media wall is not a structural element. It is typically built as a stud frame (timber or metal) fixed to the floor and ceiling in front of the existing wall, then clad with MDF or plasterboard. The fireplace unit sits within a purpose-made opening in the frame. Because the wall is non-structural, it can be built in any position and removed in the future without affecting the fabric of the building — making it a relatively low-risk improvement.",
+      },
+      {
+        heading: "Can You Build a Media Wall Yourself?",
+        body: "A media wall is technically within the capability of a skilled and confident DIYer who is comfortable with basic carpentry and has some experience with stud walling. However, the quality of the finish — particularly around the fireplace opening, the panelling joints and the LED lighting recesses — requires good carpentry skills. The electrical connection for the fireplace must be made to a fused spur, which should be done by a qualified electrician. Most homeowners find that the value added by a professionally built media wall justifies the cost of having it done properly.",
+      },
+      {
+        heading: "How Much Does a Media Wall Cost?",
+        body: "In the Hertfordshire area, a bespoke media wall with electric fireplace typically costs from £2,500 to £5,000 supply and install depending on size, design complexity and the fireplace model chosen. A media wall without a fireplace starts from around £1,200–£2,500. At Zebra Trades we provide free consultations and written quotes — contact us to discuss your design ideas.",
+      },
+    ],
+    relatedSlugs: ["how-much-does-a-media-wall-cost", "how-much-does-a-handyman-cost"],
+  },
+  {
     slug: "home-maintenance-checklist-autumn-and-winter",
     title: "Home Maintenance Checklist: Autumn and Winter",
     excerpt: "Getting your home ready before the cold sets in can prevent a lot of expensive problems. Here's what to check and action every autumn before winter arrives.",
