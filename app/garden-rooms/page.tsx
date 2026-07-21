@@ -146,7 +146,7 @@ const galleryImages: GalleryImage[] = [
   { src: "/images/garden-rooms/garden-room-office-hertfordshire.webp", alt: "Garden room home office in Hertfordshire", caption: "Home office garden room — Hertfordshire" },
   { src: "/images/garden-rooms/garden-room-hot-tub-games-room-hertfordshire.webp", alt: "Garden room with hot tub and games room in Hertfordshire", caption: "Hot tub & games room — Hertfordshire" },
   { src: "/images/garden-rooms/garden-room-gym-hertfordshire.webp", alt: "Garden room gym in Hertfordshire", caption: "Garden gym — Hertfordshire" },
-  { src: "", alt: "Multi-Purpose Garden Building", caption: "Multi-purpose garden building — Cuffley" },
+  { src: "/images/garden-rooms/garden-room-log-cabin-office-hertfordshire.webp", alt: "Log cabin garden room office in Hertfordshire", caption: "Log cabin office — Hertfordshire" },
 ];
 
 const faqs: FaqItem[] = [
