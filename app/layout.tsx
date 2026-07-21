@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     "kitchen installation Cheshunt",
     "Zebra Trades",
   ],
+  other: {
+    "fb:app_id": "2119271545640137",
+  },
   openGraph: {
     type: "website",
     siteName: "Zebra Trades",
