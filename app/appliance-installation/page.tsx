@@ -43,7 +43,7 @@ const quoteHref = `/contact?service=${encodeURIComponent(SERVICE)}`;
 const packages: Package[] = [
   {
     name: "Three Appliance Package",
-    price: "From £225",
+    price: "From £175",
     bestFor: "Choose any three: washing machine, dishwasher, tumble dryer, oven, hob, cooker hood or fridge connection",
     description:
       "Mix and match any three appliances from our range for one fixed visit price — ideal when several appliances need fitting at once.",

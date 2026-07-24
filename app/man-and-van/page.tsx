@@ -67,7 +67,7 @@ const pricingGuide: PricingCategory = {
   items: [
     { name: "Minimum Booking", price: "From £75" },
     { name: "Local Collection & Delivery", price: "From £95" },
-    { name: "Half Day Service", price: "From £225" },
+    { name: "Half Day Service", price: "From £175" },
     { name: "Full Day Service", price: "From £290" },
     { name: "House Clearance", price: "Quoted" },
     { name: "Large Moves", price: "Quoted" },
