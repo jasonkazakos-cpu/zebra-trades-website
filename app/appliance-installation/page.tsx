@@ -51,7 +51,7 @@ const packages: Package[] = [
   },
   {
     name: "Kitchen Appliance Package",
-    price: "From £395",
+    price: "From £290",
     bestFor: "Includes oven, hob, cooker hood, dishwasher and washing machine",
     description:
       "A complete kitchen appliance fit — five appliances installed in one visit. Excludes electrical upgrades, cabinet modifications and gas work.",

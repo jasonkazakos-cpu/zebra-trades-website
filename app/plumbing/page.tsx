@@ -58,7 +58,7 @@ const packages: Package[] = [
   },
   {
     name: "Full Day Plumbing",
-    price: "£395",
+    price: "£290",
     duration: "A Full Working Day",
     bestFor: "Best for larger plumbing projects",
     description:
